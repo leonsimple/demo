@@ -1,0 +1,177 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 1,
+"AddMsgList": [{
+"MsgId": "5856812149739122331",
+"FromUserName": "@@85b7ca643af19197cec757266a9610926e8dc7e8bffc5db92268a9cb39aa7f7e",
+"ToUserName": "@3c0781b9d327a6b48ed03eaf5793d77d",
+"MsgType": 1,
+"Content": "@08912122b64bf26ba3a80d0364ec008c5307e3f3fa2c18483b0ef60ea840d463:<br/>善语学院线下公益工作坊138期，欢迎朋友们可以报名参加：<br/>爱不仅仅需要经验，更需要表达！生活中的很多纠纷，都因为只站在“我”的角度去看问题。若能换位成“你”的角度，甚至更高一点——超越“你”“我”的范畴，换成“道”的角度，一切都会豁然开朗，万里无云。  <br/>为什么你总是试图为对方着想，用心却没有被认同？为什么有时候总是一开口便能轻易点爆自己或者他人隐藏在内心深处的愤怒与不满？为什么你的亲密关系中总是隔着一份看不见的鸿沟，这么近、那么远！而这一切都是源自于你不懂沟通，善语学院《亲密沟通之道》为你为你破译亲密关系中的沟通密码，创造幸福人生！因为工作坊为实战体现式，学了就会，故人数限定为15人，额满即止。<br/>时间：2017年5月10日晚上19:00点开始到21:点00结束（谢绝空降，谢绝需中途离场的朋友报名，要求准时签到）<br/>地铁：老街B出口<br/>地址：深圳市罗湖区深南东路4002号鸿隆世纪广场B座33B<br/>联系人:李明骏：18665844198<br/>欢迎大家接龙<br/>1:郑植茜<br/>2:李淑<br/>3:李翠娥<br/>4:占霞<br/>5:张莉<br/>6:李海燕<br/>7:洪开春<br/>8:<br/>9:<br/>10:<br/>11:<br/>12:<br/>13:<br/>14:<br/>15:<br/>16:<br/>17:<br/>18:<br/>19:<br/>20:",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1494239733,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 0,
+"StatusNotifyUserName": "",
+"RecommendInfo": {
+"UserName": "",
+"NickName": "",
+"QQNum": 0,
+"Province": "",
+"City": "",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 0,
+"VerifyFlag": 0,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 5856812149739122331,
+"OriContent": ""
+}
+],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 9,
+"List": [{
+"Key": 1,
+"Val": 649878841
+}
+,{
+"Key": 2,
+"Val": 649879230
+}
+,{
+"Key": 3,
+"Val": 649879063
+}
+,{
+"Key": 11,
+"Val": 649879198
+}
+,{
+"Key": 13,
+"Val": 649750856
+}
+,{
+"Key": 201,
+"Val": 1494239733
+}
+,{
+"Key": 203,
+"Val": 1494236211
+}
+,{
+"Key": 1000,
+"Val": 1494238861
+}
+,{
+"Key": 1001,
+"Val": 1494238892
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 9,
+"List": [{
+"Key": 1,
+"Val": 649878841
+}
+,{
+"Key": 2,
+"Val": 649879230
+}
+,{
+"Key": 3,
+"Val": 649879063
+}
+,{
+"Key": 11,
+"Val": 649879198
+}
+,{
+"Key": 13,
+"Val": 649750856
+}
+,{
+"Key": 201,
+"Val": 1494239733
+}
+,{
+"Key": 203,
+"Val": 1494236211
+}
+,{
+"Key": 1000,
+"Val": 1494238861
+}
+,{
+"Key": 1001,
+"Val": 1494238892
+}
+]
+}
+
+}
+

@@ -1,0 +1,1002 @@
+﻿141842	StartWebMM
+141842	mmlogin:[0]
+141842	mmlogin:[0]get uuid
+141842	mmlogin:get uuid  http.strCode=200
+141842	mmlogin: uuid =we1r1U-1yw==
+141842	mmlogin:get QR Code=200
+141842	mmlogin:get QR ContentType=image/jpeg
+141842	
+141842	
+141842	looper checklogin
+141911	StartWebMM
+141911	mmlogin:[0]
+141911	mmlogin:[0]get uuid
+141912	mmlogin:get uuid  http.strCode=200
+141912	mmlogin: uuid =QaxTNUc4ag==
+141912	mmlogin:get QR Code=200
+141912	mmlogin:get QR ContentType=image/jpeg
+141912	
+141912	
+141912	looper checklogin
+141937	looper checklogin[0]　http.strCode:200
+141937	looper checklogin[0]　window.Code:408
+142003	StartWebMM
+142003	mmlogin:[0]
+142003	mmlogin:[0]get uuid
+142004	mmlogin:get uuid  http.strCode=200
+142004	mmlogin: uuid =gYXc-_f99w==
+142004	mmlogin:get QR Code=200
+142004	mmlogin:get QR ContentType=image/jpeg
+142004	
+142004	
+142004	looper checklogin
+142055	StartWebMM
+142055	mmlogin:[0]
+142055	mmlogin:[0]get uuid
+142055	mmlogin:get uuid  http.strCode=200
+142055	mmlogin: uuid =IfggVAVhkg==
+142055	mmlogin:get QR Code=200
+142055	mmlogin:get QR ContentType=image/jpeg
+142055	
+142055	
+142055	looper checklogin
+142322	StartWebMM
+142322	mmlogin:[0]
+142322	mmlogin:[0]get uuid
+142323	mmlogin:get uuid  http.strCode=200
+142323	mmlogin: uuid =wYce5Hs7aw==
+142323	mmlogin:get QR Code=200
+142323	mmlogin:get QR ContentType=image/jpeg
+142323	
+142323	
+142323	looper checklogin
+142348	looper checklogin[0]　http.strCode:200
+142348	looper checklogin[0]　window.Code:408
+142414	StartWebMM
+142414	mmlogin:[0]
+142414	mmlogin:[0]get uuid
+142414	mmlogin:get uuid  http.strCode=200
+142415	mmlogin: uuid =gY_z0otMTA==
+142415	mmlogin:get QR Code=200
+142415	mmlogin:get QR ContentType=image/jpeg
+142415	
+142415	
+142415	looper checklogin
+142506	StartWebMM
+142506	mmlogin:[0]
+142506	mmlogin:[0]get uuid
+142506	mmlogin:get uuid  http.strCode=200
+142506	mmlogin: uuid =gfpesugOPw==
+142507	mmlogin:get QR Code=200
+142507	mmlogin:get QR ContentType=image/jpeg
+142507	
+142507	
+142507	looper checklogin
+142532	looper checklogin[0]　http.strCode:200
+142532	looper checklogin[0]　window.Code:408
+142557	looper checklogin[1]　http.strCode:200
+142557	looper checklogin[1]　window.Code:408
+142622	looper checklogin[2]　http.strCode:200
+142622	looper checklogin[2]　window.Code:408
+142732	StartWebMM
+142732	mmlogin:[0]
+142732	mmlogin:[0]get uuid
+142732	mmlogin:get uuid  http.strCode=200
+142732	mmlogin: uuid =AeoWG1RhiQ==
+142732	mmlogin:get QR Code=200
+142732	mmlogin:get QR ContentType=image/jpeg
+142732	
+142732	
+142732	looper checklogin
+142841	StartWebMM
+142841	mmlogin:[0]
+142841	mmlogin:[0]get uuid
+142841	mmlogin:get uuid  http.strCode=200
+142841	mmlogin: uuid =oaBPRw5wNA==
+142841	mmlogin:get QR Code=200
+142841	mmlogin:get QR ContentType=image/jpeg
+142841	
+142841	
+142841	looper checklogin
+142910	StartWebMM
+142910	mmlogin:[0]
+142910	mmlogin:[0]get uuid
+142910	mmlogin:get uuid  http.strCode=200
+142910	mmlogin: uuid =AacesCx0Zw==
+142911	mmlogin:get QR Code=200
+142911	mmlogin:get QR ContentType=image/jpeg
+142911	
+142911	
+142911	looper checklogin
+142936	looper checklogin[0]　http.strCode:200
+142936	looper checklogin[0]　window.Code:408
+143001	looper checklogin[1]　http.strCode:200
+143001	looper checklogin[1]　window.Code:408
+143026	looper checklogin[2]　http.strCode:200
+143026	looper checklogin[2]　window.Code:408
+143051	looper checklogin[3]　http.strCode:200
+143051	looper checklogin[3]　window.Code:408
+143116	looper checklogin[4]　http.strCode:200
+143116	looper checklogin[4]　window.Code:408
+143142	looper checklogin[5]　http.strCode:200
+143142	looper checklogin[5]　window.Code:408
+143207	looper checklogin[6]　http.strCode:200
+143207	looper checklogin[6]　window.Code:408
+143232	looper checklogin[7]　http.strCode:200
+143232	looper checklogin[7]　window.Code:408
+143257	looper checklogin[8]　http.strCode:200
+143257	looper checklogin[8]　window.Code:408
+143322	looper checklogin[9]　http.strCode:200
+143322	looper checklogin[9]　window.Code:408
+143347	looper checklogin[10]　http.strCode:200
+143347	looper checklogin[10]　window.Code:408
+143412	looper checklogin[11]　http.strCode:200
+143412	looper checklogin[11]　window.Code:408
+143413	looper checklogin[12]　http.strCode:200
+143413	looper checklogin[12]　window.Code:400
+143413	扫码超时:
+143413	StartWebMM:login_StartQRcodeLogin false
+143413	StartWebMM
+143413	mmlogin:[0]
+143413	mmlogin:[0]get uuid
+143413	mmlogin:get uuid  http.strCode=200
+143413	mmlogin: uuid =YbtrPE27zA==
+143413	mmlogin:get QR Code=200
+143413	mmlogin:get QR ContentType=image/jpeg
+143413	
+143413	
+143413	looper checklogin
+143438	looper checklogin[0]　http.strCode:200
+143438	looper checklogin[0]　window.Code:408
+143503	looper checklogin[1]　http.strCode:200
+143503	looper checklogin[1]　window.Code:408
+143549	StartWebMM
+143549	mmlogin:[0]
+143549	mmlogin:[0]get uuid
+143549	mmlogin:get uuid  http.strCode=200
+143549	mmlogin: uuid =QdJb8cRJXQ==
+143549	mmlogin:get QR Code=200
+143549	mmlogin:get QR ContentType=image/jpeg
+143549	
+143549	
+143549	looper checklogin
+143614	looper checklogin[0]　http.strCode:200
+143614	looper checklogin[0]　window.Code:408
+143640	looper checklogin[1]　http.strCode:200
+143640	looper checklogin[1]　window.Code:408
+143705	looper checklogin[2]　http.strCode:200
+143705	looper checklogin[2]　window.Code:408
+143921	StartWebMM
+143921	mmlogin:[0]
+143921	mmlogin:[0]get uuid
+143921	mmlogin:get uuid  http.strCode=200
+143921	mmlogin: uuid =IZ4nwls6zQ==
+143921	mmlogin:get QR Code=200
+143921	mmlogin:get QR ContentType=image/jpeg
+143921	
+143921	
+143921	looper checklogin
+143947	looper checklogin[0]　http.strCode:200
+143947	looper checklogin[0]　window.Code:408
+144012	looper checklogin[1]　http.strCode:200
+144012	looper checklogin[1]　window.Code:408
+144037	looper checklogin[2]　http.strCode:200
+144037	looper checklogin[2]　window.Code:408
+144102	looper checklogin[3]　http.strCode:200
+144102	looper checklogin[3]　window.Code:408
+144127	looper checklogin[4]　http.strCode:200
+144127	looper checklogin[4]　window.Code:408
+144152	looper checklogin[5]　http.strCode:200
+144152	looper checklogin[5]　window.Code:408
+144217	looper checklogin[6]　http.strCode:200
+144217	looper checklogin[6]　window.Code:408
+144243	looper checklogin[7]　http.strCode:200
+144243	looper checklogin[7]　window.Code:408
+144316	StartWebMM
+144316	mmlogin:[0]
+144316	mmlogin:[0]get uuid
+144316	mmlogin:get uuid  http.strCode=200
+144316	mmlogin: uuid =oek7SiYqFg==
+144316	mmlogin:get QR Code=200
+144317	mmlogin:get QR ContentType=image/jpeg
+144317	
+144317	
+144317	looper checklogin
+144342	looper checklogin[0]　http.strCode:200
+144342	looper checklogin[0]　window.Code:408
+144407	looper checklogin[1]　http.strCode:200
+144407	looper checklogin[1]　window.Code:408
+144432	looper checklogin[2]　http.strCode:200
+144432	looper checklogin[2]　window.Code:408
+144457	looper checklogin[3]　http.strCode:200
+144457	looper checklogin[3]　window.Code:408
+144522	looper checklogin[4]　http.strCode:200
+144522	looper checklogin[4]　window.Code:408
+144548	looper checklogin[5]　http.strCode:200
+144548	looper checklogin[5]　window.Code:408
+144613	looper checklogin[6]　http.strCode:200
+144613	looper checklogin[6]　window.Code:408
+144638	looper checklogin[7]　http.strCode:200
+144638	looper checklogin[7]　window.Code:408
+145033	StartWebMM
+145033	mmlogin:[0]
+145033	mmlogin:[0]get uuid
+145033	mmlogin:get uuid  http.strCode=200
+145033	mmlogin: uuid =QY60SM06ug==
+145034	mmlogin:get QR Code=200
+145034	mmlogin:get QR ContentType=image/jpeg
+145034	
+145034	
+145034	looper checklogin
+145442	StartWebMM
+145442	mmlogin:[0]
+145442	mmlogin:[0]get uuid
+145442	mmlogin:get uuid  http.strCode=200
+145442	mmlogin: uuid =odF-F3sv1Q==
+145443	mmlogin:get QR Code=200
+145443	mmlogin:get QR ContentType=image/jpeg
+145443	
+145443	
+145443	looper checklogin
+145553	StartWebMM
+145553	mmlogin:[0]
+145553	mmlogin:[0]get uuid
+145553	mmlogin:get uuid  http.strCode=200
+145553	mmlogin: uuid =YbLWC6RaxQ==
+145554	mmlogin:get QR Code=200
+145554	mmlogin:get QR ContentType=image/jpeg
+145554	
+145554	
+145554	looper checklogin
+145619	StartWebMM
+145619	mmlogin:[0]
+145619	mmlogin:[0]get uuid
+145619	mmlogin:get uuid  http.strCode=200
+145619	mmlogin: uuid =Ae8MCjX7IA==
+145620	mmlogin:get QR Code=200
+145620	mmlogin:get QR ContentType=image/jpeg
+145620	
+145620	
+145620	looper checklogin
+145645	looper checklogin[0]　http.strCode:200
+145645	looper checklogin[0]　window.Code:408
+145811	StartWebMM
+145811	mmlogin:[0]
+145811	mmlogin:[0]get uuid
+145811	mmlogin:get uuid  http.strCode=200
+145811	mmlogin: uuid =Qa7RnLilaQ==
+145811	mmlogin:get QR Code=200
+145811	mmlogin:get QR ContentType=image/jpeg
+145811	
+145811	
+145811	looper checklogin
+145855	StartWebMM
+145855	mmlogin:[0]
+145855	mmlogin:[0]get uuid
+145855	mmlogin:get uuid  http.strCode=200
+145855	mmlogin: uuid =wfgcs_gUZQ==
+145856	mmlogin:get QR Code=200
+145856	mmlogin:get QR ContentType=image/jpeg
+145856	
+145856	
+145856	looper checklogin
+145909	looper checklogin[0]　http.strCode:200
+145909	looper checklogin[0]　window.Code:201
+145937	StartWebMM
+145937	mmlogin:[0]
+145937	mmlogin:[0]get uuid
+145938	mmlogin:get uuid  http.strCode=200
+145938	mmlogin: uuid =oeEm4EIKzQ==
+145938	mmlogin:get QR Code=200
+145938	mmlogin:get QR ContentType=image/jpeg
+145938	
+145938	
+145938	looper checklogin
+145947	looper checklogin[0]　http.strCode:200
+145948	looper checklogin[0]　window.Code:201
+145951	looper checklogin[1]　http.strCode:200
+145951	looper checklogin[1]　window.Code:200
+145951	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AWo17ahFpG8rb54uqYb6z0u4@qrticket_0&uuid=oeEm4EIKzQ==&lang=zh_CN&scan=1494226812
+145951	looper checklogin[1] 完成　http.strCode:200
+145951	
+145951	
+145951	looper init
+145951	wfile：145951_wx_init.txt
+145951	looper init http.strCode :200
+150905	StartWebMM
+150905	mmlogin:[0]
+150905	mmlogin:[0]get uuid
+150906	mmlogin:get uuid  http.strCode=200
+150906	mmlogin: uuid =oYkg96z8Mw==
+150906	mmlogin:get QR Code=200
+150906	mmlogin:get QR ContentType=image/jpeg
+150906	
+150906	
+150906	looper checklogin
+151017	StartWebMM
+151017	mmlogin:[0]
+151017	mmlogin:[0]get uuid
+151017	mmlogin:get uuid  http.strCode=200
+151017	mmlogin: uuid =gcWcwt8fqg==
+151018	mmlogin:get QR Code=200
+151018	mmlogin:get QR ContentType=image/jpeg
+151018	
+151018	
+151018	looper checklogin
+151518	StartWebMM
+151518	mmlogin:[0]
+151518	mmlogin:[0]get uuid
+151518	mmlogin:get uuid  http.strCode=200
+151518	mmlogin: uuid =wYtc9-GokA==
+151518	mmlogin:get QR Code=200
+151518	mmlogin:get QR ContentType=image/jpeg
+151518	
+151518	
+151518	looper checklogin
+151544	looper checklogin[0]　http.strCode:200
+151544	looper checklogin[0]　window.Code:408
+151600	looper checklogin[1]　http.strCode:200
+151600	looper checklogin[1]　window.Code:201
+151601	looper checklogin[2]　http.strCode:200
+151601	looper checklogin[2]　window.Code:200
+151601	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AeXPVTHx8PPAYgEbb4625Cj1@qrticket_0&uuid=wYtc9-GokA==&lang=zh_CN&scan=1494227785
+151602	looper checklogin[2] 完成　http.strCode:200
+151602	
+151602	
+151602	looper init
+151602	wfile：151602_wx_init.txt
+151602	looper init http.strCode :200
+151944	StartWebMM
+151944	mmlogin:[0]
+151944	mmlogin:[0]get uuid
+151944	mmlogin:get uuid  http.strCode=200
+151944	mmlogin: uuid =gdmt5PJPSg==
+151944	mmlogin:get QR Code=200
+151944	mmlogin:get QR ContentType=image/jpeg
+151944	
+151944	
+151944	looper checklogin
+151948	looper checklogin[0]　http.strCode:200
+151948	looper checklogin[0]　window.Code:201
+151950	looper checklogin[1]　http.strCode:200
+151950	looper checklogin[1]　window.Code:200
+151950	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AcOXUtMKOXsqZp3ngVRwC4u6@qrticket_0&uuid=gdmt5PJPSg==&lang=zh_CN&scan=1494228013
+151950	looper checklogin[1] 完成　http.strCode:200
+151950	
+151950	
+151950	looper init
+151950	wfile：151950_wx_init.txt
+151950	looper init http.strCode :200
+152248	StartWebMM
+152248	mmlogin:[0]
+152248	mmlogin:[0]get uuid
+152249	mmlogin:get uuid  http.strCode=200
+152249	mmlogin: uuid =wYCkjI6Pyg==
+152249	mmlogin:get QR Code=200
+152249	mmlogin:get QR ContentType=image/jpeg
+152249	
+152249	
+152249	looper checklogin
+152314	looper checklogin[0]　http.strCode:200
+152314	looper checklogin[0]　window.Code:408
+152339	looper checklogin[1]　http.strCode:200
+152339	looper checklogin[1]　window.Code:408
+152401	StartWebMM
+152401	mmlogin:[0]
+152401	mmlogin:[0]get uuid
+152401	mmlogin:get uuid  http.strCode=200
+152401	mmlogin: uuid =Ac6u2JhiZg==
+152402	mmlogin:get QR Code=200
+152402	mmlogin:get QR ContentType=image/jpeg
+152402	
+152402	
+152402	looper checklogin
+152427	looper checklogin[0]　http.strCode:200
+152427	looper checklogin[0]　window.Code:408
+152432	looper checklogin[1]　http.strCode:200
+152432	looper checklogin[1]　window.Code:201
+152434	looper checklogin[2]　http.strCode:200
+152434	looper checklogin[2]　window.Code:200
+152434	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AVN1Zualph0PHyKdbiCPZrNF@qrticket_0&uuid=Ac6u2JhiZg==&lang=zh_CN&scan=1494228297
+152435	looper checklogin[2] 完成　http.strCode:200
+152435	
+152435	
+152435	looper init
+152435	wfile：152435_wx_init.txt
+152435	looper init http.strCode :200
+153237	StartWebMM
+153237	mmlogin:[0]
+153237	mmlogin:[0]get uuid
+153237	mmlogin:get uuid  http.strCode=200
+153237	mmlogin: uuid =gbs3oA5YMg==
+153237	mmlogin:get QR Code=200
+153237	mmlogin:get QR ContentType=image/jpeg
+153237	
+153237	
+153237	looper checklogin
+153252	looper checklogin[0]　http.strCode:200
+153252	looper checklogin[0]　window.Code:201
+153257	looper checklogin[1]　http.strCode:200
+153257	looper checklogin[1]　window.Code:200
+153257	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AdiD1V-CPXDfd3daiPalO7kc@qrticket_0&uuid=gbs3oA5YMg==&lang=zh_CN&scan=1494228797
+153257	looper checklogin[1] 完成　http.strCode:200
+153257	
+153257	
+153257	looper init
+153258	wfile：153257_wx_init.txt
+153258	looper init http.strCode :200
+153507	StartWebMM
+153507	mmlogin:[0]
+153507	mmlogin:[0]get uuid
+153507	mmlogin:get uuid  http.strCode=200
+153507	mmlogin: uuid =Ae6LUg3aSA==
+153508	mmlogin:get QR Code=200
+153508	mmlogin:get QR ContentType=image/jpeg
+153508	
+153508	
+153508	looper checklogin
+153511	looper checklogin[0]　http.strCode:200
+153511	looper checklogin[0]　window.Code:201
+153514	looper checklogin[1]　http.strCode:200
+153514	looper checklogin[1]　window.Code:200
+153514	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AUOLvIWq1xeyM0QL58tRoNqw@qrticket_0&uuid=Ae6LUg3aSA==&lang=zh_CN&scan=1494228936
+153514	looper checklogin[1] 完成　http.strCode:200
+153514	
+153514	
+153514	looper init
+153514	wfile：153514_wx_init.txt
+153514	looper init http.strCode :200
+154056	StartWebMM
+154056	mmlogin:[0]
+154056	mmlogin:[0]get uuid
+154057	mmlogin:get uuid  http.strCode=200
+154057	mmlogin: uuid =odg_b5kcOg==
+154057	mmlogin:get QR Code=200
+154057	mmlogin:get QR ContentType=image/jpeg
+154057	
+154057	
+154057	looper checklogin
+154102	looper checklogin[0]　http.strCode:200
+154102	looper checklogin[0]　window.Code:201
+154103	looper checklogin[1]　http.strCode:200
+154103	looper checklogin[1]　window.Code:200
+154103	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AXtPEE-wVAU3abHQBC9Ckmp4@qrticket_0&uuid=odg_b5kcOg==&lang=zh_CN&scan=1494229287
+154103	looper checklogin[1] 完成　http.strCode:200
+154103	
+154103	
+154103	looper init
+154104	wfile：154104_wx_init.txt
+154104	looper init http.strCode :200
+154135	StartWebMM
+154135	mmlogin:[0]
+154135	mmlogin:[0]get uuid
+154135	mmlogin:get uuid  http.strCode=200
+154135	mmlogin: uuid =Qcslx9hs8A==
+154135	mmlogin:get QR Code=200
+154135	mmlogin:get QR ContentType=image/jpeg
+154136	
+154136	
+154136	looper checklogin
+154139	looper checklogin[0]　http.strCode:200
+154139	looper checklogin[0]　window.Code:201
+154140	looper checklogin[1]　http.strCode:200
+154140	looper checklogin[1]　window.Code:200
+154140	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AZ0RQvCONuFHQ35P_Swipnu9@qrticket_0&uuid=Qcslx9hs8A==&lang=zh_CN&scan=1494229324
+154140	looper checklogin[1] 完成　http.strCode:200
+154140	
+154140	
+154140	looper init
+154141	wfile：154141_wx_init.txt
+154141	looper init http.strCode :200
+154214	StartWebMM
+154214	mmlogin:[0]
+154214	mmlogin:[0]get uuid
+154215	mmlogin:get uuid  http.strCode=200
+154215	mmlogin: uuid =gZKMrvlxug==
+154215	mmlogin:get QR Code=200
+154215	mmlogin:get QR ContentType=image/jpeg
+154215	
+154215	
+154215	looper checklogin
+154230	looper checklogin[0]　http.strCode:200
+154230	looper checklogin[0]　window.Code:201
+154231	looper checklogin[1]　http.strCode:200
+154231	looper checklogin[1]　window.Code:200
+154231	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AdNtuQrD_yTfsebRaZ5lduE_@qrticket_0&uuid=gZKMrvlxug==&lang=zh_CN&scan=1494229375
+154232	looper checklogin[1] 完成　http.strCode:200
+154232	
+154232	
+154232	looper init
+154232	wfile：154232_wx_init.txt
+154232	looper init http.strCode :200
+155032	StartWebMM
+155032	mmlogin:[0]
+155032	mmlogin:[0]get uuid
+155032	mmlogin:get uuid  http.strCode=200
+155032	mmlogin: uuid =wdPRg-Psow==
+155033	mmlogin:get QR Code=200
+155033	mmlogin:get QR ContentType=image/jpeg
+155033	
+155033	
+155033	looper checklogin
+155042	looper checklogin[0]　http.strCode:200
+155042	looper checklogin[0]　window.Code:201
+155043	looper checklogin[1]　http.strCode:200
+155043	looper checklogin[1]　window.Code:200
+155043	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=Ad704iDBdtFjlz_SOjOhL2zo@qrticket_0&uuid=wdPRg-Psow==&lang=zh_CN&scan=1494229867
+155043	looper checklogin[1] 完成　http.strCode:200
+155043	
+155043	
+155043	looper init
+155044	wfile：155044_wx_init.txt
+155044	looper init http.strCode :200
+155109	StartWebMM
+155109	mmlogin:[0]
+155109	mmlogin:[0]get uuid
+155109	mmlogin:get uuid  http.strCode=200
+155109	mmlogin: uuid =YeO34TCjVw==
+155109	mmlogin:get QR Code=200
+155109	mmlogin:get QR ContentType=image/jpeg
+155109	
+155109	
+155109	looper checklogin
+155133	looper checklogin[0]　http.strCode:200
+155133	looper checklogin[0]　window.Code:201
+155134	looper checklogin[1]　http.strCode:200
+155134	looper checklogin[1]　window.Code:200
+155134	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AaaAhbWLILY-6E0YZyHO2Qdr@qrticket_0&uuid=YeO34TCjVw==&lang=zh_CN&scan=1494229918
+155135	looper checklogin[1] 完成　http.strCode:200
+155135	
+155135	
+155135	looper init
+155135	wfile：155135_wx_init.txt
+155135	looper init http.strCode :200
+160131	StartWebMM
+160131	mmlogin:[0]
+160131	mmlogin:[0]get uuid
+160132	mmlogin:get uuid  http.strCode=200
+160132	mmlogin: uuid =oadoduqpIA==
+160132	mmlogin:get QR Code=200
+160132	mmlogin:get QR ContentType=image/jpeg
+160132	
+160132	
+160132	looper checklogin
+160136	looper checklogin[0]　http.strCode:200
+160136	looper checklogin[0]　window.Code:201
+160137	looper checklogin[1]　http.strCode:200
+160137	looper checklogin[1]　window.Code:200
+160756	StartWebMM
+160756	mmlogin:[0]
+160756	mmlogin:[0]get uuid
+160756	mmlogin:get uuid  http.strCode=200
+160756	mmlogin: uuid =oaKe8Kh4WA==
+160756	mmlogin:get QR Code=200
+160756	mmlogin:get QR ContentType=image/jpeg
+160756	
+160756	
+160756	looper checklogin
+160802	looper checklogin[0]　http.strCode:200
+160802	looper checklogin[0]　window.Code:201
+160803	looper checklogin[1]　http.strCode:200
+160803	looper checklogin[1]　window.Code:200
+160803	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AUrDXsn1MNA6q_ukdAARNJKi@qrticket_0&uuid=oaKe8Kh4WA==&lang=zh_CN&scan=1494230907
+160804	looper checklogin[1] 完成　http.strCode:200
+160804	
+160804	
+160804	looper init
+160804	wfile：160804_wx_init.txt
+160804	looper init http.strCode :200
+160941	StartWebMM
+160941	mmlogin:[0]
+160941	mmlogin:[0]get uuid
+160941	mmlogin:get uuid  http.strCode=200
+160941	mmlogin: uuid =wZq6RuG9ng==
+160941	mmlogin:get QR Code=200
+160941	mmlogin:get QR ContentType=image/jpeg
+160941	
+160941	
+160941	looper checklogin
+160948	looper checklogin[0]　http.strCode:200
+160948	looper checklogin[0]　window.Code:201
+160949	looper checklogin[1]　http.strCode:200
+160949	looper checklogin[1]　window.Code:200
+160949	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AcDry5v_1SIsHOJYonFJNzgW@qrticket_0&uuid=wZq6RuG9ng==&lang=zh_CN&scan=1494231013
+160950	looper checklogin[1] 完成　http.strCode:200
+160950	
+160950	
+160950	looper init
+160950	wfile：160950_wx_init.txt
+160950	looper init http.strCode :200
+161214	StartWebMM
+161214	mmlogin:[0]
+161214	mmlogin:[0]get uuid
+161215	mmlogin:get uuid  http.strCode=200
+161215	mmlogin: uuid =gYILShl77g==
+161215	mmlogin:get QR Code=200
+161215	mmlogin:get QR ContentType=image/jpeg
+161215	
+161215	
+161215	looper checklogin
+161224	looper checklogin[0]　http.strCode:200
+161224	looper checklogin[0]　window.Code:201
+161227	looper checklogin[1]　http.strCode:200
+161227	looper checklogin[1]　window.Code:200
+161227	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AUYCHPdOjWZ_NuUfSGJioaj8@qrticket_0&uuid=gYILShl77g==&lang=zh_CN&scan=1494231169
+161227	looper checklogin[1] 完成　http.strCode:200
+161227	
+161227	
+161227	looper init
+161227	wfile：161227_wx_init.txt
+161227	looper init http.strCode :200
+162320	StartWebMM
+162320	mmlogin:[0]
+162320	mmlogin:[0]get uuid
+162320	mmlogin:get uuid  http.strCode=200
+162320	mmlogin: uuid =4dc6tiNwbg==
+162320	mmlogin:get QR Code=200
+162320	mmlogin:get QR ContentType=image/jpeg
+162320	
+162320	
+162320	looper checklogin
+162323	looper checklogin[0]　http.strCode:200
+162324	looper checklogin[0]　window.Code:201
+162325	looper checklogin[1]　http.strCode:200
+162325	looper checklogin[1]　window.Code:200
+162325	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AaJ1dCBr1vsgCwIOxQ4qM7U-@qrticket_0&uuid=4dc6tiNwbg==&lang=zh_CN&scan=1494231828
+162325	looper checklogin[1] 完成　http.strCode:200
+162325	
+162325	
+162325	looper init
+162326	wfile：162326_wx_init.txt
+162326	looper init http.strCode :200
+162514	StartWebMM
+162514	mmlogin:[0]
+162514	mmlogin:[0]get uuid
+162514	mmlogin:get uuid  http.strCode=200
+162514	mmlogin: uuid =gcoxx3HBaQ==
+162514	mmlogin:get QR Code=200
+162514	mmlogin:get QR ContentType=image/jpeg
+162514	
+162515	
+162515	looper checklogin
+162518	looper checklogin[0]　http.strCode:200
+162518	looper checklogin[0]　window.Code:201
+162519	looper checklogin[1]　http.strCode:200
+162519	looper checklogin[1]　window.Code:200
+162519	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AfjKSX2o5rDlIsjykPUr0Lcg@qrticket_0&uuid=gcoxx3HBaQ==&lang=zh_CN&scan=1494231943
+162519	looper checklogin[1] 完成　http.strCode:200
+162519	
+162519	
+162519	looper init
+162520	wfile：162520_wx_init.txt
+162520	looper init http.strCode :200
+162638	StartWebMM
+162638	mmlogin:[0]
+162638	mmlogin:[0]get uuid
+162639	mmlogin:get uuid  http.strCode=200
+162639	mmlogin: uuid =gcPiqpzO1w==
+162639	mmlogin:get QR Code=200
+162639	mmlogin:get QR ContentType=image/jpeg
+162639	
+162639	
+162639	looper checklogin
+162648	looper checklogin[0]　http.strCode:200
+162648	looper checklogin[0]　window.Code:201
+162649	looper checklogin[1]　http.strCode:200
+162649	looper checklogin[1]　window.Code:200
+162649	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=Adbud0AM8xdH0VAN9ccDTgsu@qrticket_0&uuid=gcPiqpzO1w==&lang=zh_CN&scan=1494232033
+162649	looper checklogin[1] 完成　http.strCode:200
+162649	
+162649	
+162649	looper init
+162650	wfile：162650_wx_init.txt
+162650	looper init http.strCode :200
+162839	StartWebMM
+162839	mmlogin:[0]
+162839	mmlogin:[0]get uuid
+162839	mmlogin:get uuid  http.strCode=200
+162839	mmlogin: uuid =Yba-rcAd2g==
+162840	mmlogin:get QR Code=200
+162840	mmlogin:get QR ContentType=image/jpeg
+162840	
+162840	
+162840	looper checklogin
+162845	looper checklogin[0]　http.strCode:200
+162845	looper checklogin[0]　window.Code:201
+162846	looper checklogin[1]　http.strCode:200
+162846	looper checklogin[1]　window.Code:200
+162846	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=Afmy9GgWK-G-0Y_jdpnlt47h@qrticket_0&uuid=Yba-rcAd2g==&lang=zh_CN&scan=1494232150
+162847	looper checklogin[1] 完成　http.strCode:200
+162847	
+162847	
+162847	looper init
+162848	wfile：162848_wx_init.txt
+162848	looper init http.strCode :200
+163630	StartWebMM
+163630	mmlogin:[0]
+163630	mmlogin:[0]get uuid
+163631	mmlogin:get uuid  http.strCode=200
+163631	mmlogin: uuid =YZfdIjHthg==
+163631	mmlogin:get QR Code=200
+163631	mmlogin:get QR ContentType=image/jpeg
+163631	
+163631	
+163631	looper checklogin
+163645	looper checklogin[0]　http.strCode:200
+163645	looper checklogin[0]　window.Code:201
+163646	looper checklogin[1]　http.strCode:200
+163646	looper checklogin[1]　window.Code:200
+163646	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=ARLYrl0UrTBZxN8iSIVa96v9@qrticket_0&uuid=YZfdIjHthg==&lang=zh_CN&scan=1494232630
+163647	looper checklogin[1] 完成　http.strCode:200
+163647	
+163647	
+163647	looper init
+163647	wfile：163647_wx_init.txt
+163647	looper init http.strCode :200
+163930	StartWebMM
+163930	mmlogin:[0]
+163930	mmlogin:[0]get uuid
+163931	mmlogin:get uuid  http.strCode=200
+163931	mmlogin: uuid =YbtS_32TmA==
+163931	mmlogin:get QR Code=200
+163931	mmlogin:get QR ContentType=image/jpeg
+163931	
+163931	
+163931	looper checklogin
+163936	looper checklogin[0]　http.strCode:200
+163936	looper checklogin[0]　window.Code:201
+163938	looper checklogin[1]　http.strCode:200
+163938	looper checklogin[1]　window.Code:200
+163938	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AQIKhBlI2zn46mzi4Bok5Zx9@qrticket_0&uuid=YbtS_32TmA==&lang=zh_CN&scan=1494232801
+163938	looper checklogin[1] 完成　http.strCode:200
+163938	
+163938	
+163938	looper init
+163938	wfile：163938_wx_init.txt
+163938	looper init http.strCode :200
+164140	StartWebMM
+164140	mmlogin:[0]
+164140	mmlogin:[0]get uuid
+164141	mmlogin:get uuid  http.strCode=200
+164141	mmlogin: uuid =gbnubsji3A==
+164141	mmlogin:get QR Code=200
+164141	mmlogin:get QR ContentType=image/jpeg
+164141	
+164141	
+164141	looper checklogin
+164146	looper checklogin[0]　http.strCode:200
+164146	looper checklogin[0]　window.Code:201
+164147	looper checklogin[1]　http.strCode:200
+164147	looper checklogin[1]　window.Code:200
+164147	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=Afpp8uPDaXo0JMOSDKHsphYW@qrticket_0&uuid=gbnubsji3A==&lang=zh_CN&scan=1494232931
+164148	looper checklogin[1] 完成　http.strCode:200
+164148	
+164148	
+164148	looper init
+164148	wfile：164148_wx_init.txt
+164148	looper init http.strCode :200
+164304	StartWebMM
+164304	mmlogin:[0]
+164305	mmlogin:[0]get uuid
+164305	mmlogin:get uuid  http.strCode=200
+164305	mmlogin: uuid =obtiZLYyZw==
+164305	mmlogin:get QR Code=200
+164305	mmlogin:get QR ContentType=image/jpeg
+164305	
+164305	
+164305	looper checklogin
+164330	looper checklogin[0]　http.strCode:200
+164330	looper checklogin[0]　window.Code:408
+164355	looper checklogin[1]　http.strCode:200
+164355	looper checklogin[1]　window.Code:408
+164421	looper checklogin[2]　http.strCode:200
+164421	looper checklogin[2]　window.Code:408
+164446	looper checklogin[3]　http.strCode:200
+164446	looper checklogin[3]　window.Code:408
+164511	looper checklogin[4]　http.strCode:200
+164511	looper checklogin[4]　window.Code:408
+164536	looper checklogin[5]　http.strCode:200
+164536	looper checklogin[5]　window.Code:408
+164601	looper checklogin[6]　http.strCode:200
+164601	looper checklogin[6]　window.Code:408
+164603	looper checklogin[7]　http.strCode:200
+164603	looper checklogin[7]　window.Code:201
+164604	looper checklogin[8]　http.strCode:200
+164604	looper checklogin[8]　window.Code:200
+164604	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=Ab2TO6-2KjIBKIFI7DfkylQ7@qrticket_0&uuid=obtiZLYyZw==&lang=zh_CN&scan=1494233188
+164605	looper checklogin[8] 完成　http.strCode:200
+164605	
+164605	
+164605	looper init
+164605	wfile：164605_wx_init.txt
+164605	looper init http.strCode :200
+165700	StartWebMM
+165700	mmlogin:[0]
+165700	mmlogin:[0]get uuid
+165700	mmlogin:get uuid  http.strCode=200
+165700	mmlogin: uuid =AZcBWNnykA==
+165702	mmlogin:get QR Code=200
+165702	mmlogin:get QR ContentType=image/jpeg
+165703	
+165703	
+165703	looper checklogin
+165731	looper checklogin[0]　http.strCode:200
+165731	looper checklogin[0]　window.Code:408
+170432	StartWebMM
+170432	mmlogin:[0]
+170432	mmlogin:[0]get uuid
+170433	mmlogin:get uuid  http.strCode=200
+170433	mmlogin: uuid =odN1N1RRdg==
+170433	mmlogin:get QR Code=200
+170433	mmlogin:get QR ContentType=image/jpeg
+170433	
+170433	
+170433	looper checklogin
+170458	looper checklogin[0]　http.strCode:200
+170458	looper checklogin[0]　window.Code:408
+170601	StartWebMM
+170601	mmlogin:[0]
+170601	mmlogin:[0]get uuid
+170601	mmlogin:get uuid  http.strCode=200
+170601	mmlogin: uuid =IbuyoRfP_g==
+170602	mmlogin:get QR Code=200
+170602	mmlogin:get QR ContentType=image/jpeg
+170602	
+170602	
+170602	looper checklogin
+170608	looper checklogin[0]　http.strCode:200
+170608	looper checklogin[0]　window.Code:200
+170608	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AcwKVqPuiSvTwr0pDb-8kEJM@qrticket_0&uuid=IbuyoRfP_g==&lang=zh_CN&scan=1494234392
+170609	looper checklogin[0] 完成　http.strCode:200
+170609	
+170609	
+170609	looper init
+170609	wfile：170609_wx_init.txt
+170609	looper init http.strCode :200
+170701	StartWebMM
+170701	mmlogin:[0]
+170701	mmlogin:[0]get uuid
+170702	mmlogin:get uuid  http.strCode=200
+170702	mmlogin: uuid =oaWThYzT7A==
+170702	mmlogin:get QR Code=200
+170702	mmlogin:get QR ContentType=image/jpeg
+170702	
+170702	
+170702	looper checklogin
+170709	looper checklogin[0]　http.strCode:200
+170709	looper checklogin[0]　window.Code:201
+170710	looper checklogin[1]　http.strCode:200
+170710	looper checklogin[1]　window.Code:200
+170710	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AYcIg85PqumtGswss_wmImHa@qrticket_0&uuid=oaWThYzT7A==&lang=zh_CN&scan=1494234454
+170710	looper checklogin[1] 完成　http.strCode:200
+170710	
+170710	
+170710	looper init
+170711	wfile：170711_wx_init.txt
+170711	looper init http.strCode :200
+170903	StartWebMM
+170903	mmlogin:[0]
+170903	mmlogin:[0]get uuid
+170904	mmlogin:get uuid  http.strCode=200
+170904	mmlogin: uuid =4bK5GOFaIg==
+170904	mmlogin:get QR Code=200
+170904	mmlogin:get QR ContentType=image/jpeg
+170904	
+170904	
+170904	looper checklogin
+170908	looper checklogin[0]　http.strCode:200
+170908	looper checklogin[0]　window.Code:201
+170909	looper checklogin[1]　http.strCode:200
+170909	looper checklogin[1]　window.Code:200
+170909	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AW6VyXilkv3YVOLYLGJIxfbf@qrticket_0&uuid=4bK5GOFaIg==&lang=zh_CN&scan=1494234573
+170910	looper checklogin[1] 完成　http.strCode:200
+170910	
+170910	
+170910	looper init
+170910	wfile：170910_wx_init.txt
+170910	looper init http.strCode :200
+171316	StartWebMM
+171316	mmlogin:[0]
+171316	mmlogin:[0]get uuid
+171316	mmlogin:get uuid  http.strCode=200
+171316	mmlogin: uuid =IfI03LLNpA==
+171316	mmlogin:get QR Code=200
+171316	mmlogin:get QR ContentType=image/jpeg
+171316	
+171316	
+171316	looper checklogin
+171322	looper checklogin[0]　http.strCode:200
+171322	looper checklogin[0]　window.Code:201
+171324	looper checklogin[1]　http.strCode:200
+171324	looper checklogin[1]　window.Code:200
+171324	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AeZO92s913PoBTC-pTqAHZSG@qrticket_0&uuid=IfI03LLNpA==&lang=zh_CN&scan=1494234827
+171324	looper checklogin[1] 完成　http.strCode:200
+171324	
+171324	
+171324	looper init
+171324	wfile：171324_wx_init.txt
+171324	looper init http.strCode :200
+171454	StartWebMM
+171454	mmlogin:[0]
+171454	mmlogin:[0]get uuid
+171455	mmlogin:get uuid  http.strCode=200
+171455	mmlogin: uuid =AYNf_LBB_g==
+171455	mmlogin:get QR Code=200
+171455	mmlogin:get QR ContentType=image/jpeg
+171455	
+171455	
+171455	looper checklogin
+171503	looper checklogin[0]　http.strCode:200
+171503	looper checklogin[0]　window.Code:201
+171504	looper checklogin[1]　http.strCode:200
+171504	looper checklogin[1]　window.Code:200
+171504	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AbgblkmQZYqsg7yyoQtNvjW9@qrticket_0&uuid=AYNf_LBB_g==&lang=zh_CN&scan=1494234928
+171505	looper checklogin[1] 完成　http.strCode:200
+171505	
+171505	
+171505	looper init
+171505	wfile：171505_wx_init.txt
+171505	looper init http.strCode :200
+171822	StartWebMM
+171822	mmlogin:[0]
+171822	mmlogin:[0]get uuid
+171822	mmlogin:get uuid  http.strCode=200
+171822	mmlogin: uuid =Iai5XHVU6g==
+171823	mmlogin:get QR Code=200
+171823	mmlogin:get QR ContentType=image/jpeg
+171823	
+171823	
+171823	looper checklogin
+171833	looper checklogin[0]　http.strCode:200
+171833	looper checklogin[0]　window.Code:201
+171834	looper checklogin[1]　http.strCode:200
+171834	looper checklogin[1]　window.Code:200
+171834	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AYrvAFnaNzZhI3zN5nG-uA6I@qrticket_0&uuid=Iai5XHVU6g==&lang=zh_CN&scan=1494235138
+171834	looper checklogin[1] 完成　http.strCode:200
+171834	
+171834	
+171834	looper init
+171835	wfile：171835_wx_init.txt
+171835	looper init http.strCode :200
+172255	StartWebMM
+172255	mmlogin:[0]
+172255	mmlogin:[0]get uuid
+172255	mmlogin:get uuid  http.strCode=200
+172255	mmlogin: uuid =4cW-tcan5A==
+172255	mmlogin:get QR Code=200
+172255	mmlogin:get QR ContentType=image/jpeg
+172255	
+172255	
+172255	looper checklogin
+172300	looper checklogin[0]　http.strCode:200
+172300	looper checklogin[0]　window.Code:201
+172301	looper checklogin[1]　http.strCode:200
+172301	looper checklogin[1]　window.Code:200
+172301	redirect_uri=https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AUA_RNBjZ3OjaE64z44mBWos@qrticket_0&uuid=4cW-tcan5A==&lang=zh_CN&scan=1494235405
+172301	looper checklogin[1] 完成　http.strCode:200
+172301	
+172301	
+172301	looper init
+172302	wfile：172302_wx_init.txt
+172302	looper init http.strCode :200
+183405	StartWebMM
+183405	mmlogin:[0]
+183405	mmlogin:[0]get uuid
+183405	mmlogin:get uuid  http.strCode=200
+183405	mmlogin: uuid =gbj5ZmbiwA==
+183406	mmlogin:get QR Code=200
+183406	mmlogin:get QR ContentType=image/jpeg
+183406	
+183406	
+183406	looper checklogin
+183413	looper checklogin[0]　http.strCode:200
+183413	looper checklogin[0]　window.Code:201
+183415	looper checklogin[1]　http.strCode:200
+183415	looper checklogin[1]　window.Code:200
+183415	redirect_uri=https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=AwuZYwpl8rIiu2asu1USDV7R@qrticket_0&uuid=gbj5ZmbiwA==&lang=zh_CN&scan=1494239654
+183416	looper checklogin[1] 完成　http.strCode:200
+183416	
+183416	
+183416	looper init
+183417	wfile：183417_wx_init.txt
+183417	looper init http.strCode :200

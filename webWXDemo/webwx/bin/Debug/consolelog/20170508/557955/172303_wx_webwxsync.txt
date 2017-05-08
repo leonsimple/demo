@@ -1,0 +1,401 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 0,
+"AddMsgList": [],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 7,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598592
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 7,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598592
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+
+{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 1,
+"AddMsgList": [{
+"MsgId": "846852690878124156",
+"FromUserName": "@4808e425246d734938414044ec1233e3",
+"ToUserName": "@4808e425246d734938414044ec1233e3",
+"MsgType": 51,
+"Content": "",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1494235408,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 4,
+"StatusNotifyUserName": "@6e92cdedac5f49b0f76be11b71cd38ebb575f8c39c3f653e67fbf2b2d2fa01d1,filehelper,@dd5d5191c03ab5e50b894753edc87bfa,@4808e425246d734938414044ec1233e3,@@2001c59d4b8b171f614f3cf902d6c43700a2f4377fcd3a05e91263868654e45e,@e5f20359ff7348ec624c4e5bab1fb8b8,@3ea6c180b5289046deb2938ec751aa98acfecf1aa9cb95f86de5c227d7af0a8a,@@4f60fe53d19cff60beaed34abd4dcdf7e336ccbc19577fe1a1352693f4268518,@@fb8dc00b527efb3508b2806140c13b5aba7064f2cebbf85986b6c7d227a705b9,@@5d3b06b2abd4184aa22efe65b18d9fefb408c30015d80fa8be73b69491093614,@0a01b2b67c5cdec78b3ed5f44a383b0b,@212133d3e0f3b3621662fc6d7edc6f44,@7003f095d2f0155c9ee63cb38a0986d9,@ed98f561f59dfcaf88d6bc5d76462144,newsapp,qqmail,@6575ef09ffc1b5c28ec3366d64ac0441,@@100bd7e2827dadc89823869b84fafc604f3ba8231daa4901185261e3e2538a03,@@a9f06c9d6d2dd6bb60807cc64db4e46a6ab7213dad963b7c207e4810e509e459,@5d1f66ec66ef0c96f044cd91d596a714,@9ce21e39f8c1dc78125cee3127ff9948f2b08fbd65ec731ac55ca110af0c9fe1,@@0aae0d3144952dfc138ae643a2a82429178f402a02b920c780dadcf0fa62c0b5,@@d9afb237a2a3bcebe4a64f8bf8c1ea07c716d85914c30c3d478c134a4b9f6aeb,@@76b6b7a54e000127684ec93317449ba1b2c42fce14d9949705354196e7661926,@@079c491fe91e5f07d627d3f6555081b2dc1eddb514a5078badd89fd58a747f10,@05000be75060be1ee5eb71699235e9936ed4dfae2adb92ac8a4cafeaca895878,@e3ea6d1718bdbbc8e5b70ae57ab74f94,@57a73ad1dd01f7c7484f9e6412f9fbca4366bd99dcfd4d55e628b2cb71ea0ff0,@61f7521e0fb11f041e426c0aaf028b98,@dab89375d3b249d246af045b99d76b4026f2326f2dc2911a0a51d85f3a85fad3,@ec892b2b9aa6e94c86cd2b3d3b664db1,@dcaf091fb161b1e74fff027871cd62d4,@2d8be8bd6a366330046c458431810436,weixin,@2298a20589ae1e70badb9dfc778fff235bbb139368ddda411c464a01bc752c0b,@d445e7efc233dff6a5b6355c22170579,@818086cfb05d5759ea8649dc0773b0eb,@7376d06eaca31fb9b64e3a27420814a3483bd4b21458e8d5793e810eacd21cc8,@5cd7c7b38c61415dd378dafb09700c099c917e17ff4f20fcc18828d81240b91d,@b0b1de74dcb7b0316dbb5c5898f4568f6cd07bf5a2d0f26417c9af5e9c213b11,@@9425426fe479a4c205f61d3f7f00ec50b016776e272c1141c2168222bc047430,@d6e41a88fb1415adaaa15abf5d6263c1,@4dd32f5131085feb64dff837ef7f66a8a74d2328adb44f162aad528cc609048e,@2012bcf9565cde9fe97b3c77ad20fdd35856cc0069e5863a94a4fe8c8d249b3b,@@76437da1bb0f573f4541e70145b05a6296a80a1562213065e1a77a64ede67e6f,@3dd3b10fe073350d9ce363f85eb6187dc1125e0d9459d8465d225439a6f6466e,@aa052733ed1e71b2ba7a2f2a31e2a369,@@96f280e00eac659071a48423f2d889f4aa32df4a0d96659259239e359e6bc018,@f93f0f230f29fa71f8984a42dcd27892bfd983be1639cb46510d15c92bbaf57a,@5b2145a7111ea287977072a9e5720c4363e4198abaf7e147f1a6f940af8087a8,@@737f33b42a43e4c8679021d5a96a3a442618b57dfad4706c7f9d46d0f23dc6de,@ee11908dfa99f4a5373568655ca4977891b650e20f31692d576d648b2a45e28a,@4fff51f26671d1b161ffc39dad504403,@9d1b742d8c13de82f5973bb61c1c7d70c9755f99bc0c3d27fc040feddcf4637d,@f61fb7a4b4437df7a0c4b64edfd6839b55c27f55926c5140d73ea8a38b9fafd3,@b892288b92c9fd59ac0ee334cfc50c4c073ffd552109848d5f48a6c5b339cc52,@c74137244188019861e58d1e97f4e60781fade94ccc55943f940846226cf172a,@74b3987d2fe4751560b23f5ced4d7f9da0335c33cc9fe580aef5e40cb8b69162,@d19ebaeb1f72f9c0c01f2d3f44f33b42f8d7eae9dd14e694cb5a37467fa01d56,@@7c582495c736a47ea8cf408ba8cdbf5d4638279a525a57d40df6c8787b75cb50,@c50a72b23a220c62fb280481f48fca2a7c3b261337cd882d6ae2d873a4e54187,@d80c1cb3a0c1582e72245e91da2b2a87,@a828b853f67e994f6208dea64bc7c801598897ed5098b48b3af9881487425487,@1f54e5c245b7a3fd1f5e7b8be34f930dfa80fa245a5986668cff2316c9bcb331,@@93d892a8606994cb4caca5320cedeab98a8d06a95788fb3834f712b2837cfd6e,@@f95e5b73e3faf39a610a2ebdfc7a937deddc3d8a4d3f4c7859d78054f9223b0e,@082d4439f0123c054f44b7f4900ce430,@ae9ab84d4cc6af0e44e70d9956002c219a5e2f670e97f0fc0ee3464915d9db9b,@b0e5dcb1591a473e6c907993169bb2217f93452c5eb00d4b434e1409918332a6,@ce53ac6a6288deeab3ea6e65dfb4d72d5a22018c610551dbbda2439fe92f6e31,@@6fd4e8b7f0fc0f0ce6e99f2991d85b1fbbe2f00d65ff3b0434c9316997c112c9,@7ffb178d476bd36cc26aa8fa11416cc9,@183dcf84d2f31bbd35ba267d330c32b9c7207340124e055b647ca91bdaacffc9,@@5291ef8766ef371b1133d3f137e3b69e315fe0aca47676bdf3753c065000d46f,@52221be0eb6be06bf9b335dc26f8ed6a2d54565c6de7064b0eded6acbbba075d,@1987a7227dc7263ee9ca91fa3bb41f1481e7af1898546de370a1edc1ffdde3f8,@6eeec02c857a46414995d1a2c9d612e0,@c65f9150ad02e770a46cbbf331343ca46c05a6b845094c85216e820692fddb54,@@57b504ac4f024da5632d97494118556a610eb85e688bc10f5a52603ef44b40b9,@aec074c66e520a775824604c47d20b6c,@2273144536cde77385999fbadf5063abb216e92a281350965c8b3204dcfb8df3,@8d2286fa967b625bfb4d8d3d51979253,@90deed2bcb40ddbab5def1568d0e9574,@ae8e37e2171d4dd661cf9304ecf4f26e,@b1c4e2b924c95cc965361d469e0f65a9,@bf1f788e72a6e64367277d3151e124a99439fe29d9e128557cc33d66edeedcbf,@9ed4ddbb33f59f0bedc8052f67b451b27d8f46a47b61ef115a54c85e9f7bdfc8,@b0e2f3c0691dd87f4a05c804ed87360e,@3828a8df07b5475af1e958a9017c4562,@68b776badef6c3d475f82a329ea4163b955047f43e882621bea07064807d5296,@b714941c698f3ddc0bd9b1d790c65966,@6e41974d27170768a067a048661b2ee9cca7777f96939e29c70cb2639e6dc935,@aec7fd9fad4dcea868f21da12d11b620de0c910102a3704da96ccc2358aa1ac9,@f7efd281d991b269d93fc4bf6336a8b7,@44e37e333766d7bde1d590730696186c15d69803047d6fe505ded744eb113186,@d1a1109c0ed0964934c1e674c4bf4da09cec4f98db7db4217d584ee264cc1b83,@bfd95fdde53312dc69435c399b696cc6,@c3695edd46fea0d9282bba724b175beb748188dc989bbd5e4f0e7c7beaf47aa9,@706607018e7b68f6cf0724a19abfee34e2fdd225bdb1b9a7efff24dab5267a80",
+"RecommendInfo": {
+"UserName": "",
+"NickName": "",
+"QQNum": 0,
+"Province": "",
+"City": "",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 0,
+"VerifyFlag": 0,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 846852690878124156,
+"OriContent": ""
+}
+],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598593
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494235408
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598593
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494235408
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+
+{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 0,
+"AddMsgList": [],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598593
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494235408
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598593
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494235408
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+

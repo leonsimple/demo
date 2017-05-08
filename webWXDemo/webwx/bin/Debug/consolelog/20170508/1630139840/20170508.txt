@@ -1,0 +1,102 @@
+﻿183417	
+183417	
+183417	webwxstatusnotify
+183417	wfile：183417_wx_webwxstatusnotify.txt
+183417	looper webwxstatusnotify http.strCode:200
+183417	webwxstatusnotify [0]：
+183417	webwxstatusnotify MsgID=673261135051150440
+183417	
+183417	
+183417	webwxsync
+183419	wfile：183419_wx_webwxsync.txt
+183419	looper webwxsync http.strCode:200
+183419	
+183419	
+183419	webwxsync
+183419	wfile：183419_wx_webwxsync.txt
+183419	looper webwxsync http.strCode:200
+183419	sync_newMessage：858954264792522853 [@3c0781b9d327a6b48ed03eaf5793d77d]->[@3c0781b9d327a6b48ed03eaf5793d77d]:
+183419	
+183419	
+183419	webwxsync
+183420	wfile：183420_wx_webwxsync.txt
+183420	looper webwxsync http.strCode:200
+183420	
+183420	
+183420	looper synccheck
+183420	
+183420	
+183420	webwxgetcontact
+183424	wfile：183424_wx_webwxgetcontact.txt
+183424	webwxgetcontact http.strCode:200
+183424	一共获取到的通讯录：507
+183424	
+183424	
+183424	  mm_webwxbatchgetcontact_chatroom
+183427	wfile：183427_webwxbatchgetcontact.txt
+183427	webwxbatchgetcontact  http.strCode :200
+183429	window.synccheck={retcode:"0",selector:"2"}
+183429	
+183429	
+183429	webwxsync
+183429	wfile：183429_wx_webwxsync.txt
+183429	looper webwxsync http.strCode:200
+183429	sync_newMessage：773621019038914993 [@3c0781b9d327a6b48ed03eaf5793d77d]->[@9b2f68fb2c36c29c525035b6fb50ebe4]:
+183429	
+183429	
+183429	looper synccheck
+183434	window.synccheck={retcode:"0",selector:"2"}
+183434	
+183434	
+183434	webwxsync
+183434	wfile：183434_wx_webwxsync.txt
+183434	looper webwxsync http.strCode:200
+183434	sync_newMessage：6668968325298151131 [@3c0781b9d327a6b48ed03eaf5793d77d]->[@9b2f68fb2c36c29c525035b6fb50ebe4]:
+183435	
+183435	
+183435	looper synccheck
+183500	window.synccheck={retcode:"0",selector:"0"}
+183500	
+183500	
+183500	looper synccheck
+183511	
+183511	
+183511	webwxsendmsg
+183512	window.synccheck={retcode:"0",selector:"2"}
+183512	
+183512	
+183512	webwxsync
+183512	wfile：183512_wx_webwxsendmsg.txt
+183512	 webwxsendmsg http.strCode:200
+183512	wx_webwxsendmsg res_sendmsg.MsgID：4721093265047230339
+183512	wfile：183512_wx_webwxsync.txt
+183512	looper webwxsync http.strCode:200
+183512	
+183512	
+183512	looper synccheck
+183533	window.synccheck={retcode:"0",selector:"2"}
+183533	
+183533	
+183533	webwxsync
+183533	wfile：183533_wx_webwxsync.txt
+183533	looper webwxsync http.strCode:200
+183533	sync_newMessage：5856812149739122331 [@@85b7ca643af19197cec757266a9610926e8dc7e8bffc5db92268a9cb39aa7f7e]->[@3c0781b9d327a6b48ed03eaf5793d77d]:@08912122b64bf26ba3a80d0364ec008c5307e3f3fa2c18483b0ef60ea840d463:<br/>善语学院线下公益工作坊138期，欢迎朋友们可以报名参加：<br/>爱不仅仅需要经验，更需要表达！生活中的很多纠纷，都因为只站在“我”的角度去看问题。若能换位成“你”的角度，甚至更高一点——超越“你”“我”的范畴，换成“道”的角度，一切都会豁然开朗，万里无云。  <br/>为什么你总是试图为对方着想，用心却没有被认同？为什么有时候总是一开口便能轻易点爆自己或者他人隐藏在内心深处的愤怒与不满？为什么你的亲密关系中总是隔着一份看不见的鸿沟，这么近、那么远！而这一切都是源自于你不懂沟通，善语学院《亲密沟通之道》为你为你破译亲密关系中的沟通密码，创造幸福人生！因为工作坊为实战体现式，学了就会，故人数限定为15人，额满即止。<br/>时间：2017年5月10日晚上19:00点开始到21:点00结束（谢绝空降，谢绝需中途离场的朋友报名，要求准时签到）<br/>地铁：老街B出口<br/>地址：深圳市罗湖区深南东路4002号鸿隆世纪广场B座33B<br/>联系人:李明骏：18665844198<br/>欢迎大家接龙<br/>1:郑植茜<br/>2:李淑<br/>3:李翠娥<br/>4:占霞<br/>5:张莉<br/>6:李海燕<br/>7:洪开春<br/>8:<br/>9:<br/>10:<br/>11:<br/>12:<br/>13:<br/>14:<br/>15:<br/>16:<br/>17:<br/>18:<br/>19:<br/>20:
+183533	
+183533	
+183533	webwxstatusnotify
+183534	wfile：183534_wx_webwxstatusnotify.txt
+183534	looper webwxstatusnotify http.strCode:200
+183534	webwxstatusnotify [0]：
+183534	webwxstatusnotify MsgID=7280924225196081127
+183534	
+183534	
+183534	looper synccheck
+183534	window.synccheck={retcode:"0",selector:"2"}
+183534	
+183534	
+183534	webwxsync
+183534	wfile：183534_wx_webwxsync.txt
+183534	looper webwxsync http.strCode:200
+183535	
+183535	
+183535	looper synccheck

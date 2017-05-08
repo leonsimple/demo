@@ -1,0 +1,177 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 1,
+"AddMsgList": [{
+"MsgId": "5908534614646239654",
+"FromUserName": "@a4b98b2ab52c57f2d6c8f3c88e2a2117a152b33c09d6fd65134b3e07779075ce",
+"ToUserName": "@2f636f7338429e34a758f57b2bf10157",
+"MsgType": 42,
+"Content": "&lt;?xml version=\"1.0\"?&gt;<br/>&lt;msg bigheadimgurl=\"http://wx.qlogo.cn/mmhead/Q3auHgzwzM50PCOeTrK71TxxaGeic2EW0e6aibqxo0t4h6cEQPlxFuoA/0\" smallheadimgurl=\"http://wx.qlogo.cn/mmhead/Q3auHgzwzM50PCOeTrK71TxxaGeic2EW0e6aibqxo0t4h6cEQPlxFuoA/132\" username=\"gh_5a6a6d9bedab\" nickname=\"帮您减少手机空间v\"  shortpy=\"\" alias=\"\" imagestatus=\"3\" scene=\"17\" province=\"不丹\" city=\"不丹\" sign=\"\" sex=\"0\" certflag=\"8\" certinfo=\"感谢关注本公众平台提供专业检测僵尸粉业务\" brandIconUrl=\"http://mmbiz.qpic.cn/mmbiz_png/Wm6xQTSyokGA2YxFn6nibb8T4a86zspwiay5icXnNNvsVls7IxoiccTIVnDtjU8Bq5GFda96r80pFWqlgeAtPvxFLg/0?wx_fmt=png\" brandHomeUrl=\"\" brandSubscriptConfigUrl=\"{&amp;quot;urls&amp;quot;:[{&amp;quot;title&amp;quot;:&amp;quot;查看历史消息&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;http:\\/\\/mp.weixin.qq.com\\/mp\\/getmasssendmsg?__biz=MzUzODA3MTc1NQ==#wechat_webview_type=1&amp;amp;wechat_redirect&amp;quot;,&amp;quot;title_key&amp;quot;:&amp;quot;__mp_wording__brandinfo_history_massmsg&amp;quot;}]}\" brandFlags=\"0\" regionCode=\"BT\" /&gt;<br/>",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1494232179,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 0,
+"StatusNotifyUserName": "",
+"RecommendInfo": {
+"UserName": "@2f7ccf4d04c8956856d5d55864f9a846",
+"NickName": "帮您减少手机空间v",
+"QQNum": 0,
+"Province": "不丹",
+"City": "不丹",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 17,
+"VerifyFlag": 8,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "v1_230a79633318596bf6e382674d18c20ec5801b7486dadd79771586888f4425d1@stranger",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 5908534614646239654,
+"OriContent": ""
+}
+],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 9,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598469
+}
+,{
+"Key": 3,
+"Val": 657598342
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494232179
+}
+,{
+"Key": 203,
+"Val": 1494228546
+}
+,{
+"Key": 1000,
+"Val": 1494232044
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 9,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598469
+}
+,{
+"Key": 3,
+"Val": 657598342
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494232179
+}
+,{
+"Key": 203,
+"Val": 1494228546
+}
+,{
+"Key": 1000,
+"Val": 1494232044
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+

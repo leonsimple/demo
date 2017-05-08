@@ -1,0 +1,18 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"MsgID": "5671193630013033670"
+}
+
+{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"MsgID": "2575398616953148841"
+}
+

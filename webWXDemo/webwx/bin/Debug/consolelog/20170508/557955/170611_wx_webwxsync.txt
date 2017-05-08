@@ -1,0 +1,289 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 1,
+"AddMsgList": [{
+"MsgId": "8200926301952705764",
+"FromUserName": "@5e1a1bef3685e99b2cb6b4ef33c2e17e",
+"ToUserName": "@5e1a1bef3685e99b2cb6b4ef33c2e17e",
+"MsgType": 51,
+"Content": "",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1494234395,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 4,
+"StatusNotifyUserName": "@@ea2840be68dba0814c52456a3aae8ddf7739f7e91c3cc29246c1be02ffe6cd45,@ddcab0e781984d6a6193c49585967890,@0093a6e405b20e857452fee150ec7f09,filehelper,@81c91cc9e38fc6af955cc9b27247fac931599996edcf4897214b0479984382ad,@@be62664a662535e0fd7a14f2e524982685ebcedd847da50836434cbebc49dce2,@@4b1fac220c93bebd3be06136688270f18fc20e37a0d3adf74475a7bbd6bcf390,@@cf530dcd317dcee95d3d7dd454671b13fc89ce3e684bb47997f2a22ed5b29977,@1a5b92de9ba28b82933bef35999cdaab,@6e8aa1620cf57c6da1211fb344db58ca,@ad7b674dbc83c4ef573a9b1c67c46924,@d27848ec22600af258cae99f69955533,newsapp,qqmail,@8035d72669d69f27f427eadda671a32c,@@0b7e998bb4c2fe3b091ed70432bc0df22f727ef858e2733400b50da4225e1818,@@64e6316aac45784d35fce197af761c1fa8758fb1dbf467eb4a308b0e68ec5ab4,@f3a2f64ce27e4b50828a897c63851693,@4993ce1fc12407fd430f198664af1a2960e42f03ac8d4e08626403b5163c782f,@@214c18ffcf16bb0112d9691be715d32f9cedf75716bbfa67399fcba0a253c0ae,@@445e53381a39429d3d60e251e886a5b71969a5669a219b19d2ba821e10ca594f,@@3a0919475301451b48a260e7a4bde963c559d1b677e9e96f2623b6442fe67703,@@5269bb2076b962c9b6a10a17cfdad83f8e88912996b8b7eb25b541bf42df446e,@54c806c0a475a4d4780617716bccf8c532999e9d98bb54f8c60c4f13b23f8263,@2838a8e8ab4c30a5759dff5b0c09ec21,@1fd2ef09afb5f8a844cc8a4894a0e9d272e961249def8be3fc1029c8a3ad4ebd,@5e1a1bef3685e99b2cb6b4ef33c2e17e,@6f3d9493154a4e808000b16105673cd1,@d432a05c40abd7cc740a9fd116a2ab5269da7f2ed5b2d7a2038b02e5d70f2280,@7d48c8cef30a180bd91f6df1d2e0d352,@159a77eff8666262d3c9aca27b0af9f5,@685793af1f4f7d3c019899cc4795786e,weixin,@9f556688da3551c47ad352de853023c7d5d9390204f6eb84bdb145aa8bf22f68,@af4a27a80f45eb0928dec6a1bdb32aaa,@5c983431eba6913fddd110746ac29782,@c0b1c8673084df6b2c4d63dd08f2a079d4fe5a7c62f31f9670195eeffce1159d,@790da4f238fbe97c7652188e5084eeb647bec74d0e210188bcaae3e30c015924,@8c886282c2f20aebcd0648be6b75683bb0ab7dc830f805dbd9a3522c7b4e2dd2,@2a50a5b0e99ebaaf481b897d3203ea7cfb9e9f7dc07ed80e99ee63f44dada355,@@b33e7f17bd3c5f644f99952273084816de59e50d2c3dc9ee1490cd96c938cbe4,@736e031a5fdfd957e5c85db39fc48ba0,@2b7b710820f6ca86a0e8909440b9c75c64a0e596db7756624209fd2120468ac0,@f336eca30018ac8fb6859dcf73982a980469e3b970630aa1bd90f6f8074c7156,@@031342de31f1b79607d6a0b08699638d1bb9f2096a24f167a1a95d46d6e0d0da,@aa161c3d1b217f2cd0b4e20aa166849ad13c279878467eadd8e275d27a78e113,@da3ae90c109d3f52df38318673b72481,@@250ef0b6fa694cb0903ba95dd6915265ebc15e9121c6fafbec78e15ef03acfdf,@c062f98d860001cad299d3cd8fc94439ecfcd9b656452be3980f33867e552779,@9e68838379c03d64c4fd7f8c53bfa3f7983523a67cbf5d58ac68b54991aa4024,@@8aa6ff35d3752a0775bff4787c863a0d23e3df678ce21a3b851d03292815d5df,@4308cf333414f8412c44c08a40bf8cff63424060032e58306b26ccef670e99d1,@45b99ea7164da48951ff048ae43d994d,@11be3508993a1e89c7df6687e59c1043effe60e6681ffcd5e5579c5484a783d6,@b5bb60a0871e4865d3aaaa877dc8d9567a34545b5a97a8be392dfa79a2c55014,@6fc310f68e27f032b7051c33a9422c88ca2b09807ba04092287c700bc867f07e,@1b8fc635f325c56c1d4ab626b54d084de309688c019e6a53457a54ff717fee9e,@f13e03c4fc82cbfc412eee0bc9124191b2d9e078d401e505b41bbbedc1911e0c,@dc4a585959b4d5bbdc5587dea0fa3dd8546bdd022d2d4bb6c7fd2e9e2a93b0f8,@@66b73c76c7b6d615eebfed945c0d32047692dca98c3a502dffb304ea43522d9b,@6484c9b3147fb7bb4161a46ebe71bc6b646062f8de4ddd1c393e33afe1b50d22,@dd6e6514637487c5cd522d8c4cd1cec2,@2d3da7654e943a895da092098ed309089bfd91f60de63866613d01cea78c24a0,@05985e3bf2af50770cf7d07c6714841094f87882f970ad380edd306a505fb3ad,@@091121066b1706ae5585cd99b54c465e392111e2ebb748ca83674fbe61b8c9d7,@@b1cb477b60fe4c90ab77dce7787d2d8da6304c5efbd5efc33972381fd92c7751,@170b61b15f00355ea7fef35475a19886,@f9bb9df38463d22790694a212b67c6ac60f5a428f61036f60b70efad9ec76513,@d360b34e225fd048da51289c438e045dd20b124d13c8bde82461cf468cc146e2,@96205f3ea874664ae9e870e072d67f32dc33a44126a56ac83cfe5a91449deecf,@@4c892c2ab0ad3b0f952dd1fc972d67c6194810a25296d06d937f7ee338fb438e,@9a98bbc8bcddd360f90d7fae0f9553d2,@319287ed135bf81c67739af42d6b7f8156c558a36a300c7247fd4bb80efe7ad9,@@cd1a5c04fd4c0cfd68c5bf0766bb87a80d91b424366f9e8fc77910b2bfa756cd,@19f7049db29f73c9d195d5eaffbce6310c35fac865b2975883951200a959c55e,@fc960736fc5a2e55e06013c5abe3921bbe77a0dd3231ee19130566e04999c3bd,@91c80119a39f2e3e62d15f7c4f240a46,@3a825355447b7ea03fd155a7e0450ad86686c2e43bb53e5f914498446b437a94,@@081b1a2a1c65297831968286e03e38350da191c57bf7933bf5246215628e343c,@f5f5d3d4044a85faebb6c82e8c0847d1,@3c5ca0dc3a6a7f230ad58bdce544005a27f967d3a865a8a9dadd109bea0efcfc,@5f79901db6c30830d4f56c62ce680985,@32e9a2279d3ea3ffc2f74aae400b5105,@3ef06eea17ede1bf55c36d5cbaa887a8,@62de58f86544f11b9b7fdf0648439654,@271abfd92fe34b5eee2f0f70148f66f5d846850acf92f80f034f06acf807f7d9,@3167fb72cd4d6d858193ec31bd61aeab5f991c206efa1b0150925693421fb681,@9b472d8f458ad0bac599bcbc8f9492fc,@91cdaace524efa9032675c2e6c81a89e,@665ae794b55cf8bec25588d4f3039cd2266b1dd6859212809dd6d034a2fbc538,@bd6ec08e9461fd01e04041fda22aca9b,@7bcb5da7922ba8a872b3492697624b587ce8d74815ccd7ac7942b29dac1f0558,@651046e346de1476c89fd8b6a48f4e4fe467fcfcf30c6d3d0b5002bf57b067b7,@10fdd65d4b9a79a2f1be59b5250c9584,@dd4c961abed32b23f736f21d28ef857d7c589d614ca673dbf8805b489c59ba32,@4aa8aa59d383120e133ca43971672c20d1be05925951c0849af7b54d3d8095cc,@d66909d0e2531f2ebfdbf83dd8cd94d1,@f6283c18e3d1bc6bb544c4f659bcc2d0881bf999c4992d7b14da403ee055b9fb,@f94efac962fec520b94d04018ab000e791b723271ff9dfd67cefe93e316538b3",
+"RecommendInfo": {
+"UserName": "",
+"NickName": "",
+"QQNum": 0,
+"Province": "",
+"City": "",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 0,
+"VerifyFlag": 0,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 8200926301952705764,
+"OriContent": ""
+}
+],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598520
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494234395
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598520
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494234395
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+
+{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 0,
+"AddMsgList": [],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598520
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494234395
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598520
+}
+,{
+"Key": 3,
+"Val": 657598487
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 201,
+"Val": 1494234395
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+

@@ -1,0 +1,2407 @@
+﻿145951	
+145951	
+145951	webwxstatusnotify
+145952	wfile：145952_wx_webwxstatusnotify.txt
+145952	looper webwxstatusnotify http.strCode:200
+145952	webwxstatusnotify [0]：
+145952	webwxstatusnotify MsgID=972142961798472567
+145952	
+145952	
+145952	webwxsync
+145952	wfile：145952_wx_webwxsync.txt
+145952	looper webwxsync http.strCode:200
+145952	
+145952	
+145952	webwxsync
+145952	wfile：145952_wx_webwxsync.txt
+145952	looper webwxsync http.strCode:200
+145952	sync_newMessage：3209101438361281384 [@822e011a66d67eaa0e1b0721b559e224]->[@822e011a66d67eaa0e1b0721b559e224]:
+145952	
+145952	
+145952	webwxsync
+145953	wfile：145953_wx_webwxsync.txt
+145953	looper webwxsync http.strCode:200
+145953	
+145953	
+145953	looper synccheck
+145954	wfile：145954_wx_webwxgetcontact.txt
+145954	webwxgetcontact http.strCode:200
+145954	一共获取到的通讯录：98
+145954	
+145954	
+145954	  mm_webwxbatchgetcontact_chatroom
+145955	wfile：145955_webwxbatchgetcontact.txt
+145955	webwxbatchgetcontact  http.strCode :200
+150018	window.synccheck={retcode:"0",selector:"0"}
+150019	
+150019	
+150019	looper synccheck
+150044	window.synccheck={retcode:"0",selector:"0"}
+150044	
+150044	
+150044	looper synccheck
+150109	window.synccheck={retcode:"0",selector:"0"}
+150110	
+150110	
+150110	looper synccheck
+151602	
+151602	
+151602	webwxstatusnotify
+151602	wfile：151602_wx_webwxstatusnotify.txt
+151602	looper webwxstatusnotify http.strCode:200
+151602	webwxstatusnotify [0]：
+151602	webwxstatusnotify MsgID=5084989109001856497
+151602	
+151602	
+151602	webwxsync
+151603	wfile：151603_wx_webwxsync.txt
+151603	looper webwxsync http.strCode:200
+151603	
+151603	
+151603	webwxsync
+151603	wfile：151603_wx_webwxsync.txt
+151603	looper webwxsync http.strCode:200
+151603	sync_newMessage：3446183812826946301 [@bff9a3b70756077152ea16844275ebeb]->[@bff9a3b70756077152ea16844275ebeb]:
+151603	
+151603	
+151603	webwxsync
+151603	wfile：151603_wx_webwxsync.txt
+151603	looper webwxsync http.strCode:200
+151603	
+151603	
+151603	looper synccheck
+151605	wfile：151605_wx_webwxgetcontact.txt
+151605	webwxgetcontact http.strCode:200
+151605	一共获取到的通讯录：98
+151605	
+151605	
+151605	  mm_webwxbatchgetcontact_chatroom
+151606	wfile：151606_webwxbatchgetcontact.txt
+151606	webwxbatchgetcontact  http.strCode :200
+151950	
+151950	
+151950	webwxstatusnotify
+151951	wfile：151951_wx_webwxstatusnotify.txt
+151951	looper webwxstatusnotify http.strCode:200
+151951	webwxstatusnotify [0]：
+151951	webwxstatusnotify MsgID=3551256467930055834
+151951	
+151951	
+151951	webwxsync
+151951	wfile：151951_wx_webwxsync.txt
+151951	looper webwxsync http.strCode:200
+151951	
+151951	
+151951	webwxsync
+151951	wfile：151951_wx_webwxsync.txt
+151951	looper webwxsync http.strCode:200
+151951	sync_newMessage：4962939220376808730 [@e4e3b8ccd340f2b86cb2fb0c8dac77f2]->[@e4e3b8ccd340f2b86cb2fb0c8dac77f2]:
+151951	
+151951	
+151951	webwxsync
+151952	wfile：151952_wx_webwxsync.txt
+151952	looper webwxsync http.strCode:200
+151952	
+151952	
+151952	looper synccheck
+151953	wfile：151953_wx_webwxgetcontact.txt
+151953	webwxgetcontact http.strCode:200
+151953	一共获取到的通讯录：98
+151953	
+151953	
+151953	  mm_webwxbatchgetcontact_chatroom
+151954	wfile：151954_webwxbatchgetcontact.txt
+151954	webwxbatchgetcontact  http.strCode :200
+152024	window.synccheck={retcode:"0",selector:"0"}
+152435	
+152435	
+152435	webwxstatusnotify
+152436	wfile：152435_wx_webwxstatusnotify.txt
+152436	looper webwxstatusnotify http.strCode:200
+152436	webwxstatusnotify [0]：
+152436	webwxstatusnotify MsgID=7417776057597687267
+152436	
+152436	
+152436	webwxsync
+152436	wfile：152436_wx_webwxsync.txt
+152436	looper webwxsync http.strCode:200
+152436	
+152436	
+152436	webwxsync
+152436	wfile：152436_wx_webwxsync.txt
+152436	looper webwxsync http.strCode:200
+152436	sync_newMessage：3985500279567975265 [@c04ffa4d4664027775aa473d62197cf4]->[@c04ffa4d4664027775aa473d62197cf4]:
+152436	
+152436	
+152436	webwxsync
+152437	wfile：152436_wx_webwxsync.txt
+152437	looper webwxsync http.strCode:200
+152437	
+152437	
+152437	looper synccheck
+152437	wfile：152437_wx_webwxgetcontact.txt
+152437	webwxgetcontact http.strCode:200
+152437	一共获取到的通讯录：98
+152437	
+152437	
+152437	  mm_webwxbatchgetcontact_chatroom
+152438	wfile：152438_webwxbatchgetcontact.txt
+152438	webwxbatchgetcontact  http.strCode :200
+153258	
+153258	
+153258	webwxstatusnotify
+153258	wfile：153258_wx_webwxstatusnotify.txt
+153258	looper webwxstatusnotify http.strCode:200
+153258	webwxstatusnotify [0]：
+153258	webwxstatusnotify MsgID=811011158012316312
+153258	
+153258	
+153258	webwxsync
+153259	wfile：153259_wx_webwxsync.txt
+153259	looper webwxsync http.strCode:200
+153259	
+153259	
+153259	webwxsync
+153259	wfile：153259_wx_webwxsync.txt
+153259	looper webwxsync http.strCode:200
+153259	sync_newMessage：586417887347176462 [@cc3e2b9e9ad65921d5ba7c4f7d3d3b82]->[@cc3e2b9e9ad65921d5ba7c4f7d3d3b82]:
+153259	
+153259	
+153259	webwxsync
+153259	wfile：153259_wx_webwxsync.txt
+153259	looper webwxsync http.strCode:200
+153300	
+153300	
+153300	looper synccheck
+153300	wfile：153300_wx_webwxgetcontact.txt
+153300	webwxgetcontact http.strCode:200
+153300	一共获取到的通讯录：98
+153300	
+153300	
+153300	  mm_webwxbatchgetcontact_chatroom
+153302	wfile：153302_webwxbatchgetcontact.txt
+153302	webwxbatchgetcontact  http.strCode :200
+153410	window.synccheck={retcode:"0",selector:"2"}
+153410	
+153410	
+153410	webwxsync
+153514	
+153514	
+153514	webwxstatusnotify
+153515	wfile：153515_wx_webwxstatusnotify.txt
+153515	looper webwxstatusnotify http.strCode:200
+153515	webwxstatusnotify [0]：
+153515	webwxstatusnotify MsgID=8574537778839223337
+153515	
+153515	
+153515	webwxsync
+153516	wfile：153516_wx_webwxsync.txt
+153516	looper webwxsync http.strCode:200
+153516	
+153516	
+153516	webwxsync
+153516	wfile：153516_wx_webwxsync.txt
+153516	looper webwxsync http.strCode:200
+153516	sync_newMessage：8879298969968062469 [@e3676253db2772a25dd1571ba3e89960]->[@e3676253db2772a25dd1571ba3e89960]:
+153516	
+153516	
+153516	webwxsync
+153516	wfile：153516_wx_webwxsync.txt
+153516	looper webwxsync http.strCode:200
+153516	
+153516	
+153516	looper synccheck
+153517	wfile：153517_wx_webwxgetcontact.txt
+153517	webwxgetcontact http.strCode:200
+153517	一共获取到的通讯录：98
+153517	
+153517	
+153517	  mm_webwxbatchgetcontact_chatroom
+153518	wfile：153518_webwxbatchgetcontact.txt
+153518	webwxbatchgetcontact  http.strCode :200
+153542	window.synccheck={retcode:"0",selector:"0"}
+153542	
+153542	
+153542	looper synccheck
+154104	
+154104	
+154104	webwxstatusnotify
+154104	wfile：154104_wx_webwxstatusnotify.txt
+154104	looper webwxstatusnotify http.strCode:200
+154104	webwxstatusnotify [0]：
+154104	webwxstatusnotify MsgID=8886616207878740429
+154104	
+154104	
+154104	webwxsync
+154105	wfile：154105_wx_webwxsync.txt
+154105	looper webwxsync http.strCode:200
+154105	
+154105	
+154105	webwxsync
+154106	wfile：154106_wx_webwxsync.txt
+154106	looper webwxsync http.strCode:200
+154106	sync_newMessage：2456382953060102401 [@55c5b4af37929c980dae03c95358b78a]->[@55c5b4af37929c980dae03c95358b78a]:
+154106	
+154106	
+154106	webwxsync
+154106	wfile：154106_wx_webwxsync.txt
+154106	looper webwxsync http.strCode:200
+154106	
+154106	
+154106	looper synccheck
+154107	wfile：154107_wx_webwxgetcontact.txt
+154107	webwxgetcontact http.strCode:200
+154107	一共获取到的通讯录：98
+154107	
+154107	
+154107	  mm_webwxbatchgetcontact_chatroom
+154108	wfile：154108_webwxbatchgetcontact.txt
+154108	webwxbatchgetcontact  http.strCode :200
+154141	
+154141	
+154141	webwxstatusnotify
+154141	wfile：154141_wx_webwxstatusnotify.txt
+154141	looper webwxstatusnotify http.strCode:200
+154141	webwxstatusnotify [0]：
+154141	webwxstatusnotify MsgID=2330060417492452934
+154141	
+154141	
+154141	webwxsync
+154142	wfile：154142_wx_webwxsync.txt
+154142	looper webwxsync http.strCode:200
+154142	sync_newMessage：6025378698472756403 [@d88b57f88ad8c4b5cb8b0ea43862d156]->[@d88b57f88ad8c4b5cb8b0ea43862d156]:
+154142	
+154142	
+154142	webwxsync
+154143	wfile：154143_wx_webwxsync.txt
+154143	looper webwxsync http.strCode:200
+154143	
+154143	
+154143	webwxsync
+154143	wfile：154143_wx_webwxsync.txt
+154143	looper webwxsync http.strCode:200
+154143	
+154143	
+154143	looper synccheck
+154144	wfile：154144_wx_webwxgetcontact.txt
+154144	webwxgetcontact http.strCode:200
+154144	一共获取到的通讯录：98
+154144	
+154144	
+154144	  mm_webwxbatchgetcontact_chatroom
+154145	wfile：154145_webwxbatchgetcontact.txt
+154145	webwxbatchgetcontact  http.strCode :200
+154232	
+154232	
+154232	webwxstatusnotify
+154233	wfile：154233_wx_webwxstatusnotify.txt
+154233	looper webwxstatusnotify http.strCode:200
+154233	webwxstatusnotify [0]：
+154233	webwxstatusnotify MsgID=6194341848459815972
+154233	
+154233	
+154233	webwxsync
+154234	wfile：154234_wx_webwxsync.txt
+154234	looper webwxsync http.strCode:200
+154234	
+154234	
+154234	webwxsync
+154234	wfile：154234_wx_webwxsync.txt
+154234	looper webwxsync http.strCode:200
+154234	sync_newMessage：6825102468155698580 [@160a2c4032b546ee8813b9698f71dd66]->[@160a2c4032b546ee8813b9698f71dd66]:
+154234	
+154234	
+154234	webwxsync
+154234	wfile：154234_wx_webwxsync.txt
+154234	looper webwxsync http.strCode:200
+154234	
+154234	
+154234	looper synccheck
+154235	wfile：154235_wx_webwxgetcontact.txt
+154235	webwxgetcontact http.strCode:200
+154235	一共获取到的通讯录：98
+154235	
+154235	
+154235	  mm_webwxbatchgetcontact_chatroom
+154236	wfile：154236_webwxbatchgetcontact.txt
+154236	webwxbatchgetcontact  http.strCode :200
+154300	window.synccheck={retcode:"0",selector:"0"}
+154300	
+154300	
+154300	looper synccheck
+154325	window.synccheck={retcode:"0",selector:"0"}
+154326	
+154326	
+154326	looper synccheck
+154351	window.synccheck={retcode:"0",selector:"0"}
+154351	
+154351	
+154351	looper synccheck
+154417	window.synccheck={retcode:"0",selector:"0"}
+154417	
+154417	
+154417	looper synccheck
+154442	window.synccheck={retcode:"0",selector:"0"}
+154448	
+154448	
+154448	looper synccheck
+154513	window.synccheck={retcode:"0",selector:"0"}
+154518	
+154518	
+154518	looper synccheck
+154544	window.synccheck={retcode:"0",selector:"0"}
+154549	
+154549	
+154549	looper synccheck
+154614	window.synccheck={retcode:"0",selector:"0"}
+154620	
+154620	
+154620	looper synccheck
+154645	window.synccheck={retcode:"0",selector:"0"}
+154651	
+154651	
+154651	looper synccheck
+154716	window.synccheck={retcode:"0",selector:"0"}
+154721	
+154721	
+154721	looper synccheck
+155044	
+155044	
+155044	webwxstatusnotify
+155044	wfile：155044_wx_webwxstatusnotify.txt
+155044	looper webwxstatusnotify http.strCode:200
+155044	webwxstatusnotify [0]：
+155044	webwxstatusnotify MsgID=9213512415157576709
+155044	
+155044	
+155044	webwxsync
+155045	wfile：155045_wx_webwxsync.txt
+155045	looper webwxsync http.strCode:200
+155045	
+155045	
+155045	webwxsync
+155046	wfile：155046_wx_webwxsync.txt
+155046	looper webwxsync http.strCode:200
+155046	sync_newMessage：7449091618965277836 [@9746634972043ceb31ef1cd1049b23d5]->[@9746634972043ceb31ef1cd1049b23d5]:
+155046	
+155046	
+155046	webwxsync
+155046	wfile：155046_wx_webwxsync.txt
+155046	looper webwxsync http.strCode:200
+155046	
+155046	
+155046	looper synccheck
+155046	window.synccheck={retcode:"1101",selector:"0"}
+155047	wfile：155047_wx_webwxgetcontact.txt
+155047	webwxgetcontact http.strCode:200
+155047	一共获取到的通讯录：98
+155047	
+155047	
+155047	  mm_webwxbatchgetcontact_chatroom
+155048	wfile：155048_webwxbatchgetcontact.txt
+155048	webwxbatchgetcontact  http.strCode :200
+155051	已注销,停止运作 尝试检查:0
+155055	
+155055	
+155055	looper synccheck
+155055	window.synccheck={retcode:"1101",selector:"0"}
+155135	
+155135	
+155135	webwxstatusnotify
+155136	wfile：155136_wx_webwxstatusnotify.txt
+155136	looper webwxstatusnotify http.strCode:200
+155136	webwxstatusnotify [0]：
+155136	webwxstatusnotify MsgID=2758041250814130824
+155136	
+155136	
+155136	webwxsync
+155137	wfile：155137_wx_webwxsync.txt
+155137	looper webwxsync http.strCode:200
+155137	
+155137	
+155137	webwxsync
+155137	wfile：155137_wx_webwxsync.txt
+155137	looper webwxsync http.strCode:200
+155137	sync_newMessage：6671994889112524502 [@9f245bd457719af444e91da79f66f107]->[@9f245bd457719af444e91da79f66f107]:
+155137	
+155137	
+155137	webwxsync
+155137	wfile：155137_wx_webwxsync.txt
+155137	looper webwxsync http.strCode:200
+155137	
+155137	
+155137	looper synccheck
+155138	wfile：155138_wx_webwxgetcontact.txt
+155138	webwxgetcontact http.strCode:200
+155138	一共获取到的通讯录：98
+155138	
+155138	
+155138	  mm_webwxbatchgetcontact_chatroom
+155139	wfile：155139_webwxbatchgetcontact.txt
+155139	webwxbatchgetcontact  http.strCode :200
+155203	window.synccheck={retcode:"0",selector:"0"}
+155203	
+155203	
+155203	looper synccheck
+155228	window.synccheck={retcode:"0",selector:"0"}
+155229	
+155229	
+155229	looper synccheck
+155254	window.synccheck={retcode:"0",selector:"0"}
+155254	
+155254	
+155254	looper synccheck
+155320	window.synccheck={retcode:"0",selector:"0"}
+155320	
+155320	
+155320	looper synccheck
+155345	window.synccheck={retcode:"0",selector:"0"}
+155351	
+155351	
+155351	looper synccheck
+155416	window.synccheck={retcode:"0",selector:"0"}
+155421	
+155422	
+155422	looper synccheck
+155447	window.synccheck={retcode:"0",selector:"0"}
+155452	
+155452	
+155452	looper synccheck
+155517	window.synccheck={retcode:"0",selector:"0"}
+155523	
+155523	
+155523	looper synccheck
+155548	window.synccheck={retcode:"0",selector:"0"}
+155554	
+155554	
+155554	looper synccheck
+155619	window.synccheck={retcode:"0",selector:"0"}
+155624	
+155624	
+155624	looper synccheck
+155650	window.synccheck={retcode:"0",selector:"0"}
+155655	
+155655	
+155655	looper synccheck
+155720	window.synccheck={retcode:"0",selector:"0"}
+155726	
+155726	
+155726	looper synccheck
+155751	window.synccheck={retcode:"0",selector:"0"}
+155756	
+155756	
+155756	looper synccheck
+155822	window.synccheck={retcode:"0",selector:"0"}
+155827	
+155827	
+155827	looper synccheck
+155852	window.synccheck={retcode:"0",selector:"0"}
+155858	
+155858	
+155858	looper synccheck
+155923	window.synccheck={retcode:"0",selector:"0"}
+155928	
+155928	
+155928	looper synccheck
+155954	window.synccheck={retcode:"0",selector:"0"}
+155959	
+155959	
+155959	looper synccheck
+160024	window.synccheck={retcode:"0",selector:"0"}
+160030	
+160030	
+160030	looper synccheck
+160804	
+160804	
+160804	webwxstatusnotify
+160805	wfile：160805_wx_webwxstatusnotify.txt
+160805	looper webwxstatusnotify http.strCode:200
+160805	webwxstatusnotify [0]：
+160805	webwxstatusnotify MsgID=5581939404938014319
+160805	
+160805	
+160805	webwxsync
+160806	wfile：160806_wx_webwxsync.txt
+160806	looper webwxsync http.strCode:200
+160806	
+160806	
+160806	webwxsync
+160806	wfile：160806_wx_webwxsync.txt
+160806	looper webwxsync http.strCode:200
+160806	sync_newMessage：5624073990855566378 [@8e8b62c29581432a3accd0e65c9a93bb]->[@8e8b62c29581432a3accd0e65c9a93bb]:
+160806	
+160806	
+160806	webwxsync
+160806	wfile：160806_wx_webwxsync.txt
+160806	looper webwxsync http.strCode:200
+160806	
+160806	
+160806	looper synccheck
+160807	wfile：160807_wx_webwxgetcontact.txt
+160807	webwxgetcontact http.strCode:200
+160807	一共获取到的通讯录：98
+160807	
+160807	
+160807	  mm_webwxbatchgetcontact_chatroom
+160808	wfile：160808_webwxbatchgetcontact.txt
+160808	webwxbatchgetcontact  http.strCode :200
+160950	
+160950	
+160950	webwxstatusnotify
+160950	wfile：160950_wx_webwxstatusnotify.txt
+160950	looper webwxstatusnotify http.strCode:200
+160950	webwxstatusnotify [0]：
+160950	webwxstatusnotify MsgID=5934543280821930936
+160950	
+160950	
+160950	webwxsync
+160951	wfile：160951_wx_webwxsync.txt
+160951	looper webwxsync http.strCode:200
+160951	
+160951	
+160951	webwxsync
+160952	wfile：160952_wx_webwxsync.txt
+160952	looper webwxsync http.strCode:200
+160952	sync_newMessage：2761361682625565994 [@b4d2e09f2e93c25f89bd5e803357e800]->[@b4d2e09f2e93c25f89bd5e803357e800]:
+160952	
+160952	
+160952	webwxsync
+160952	wfile：160952_wx_webwxsync.txt
+160952	looper webwxsync http.strCode:200
+160952	
+160952	
+160952	looper synccheck
+160953	wfile：160953_wx_webwxgetcontact.txt
+160953	webwxgetcontact http.strCode:200
+160953	一共获取到的通讯录：98
+160953	
+160953	
+160953	  mm_webwxbatchgetcontact_chatroom
+160954	wfile：160954_webwxbatchgetcontact.txt
+160954	webwxbatchgetcontact  http.strCode :200
+161227	
+161227	
+161227	webwxstatusnotify
+161228	wfile：161228_wx_webwxstatusnotify.txt
+161228	looper webwxstatusnotify http.strCode:200
+161228	webwxstatusnotify [0]：
+161228	webwxstatusnotify MsgID=2346770130821357090
+161228	
+161228	
+161228	webwxsync
+161229	wfile：161229_wx_webwxsync.txt
+161229	looper webwxsync http.strCode:200
+161229	
+161229	
+161229	webwxsync
+161229	wfile：161229_wx_webwxsync.txt
+161229	looper webwxsync http.strCode:200
+161229	sync_newMessage：6363639008041770832 [@c801449136749c3b7e6b886f374b1c21]->[@c801449136749c3b7e6b886f374b1c21]:
+161229	
+161229	
+161229	webwxsync
+161229	wfile：161229_wx_webwxsync.txt
+161229	looper webwxsync http.strCode:200
+161229	
+161229	
+161229	looper synccheck
+161230	wfile：161230_wx_webwxgetcontact.txt
+161230	webwxgetcontact http.strCode:200
+161230	一共获取到的通讯录：98
+161230	
+161230	
+161230	  mm_webwxbatchgetcontact_chatroom
+161231	wfile：161231_webwxbatchgetcontact.txt
+161231	webwxbatchgetcontact  http.strCode :200
+162326	
+162326	
+162326	webwxstatusnotify
+162326	wfile：162326_wx_webwxstatusnotify.txt
+162326	looper webwxstatusnotify http.strCode:200
+162326	webwxstatusnotify [0]：
+162326	webwxstatusnotify MsgID=2953199080962850724
+162326	
+162326	
+162326	webwxsync
+162327	wfile：162327_wx_webwxsync.txt
+162327	looper webwxsync http.strCode:200
+162327	
+162327	
+162327	webwxsync
+162327	wfile：162327_wx_webwxsync.txt
+162327	looper webwxsync http.strCode:200
+162327	sync_newMessage：7023618745473926726 [@527d931eaa03783beb84ce4a7f04286f]->[@527d931eaa03783beb84ce4a7f04286f]:
+162327	
+162327	
+162327	webwxsync
+162328	wfile：162328_wx_webwxsync.txt
+162328	looper webwxsync http.strCode:200
+162328	
+162328	
+162328	looper synccheck
+162328	wfile：162328_wx_webwxgetcontact.txt
+162328	webwxgetcontact http.strCode:200
+162328	一共获取到的通讯录：98
+162328	
+162328	
+162328	  mm_webwxbatchgetcontact_chatroom
+162330	wfile：162330_webwxbatchgetcontact.txt
+162330	webwxbatchgetcontact  http.strCode :200
+162353	window.synccheck={retcode:"0",selector:"0"}
+162353	
+162353	
+162353	looper synccheck
+162418	window.synccheck={retcode:"0",selector:"0"}
+162419	
+162419	
+162419	looper synccheck
+162520	
+162520	
+162520	webwxstatusnotify
+162520	wfile：162520_wx_webwxstatusnotify.txt
+162520	looper webwxstatusnotify http.strCode:200
+162520	webwxstatusnotify [0]：
+162520	webwxstatusnotify MsgID=3696016187458416813
+162520	
+162520	
+162520	webwxsync
+162521	wfile：162521_wx_webwxsync.txt
+162521	looper webwxsync http.strCode:200
+162521	
+162521	
+162521	webwxsync
+162521	wfile：162521_wx_webwxsync.txt
+162521	looper webwxsync http.strCode:200
+162521	sync_newMessage：6184920256692759839 [@38298702089559abf2cce1693e12a981]->[@38298702089559abf2cce1693e12a981]:
+162521	
+162521	
+162521	webwxsync
+162522	wfile：162522_wx_webwxsync.txt
+162522	looper webwxsync http.strCode:200
+162522	
+162522	
+162522	looper synccheck
+162522	wfile：162522_wx_webwxgetcontact.txt
+162522	webwxgetcontact http.strCode:200
+162522	一共获取到的通讯录：98
+162522	
+162522	
+162522	  mm_webwxbatchgetcontact_chatroom
+162524	wfile：162524_webwxbatchgetcontact.txt
+162524	webwxbatchgetcontact  http.strCode :200
+162547	window.synccheck={retcode:"0",selector:"0"}
+162547	
+162547	
+162547	looper synccheck
+162650	
+162650	
+162650	webwxstatusnotify
+162650	wfile：162650_wx_webwxstatusnotify.txt
+162650	looper webwxstatusnotify http.strCode:200
+162650	webwxstatusnotify [0]：
+162650	webwxstatusnotify MsgID=1114770483435468736
+162650	
+162650	
+162650	webwxsync
+162651	wfile：162651_wx_webwxsync.txt
+162651	looper webwxsync http.strCode:200
+162651	
+162651	
+162651	webwxsync
+162652	wfile：162652_wx_webwxsync.txt
+162652	looper webwxsync http.strCode:200
+162652	sync_newMessage：8577905736597888813 [@0dbf44d723b4808af0fe162a4b2772ae]->[@0dbf44d723b4808af0fe162a4b2772ae]:
+162652	
+162652	
+162652	webwxsync
+162652	wfile：162652_wx_webwxsync.txt
+162652	looper webwxsync http.strCode:200
+162652	
+162652	
+162652	looper synccheck
+162653	wfile：162653_wx_webwxgetcontact.txt
+162653	webwxgetcontact http.strCode:200
+162653	一共获取到的通讯录：98
+162653	
+162653	
+162653	  mm_webwxbatchgetcontact_chatroom
+162654	wfile：162654_webwxbatchgetcontact.txt
+162654	webwxbatchgetcontact  http.strCode :200
+162717	window.synccheck={retcode:"0",selector:"0"}
+162718	
+162718	
+162718	looper synccheck
+162743	window.synccheck={retcode:"0",selector:"0"}
+162743	
+162743	
+162743	looper synccheck
+162808	window.synccheck={retcode:"0",selector:"0"}
+162809	
+162809	
+162809	looper synccheck
+162848	
+162848	
+162848	webwxstatusnotify
+162848	wfile：162848_wx_webwxstatusnotify.txt
+162848	looper webwxstatusnotify http.strCode:200
+162848	webwxstatusnotify [0]：
+162848	webwxstatusnotify MsgID=1690236645885365234
+162848	
+162848	
+162848	webwxsync
+162849	wfile：162849_wx_webwxsync.txt
+162849	looper webwxsync http.strCode:200
+162849	
+162849	
+162849	webwxsync
+162849	wfile：162849_wx_webwxsync.txt
+162849	looper webwxsync http.strCode:200
+162849	sync_newMessage：1693435677997129452 [@2f636f7338429e34a758f57b2bf10157]->[@2f636f7338429e34a758f57b2bf10157]:
+162849	
+162849	
+162849	webwxsync
+162850	wfile：162850_wx_webwxsync.txt
+162850	looper webwxsync http.strCode:200
+162850	
+162850	
+162850	looper synccheck
+162850	wfile：162850_wx_webwxgetcontact.txt
+162850	webwxgetcontact http.strCode:200
+162850	一共获取到的通讯录：98
+162850	
+162850	
+162850	  mm_webwxbatchgetcontact_chatroom
+162852	wfile：162852_webwxbatchgetcontact.txt
+162852	webwxbatchgetcontact  http.strCode :200
+162914	window.synccheck={retcode:"0",selector:"2"}
+162914	
+162914	
+162914	webwxsync
+162914	wfile：162914_wx_webwxsync.txt
+162914	looper webwxsync http.strCode:200
+162914	sync_newMessage：5908534614646239654 [@a4b98b2ab52c57f2d6c8f3c88e2a2117a152b33c09d6fd65134b3e07779075ce]->[@2f636f7338429e34a758f57b2bf10157]:&lt;?xml version="1.0"?&gt;<br/>&lt;msg bigheadimgurl="http://wx.qlogo.cn/mmhead/Q3auHgzwzM50PCOeTrK71TxxaGeic2EW0e6aibqxo0t4h6cEQPlxFuoA/0" smallheadimgurl="http://wx.qlogo.cn/mmhead/Q3auHgzwzM50PCOeTrK71TxxaGeic2EW0e6aibqxo0t4h6cEQPlxFuoA/132" username="gh_5a6a6d9bedab" nickname="帮您减少手机空间v"  shortpy="" alias="" imagestatus="3" scene="17" province="不丹" city="不丹" sign="" sex="0" certflag="8" certinfo="感谢关注本公众平台提供专业检测僵尸粉业务" brandIconUrl="http://mmbiz.qpic.cn/mmbiz_png/Wm6xQTSyokGA2YxFn6nibb8T4a86zspwiay5icXnNNvsVls7IxoiccTIVnDtjU8Bq5GFda96r80pFWqlgeAtPvxFLg/0?wx_fmt=png" brandHomeUrl="" brandSubscriptConfigUrl="{&amp;quot;urls&amp;quot;:[{&amp;quot;title&amp;quot;:&amp;quot;查看历史消息&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;http:\/\/mp.weixin.qq.com\/mp\/getmasssendmsg?__biz=MzUzODA3MTc1NQ==#wechat_webview_type=1&amp;amp;wechat_redirect&amp;quot;,&amp;quot;title_key&amp;quot;:&amp;quot;__mp_wording__brandinfo_history_massmsg&amp;quot;}]}" brandFlags="0" regionCode="BT" /&gt;<br/>
+162914	
+162914	
+162914	webwxstatusnotify
+162915	wfile：162915_wx_webwxstatusnotify.txt
+162915	looper webwxstatusnotify http.strCode:200
+162915	webwxstatusnotify [0]：
+162915	webwxstatusnotify MsgID=3178834724806157844
+162915	
+162915	
+162915	looper synccheck
+162915	window.synccheck={retcode:"0",selector:"2"}
+162915	
+162915	
+162915	webwxsync
+162916	wfile：162916_wx_webwxsync.txt
+162916	looper webwxsync http.strCode:200
+162916	
+162916	
+162916	looper synccheck
+162919	window.synccheck={retcode:"0",selector:"2"}
+162919	
+162919	
+162919	webwxsync
+162920	wfile：162920_wx_webwxsync.txt
+162920	looper webwxsync http.strCode:200
+162920	sync_newMessage：2937605791433669390 [@2f636f7338429e34a758f57b2bf10157]->[@a4b98b2ab52c57f2d6c8f3c88e2a2117a152b33c09d6fd65134b3e07779075ce]:
+162920	
+162920	
+162920	looper synccheck
+163647	
+163647	
+163647	webwxstatusnotify
+163648	wfile：163648_wx_webwxstatusnotify.txt
+163648	looper webwxstatusnotify http.strCode:200
+163648	webwxstatusnotify [0]：
+163648	webwxstatusnotify MsgID=5242044136528316788
+163648	
+163648	
+163648	webwxsync
+163648	wfile：163648_wx_webwxsync.txt
+163649	looper webwxsync http.strCode:200
+163649	
+163649	
+163649	webwxsync
+163649	wfile：163649_wx_webwxsync.txt
+163649	looper webwxsync http.strCode:200
+163649	sync_newMessage：3522337247472885858 [@d9f1f99a819a675d0119df8237fc5e4a]->[@d9f1f99a819a675d0119df8237fc5e4a]:
+163649	
+163649	
+163649	webwxsync
+163649	wfile：163649_wx_webwxsync.txt
+163649	looper webwxsync http.strCode:200
+163649	
+163649	
+163649	looper synccheck
+163649	window.synccheck={retcode:"1101",selector:"0"}
+163650	wfile：163650_wx_webwxgetcontact.txt
+163650	webwxgetcontact http.strCode:200
+163650	一共获取到的通讯录：98
+163650	
+163650	
+163650	  mm_webwxbatchgetcontact_chatroom
+163651	wfile：163651_webwxbatchgetcontact.txt
+163651	webwxbatchgetcontact  http.strCode :200
+163654	已注销,停止运作 尝试检查:0
+163658	
+163658	
+163658	looper synccheck
+163658	window.synccheck={retcode:"1101",selector:"0"}
+163703	
+163703	
+163703	webwxsendmsg
+163703	wfile：163703_wx_webwxsendmsg.txt
+163703	 webwxsendmsg http.strCode:200
+163703	wx_webwxsendmsg res_sendmsg.MsgID：6963025473025135612
+163703	已注销,停止运作 尝试检查:1
+163707	
+163707	
+163707	looper synccheck
+163707	window.synccheck={retcode:"1101",selector:"0"}
+163712	已注销,停止运作 尝试检查:2
+163715	StartWebMM:login_StartQRcodeLogin false
+163938	
+163938	
+163938	webwxstatusnotify
+163939	wfile：163939_wx_webwxstatusnotify.txt
+163939	looper webwxstatusnotify http.strCode:200
+163939	webwxstatusnotify [0]：
+163939	webwxstatusnotify MsgID=8771966800520773112
+163939	
+163939	
+163939	webwxsync
+163940	wfile：163940_wx_webwxsync.txt
+163940	looper webwxsync http.strCode:200
+163940	
+163940	
+163940	webwxsync
+163940	wfile：163940_wx_webwxsync.txt
+163940	looper webwxsync http.strCode:200
+163940	sync_newMessage：5955328476955434096 [@25cae3875c97b0f28f0de2f0b6b754fe]->[@25cae3875c97b0f28f0de2f0b6b754fe]:
+163940	
+163940	
+163940	webwxsync
+163940	wfile：163940_wx_webwxsync.txt
+163940	looper webwxsync http.strCode:200
+163940	
+163940	
+163940	looper synccheck
+163941	wfile：163941_wx_webwxgetcontact.txt
+163941	webwxgetcontact http.strCode:200
+163941	一共获取到的通讯录：98
+163941	
+163941	
+163941	  mm_webwxbatchgetcontact_chatroom
+163942	wfile：163942_webwxbatchgetcontact.txt
+163942	webwxbatchgetcontact  http.strCode :200
+163950	
+163950	
+163950	webwxsendmsg
+163950	window.synccheck={retcode:"0",selector:"2"}
+163950	
+163950	
+163950	webwxsync
+163951	wfile：163951_wx_webwxsync.txt
+163951	looper webwxsync http.strCode:200
+163951	
+163951	
+163951	looper synccheck
+164016	window.synccheck={retcode:"0",selector:"0"}
+164017	
+164017	
+164017	looper synccheck
+164042	window.synccheck={retcode:"0",selector:"0"}
+164042	
+164042	
+164042	looper synccheck
+164148	
+164148	
+164148	webwxstatusnotify
+164148	wfile：164148_wx_webwxstatusnotify.txt
+164148	looper webwxstatusnotify http.strCode:200
+164148	webwxstatusnotify [0]：
+164148	webwxstatusnotify MsgID=3222631840555241496
+164148	
+164148	
+164148	webwxsync
+164149	wfile：164149_wx_webwxsync.txt
+164149	looper webwxsync http.strCode:200
+164149	sync_newMessage：547157808727666076 [@f2d4504736e607ce0780554b413d41b6]->[@f2d4504736e607ce0780554b413d41b6]:
+164149	
+164149	
+164149	webwxsync
+164150	wfile：164150_wx_webwxsync.txt
+164150	looper webwxsync http.strCode:200
+164150	sync_newMessage：547157808727666076 [@f2d4504736e607ce0780554b413d41b6]->[@f2d4504736e607ce0780554b413d41b6]:
+164150	
+164150	
+164150	webwxsync
+164150	wfile：164150_wx_webwxsync.txt
+164150	looper webwxsync http.strCode:200
+164150	
+164150	
+164150	looper synccheck
+164150	window.synccheck={retcode:"1101",selector:"0"}
+164151	wfile：164151_wx_webwxgetcontact.txt
+164151	webwxgetcontact http.strCode:200
+164151	一共获取到的通讯录：98
+164151	
+164151	
+164151	  mm_webwxbatchgetcontact_chatroom
+164152	wfile：164152_webwxbatchgetcontact.txt
+164152	webwxbatchgetcontact  http.strCode :200
+164155	已注销,停止运作 尝试检查:0
+164159	
+164159	
+164159	looper synccheck
+164159	window.synccheck={retcode:"1101",selector:"0"}
+164204	已注销,停止运作 尝试检查:1
+164207	
+164207	
+164207	looper synccheck
+164208	window.synccheck={retcode:"1101",selector:"0"}
+164213	已注销,停止运作 尝试检查:2
+164216	StartWebMM:login_StartQRcodeLogin false
+164219	
+164219	
+164219	webwxsendmsg
+164219	wfile：164219_wx_webwxsendmsg.txt
+164219	 webwxsendmsg http.strCode:200
+164219	wx_webwxsendmsg res_sendmsg.MsgID：607666961529941994
+164605	
+164605	
+164605	webwxstatusnotify
+164605	wfile：164605_wx_webwxstatusnotify.txt
+164605	looper webwxstatusnotify http.strCode:200
+164605	webwxstatusnotify [0]：
+164605	webwxstatusnotify MsgID=4547349001184832236
+164605	
+164605	
+164605	webwxsync
+164606	wfile：164606_wx_webwxsync.txt
+164606	looper webwxsync http.strCode:200
+164606	
+164606	
+164606	webwxsync
+164607	wfile：164607_wx_webwxsync.txt
+164607	looper webwxsync http.strCode:200
+164607	sync_newMessage：647884281470112928 [@31cd9dbf0a4efb0cdff7f9b081d9f4b9]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:
+164607	
+164607	
+164607	webwxsync
+164607	wfile：164607_wx_webwxsync.txt
+164607	looper webwxsync http.strCode:200
+164607	
+164607	
+164607	looper synccheck
+164608	wfile：164608_wx_webwxgetcontact.txt
+164608	webwxgetcontact http.strCode:200
+164608	一共获取到的通讯录：98
+164608	
+164608	
+164608	  mm_webwxbatchgetcontact_chatroom
+164609	wfile：164609_webwxbatchgetcontact.txt
+164609	webwxbatchgetcontact  http.strCode :200
+164632	window.synccheck={retcode:"0",selector:"0"}
+164632	
+164632	
+164632	webwxsendmsg
+164633	wfile：164633_wx_webwxsendmsg.txt
+164633	 webwxsendmsg http.strCode:200
+164633	wx_webwxsendmsg res_sendmsg.MsgID：1073216959703968271
+164633	
+164633	
+164633	looper synccheck
+164633	window.synccheck={retcode:"0",selector:"2"}
+164633	
+164633	
+164633	webwxsync
+164633	wfile：164633_wx_webwxsync.txt
+164633	looper webwxsync http.strCode:200
+164634	
+164634	
+164634	looper synccheck
+164659	window.synccheck={retcode:"0",selector:"0"}
+164659	
+164659	
+164659	looper synccheck
+164713	window.synccheck={retcode:"0",selector:"4"}
+164713	
+164713	
+164713	webwxsync
+164714	wfile：164714_wx_webwxsync.txt
+164714	looper webwxsync http.strCode:200
+164714	
+164714	
+164714	looper synccheck
+164737	
+164737	
+164737	webwxsendmsg
+164737	window.synccheck={retcode:"0",selector:"2"}
+164737	
+164737	
+164737	webwxsync
+164738	wfile：164738_wx_webwxsync.txt
+164738	looper webwxsync http.strCode:200
+164738	
+164738	
+164738	looper synccheck
+164748	window.synccheck={retcode:"0",selector:"2"}
+164748	
+164748	
+164748	webwxsync
+164748	wfile：164748_wx_webwxsync.txt
+164748	looper webwxsync http.strCode:200
+164748	sync_newMessage：6663481208899437168 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:hao
+164748	
+164748	
+164748	webwxstatusnotify
+164749	wfile：164749_wx_webwxstatusnotify.txt
+164749	looper webwxstatusnotify http.strCode:200
+164749	webwxstatusnotify [0]：
+164749	webwxstatusnotify MsgID=7598817681292309180
+164818	
+164818	
+164818	looper synccheck
+164818	window.synccheck={retcode:"0",selector:"2"}
+164818	
+164818	
+164818	webwxsync
+164818	wfile：164818_wx_webwxsync.txt
+164818	looper webwxsync http.strCode:200
+164818	sync_newMessage：399139669248263504 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:怎么样？
+164818	
+164818	
+164818	webwxstatusnotify
+164818	wfile：164818_wx_webwxstatusnotify.txt
+164818	looper webwxstatusnotify http.strCode:200
+164819	webwxstatusnotify [0]：
+164819	webwxstatusnotify MsgID=7843570628847777157
+164819	
+164819	
+164819	looper synccheck
+164819	window.synccheck={retcode:"0",selector:"2"}
+164819	
+164819	
+164819	webwxsync
+164819	wfile：164819_wx_webwxsync.txt
+164819	looper webwxsync http.strCode:200
+164820	
+164820	
+164820	looper synccheck
+164830	
+164830	
+164830	webwxsendmsg
+164831	window.synccheck={retcode:"0",selector:"2"}
+164831	
+164831	
+164831	webwxsync
+164831	wfile：164831_wx_webwxsendmsg.txt
+164831	 webwxsendmsg http.strCode:200
+164831	wx_webwxsendmsg res_sendmsg.MsgID：3037228806887853949
+164831	wfile：164831_wx_webwxsync.txt
+164831	looper webwxsync http.strCode:200
+164831	
+164831	
+164831	looper synccheck
+164843	window.synccheck={retcode:"0",selector:"2"}
+164843	
+164843	
+164843	webwxsync
+164844	wfile：164844_wx_webwxsync.txt
+164844	looper webwxsync http.strCode:200
+164844	sync_newMessage：1978024950663277285 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:厉害了  我的哥
+164844	
+164844	
+164844	webwxstatusnotify
+164844	wfile：164844_wx_webwxstatusnotify.txt
+164844	looper webwxstatusnotify http.strCode:200
+164844	webwxstatusnotify [0]：
+164844	webwxstatusnotify MsgID=3156763265306974203
+164844	
+164844	
+164844	looper synccheck
+164845	window.synccheck={retcode:"0",selector:"2"}
+164845	
+164845	
+164845	webwxsync
+164845	wfile：164845_wx_webwxsync.txt
+164845	looper webwxsync http.strCode:200
+164845	
+164845	
+164845	looper synccheck
+164847	window.synccheck={retcode:"0",selector:"2"}
+164847	
+164847	
+164847	webwxsync
+164848	wfile：164848_wx_webwxsync.txt
+164848	looper webwxsync http.strCode:200
+164848	sync_newMessage：4751580448366706701 [@31cd9dbf0a4efb0cdff7f9b081d9f4b9]->[@2d910bf4b96d5974c6659cfb0f6abf02]:
+164848	
+164848	
+164848	looper synccheck
+164855	window.synccheck={retcode:"0",selector:"2"}
+164855	
+164855	
+164855	webwxsync
+164855	wfile：164855_wx_webwxsync.txt
+164855	looper webwxsync http.strCode:200
+164855	sync_newMessage：4934054394241809928 [@31cd9dbf0a4efb0cdff7f9b081d9f4b9]->[@2d910bf4b96d5974c6659cfb0f6abf02]:<span class="emoji emoji1f639"></span>
+164855	
+164855	
+164855	webwxstatusnotify
+164856	wfile：164856_wx_webwxstatusnotify.txt
+164856	looper webwxstatusnotify http.strCode:200
+164856	webwxstatusnotify [0]：
+164856	webwxstatusnotify MsgID=6494240126334319657
+164856	
+164856	
+164856	looper synccheck
+164856	window.synccheck={retcode:"0",selector:"2"}
+164856	
+164856	
+164856	webwxsync
+164857	wfile：164857_wx_webwxsync.txt
+164857	looper webwxsync http.strCode:200
+164857	
+164857	
+164857	looper synccheck
+164858	window.synccheck={retcode:"0",selector:"2"}
+164858	
+164858	
+164858	webwxsync
+164858	wfile：164858_wx_webwxsync.txt
+164858	looper webwxsync http.strCode:200
+164858	sync_newMessage：3937764222711388654 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:[偷笑]靠你了
+164858	
+164858	
+164858	webwxstatusnotify
+164858	wfile：164858_wx_webwxstatusnotify.txt
+164858	looper webwxstatusnotify http.strCode:200
+164859	webwxstatusnotify [0]：
+164859	webwxstatusnotify MsgID=2438742242474269314
+164859	
+164859	
+164859	looper synccheck
+164859	window.synccheck={retcode:"0",selector:"2"}
+164859	
+164859	
+164859	webwxsync
+164900	wfile：164900_wx_webwxsync.txt
+164900	looper webwxsync http.strCode:200
+164900	
+164900	
+164900	looper synccheck
+164917	window.synccheck={retcode:"0",selector:"2"}
+164917	
+164917	
+164917	webwxsync
+164917	wfile：164917_wx_webwxsync.txt
+164917	looper webwxsync http.strCode:200
+164917	sync_newMessage：4374273874771796710 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:没用C#
+164917	
+164917	
+164917	webwxstatusnotify
+164917	wfile：164917_wx_webwxstatusnotify.txt
+164917	looper webwxstatusnotify http.strCode:200
+164917	webwxstatusnotify [0]：
+164917	webwxstatusnotify MsgID=1251796426931235233
+164918	
+164918	
+164918	looper synccheck
+164918	window.synccheck={retcode:"0",selector:"2"}
+164918	
+164918	
+164918	webwxsync
+164918	wfile：164918_wx_webwxsync.txt
+164918	looper webwxsync http.strCode:200
+164919	
+164919	
+164919	looper synccheck
+164921	window.synccheck={retcode:"0",selector:"2"}
+164921	
+164921	
+164921	webwxsync
+164921	wfile：164921_wx_webwxsync.txt
+164921	looper webwxsync http.strCode:200
+164921	sync_newMessage：6382833697907562079 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:没用过
+164921	
+164921	
+164921	webwxstatusnotify
+164922	wfile：164922_wx_webwxstatusnotify.txt
+164922	looper webwxstatusnotify http.strCode:200
+164922	webwxstatusnotify [0]：
+164922	webwxstatusnotify MsgID=4747740402442349329
+164922	
+164922	
+164922	looper synccheck
+164922	window.synccheck={retcode:"0",selector:"2"}
+164922	
+164922	
+164922	webwxsync
+164923	wfile：164923_wx_webwxsync.txt
+164923	looper webwxsync http.strCode:200
+164923	
+164923	
+164923	looper synccheck
+164929	window.synccheck={retcode:"0",selector:"2"}
+164929	
+164929	
+164929	webwxsync
+164929	wfile：164929_wx_webwxsync.txt
+164929	looper webwxsync http.strCode:200
+164929	sync_newMessage：4790053950787990499 [@daf13bb5c972da3cc72956c499d2627c]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:在的
+164929	
+164929	
+164929	webwxstatusnotify
+164930	wfile：164929_wx_webwxstatusnotify.txt
+164930	looper webwxstatusnotify http.strCode:200
+164930	webwxstatusnotify [0]：
+164930	webwxstatusnotify MsgID=3097505907565270394
+164930	
+164930	
+164930	looper synccheck
+164930	window.synccheck={retcode:"0",selector:"2"}
+164930	
+164930	
+164930	webwxsync
+164931	wfile：164930_wx_webwxsync.txt
+164931	looper webwxsync http.strCode:200
+164931	
+164931	
+164931	looper synccheck
+164956	window.synccheck={retcode:"0",selector:"0"}
+164957	
+164957	
+164957	looper synccheck
+164958	
+164958	
+164958	webwxsendmsg
+164959	window.synccheck={retcode:"0",selector:"2"}
+164959	
+164959	wx_webwxsendmsg res_sendmsg.MsgID：8980624267194895813
+164959	wfile：164959_wx_webwxsync.txt
+164959	looper webwxsync http.strCode:200
+164959	
+164959	
+164959	looper synccheck
+165004	window.synccheck={retcode:"0",selector:"2"}
+165004	
+165004	
+165004	webwxsync
+165004	wfile：165004_wx_webwxsync.txt
+165004	looper webwxsync http.strCode:200
+165004	sync_newMessage：4239038282005443765 [@31cd9dbf0a4efb0cdff7f9b081d9f4b9]->[@daf13bb5c972da3cc72956c499d2627c]:
+165005	
+165005	
+165005	looper synccheck
+165027	
+165027	
+165027	webwxsendmsg
+165027	window.synccheck={retcode:"0",selector:"2"}
+165027	
+165027	
+165027	webwxsync
+165027	wfile：165027_wx_webwxsync.txt
+165027	looper webwxsync http.strCode:200
+165028	
+165028	
+165028	looper synccheck
+165035	window.synccheck={retcode:"0",selector:"2"}
+165035	
+165035	
+165035	webwxsync
+165035	wfile：165035_wx_webwxsync.txt
+165035	looper webwxsync http.strCode:200
+165035	sync_newMessage：2476043860202440057 [@2d910bf4b96d5974c6659cfb0f6abf02]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:java都好几年前用过   	早不记得了<span class="emoji emoji1f639"></span>
+165035	
+165035	
+165035	webwxstatusnotify
+165035	wfile：165035_wx_webwxstatusnotify.txt
+165035	looper webwxstatusnotify http.strCode:200
+165035	webwxstatusnotify [0]：
+165035	webwxstatusnotify MsgID=2777210884478635395
+165036	
+165036	
+165036	looper synccheck
+165036	window.synccheck={retcode:"0",selector:"2"}
+165036	
+165036	
+165036	webwxsync
+165036	wfile：165036_wx_webwxsync.txt
+165036	looper webwxsync http.strCode:200
+165037	
+165037	
+165037	looper synccheck
+165042	window.synccheck={retcode:"0",selector:"2"}
+165042	
+165042	
+165042	webwxsync
+165042	wfile：165042_wx_webwxsync.txt
+165042	looper webwxsync http.strCode:200
+165042	sync_newMessage：3095344184479021673 [@daf13bb5c972da3cc72956c499d2627c]->[@31cd9dbf0a4efb0cdff7f9b081d9f4b9]:[捂脸]
+165042	
+165042	
+165042	webwxstatusnotify
+165042	wfile：165042_wx_webwxstatusnotify.txt
+165042	looper webwxstatusnotify http.strCode:200
+165042	webwxstatusnotify [0]：
+165042	webwxstatusnotify MsgID=3549859099890154441
+165043	
+165043	
+165043	looper synccheck
+165043	window.synccheck={retcode:"0",selector:"2"}
+165043	
+165043	
+165043	webwxsync
+165043	wfile：165043_wx_webwxsync.txt
+165043	looper webwxsync http.strCode:200
+165044	
+165044	
+165044	looper synccheck
+165109	window.synccheck={retcode:"0",selector:"0"}
+165109	
+165110	
+165110	looper synccheck
+165135	window.synccheck={retcode:"0",selector:"0"}
+165135	
+165135	
+165135	looper synccheck
+170609	
+170609	
+170609	webwxstatusnotify
+170610	wfile：170610_wx_webwxstatusnotify.txt
+170610	looper webwxstatusnotify http.strCode:200
+170610	webwxstatusnotify [0]：
+170610	webwxstatusnotify MsgID=6983606497387640045
+170610	
+170610	
+170610	webwxsync
+170610	wfile：170610_wx_webwxsync.txt
+170610	looper webwxsync http.strCode:200
+170610	
+170610	
+170610	webwxsync
+170611	wfile：170611_wx_webwxsync.txt
+170611	looper webwxsync http.strCode:200
+170611	sync_newMessage：8200926301952705764 [@5e1a1bef3685e99b2cb6b4ef33c2e17e]->[@5e1a1bef3685e99b2cb6b4ef33c2e17e]:
+170611	
+170611	
+170611	webwxsync
+170611	wfile：170611_wx_webwxsync.txt
+170611	looper webwxsync http.strCode:200
+170611	
+170611	
+170611	looper synccheck
+170611	window.synccheck={retcode:"1101",selector:"0"}
+170612	wfile：170612_wx_webwxgetcontact.txt
+170612	webwxgetcontact http.strCode:200
+170612	一共获取到的通讯录：98
+170612	
+170612	
+170612	  mm_webwxbatchgetcontact_chatroom
+170613	wfile：170613_webwxbatchgetcontact.txt
+170613	webwxbatchgetcontact  http.strCode :200
+170616	已注销,停止运作 尝试检查:0
+170620	
+170620	
+170620	looper synccheck
+170620	window.synccheck={retcode:"1101",selector:"0"}
+170623	
+170623	
+170623	webwxsendmsg
+170624	wfile：170624_wx_webwxsendmsg.txt
+170624	 webwxsendmsg http.strCode:200
+170624	wx_webwxsendmsg res_sendmsg.MsgID：1376074780351163933
+170632	已注销,停止运作 尝试检查:1
+170711	
+170711	
+170711	webwxstatusnotify
+170712	wfile：170712_wx_webwxstatusnotify.txt
+170712	looper webwxstatusnotify http.strCode:200
+170712	webwxstatusnotify [0]：
+170712	webwxstatusnotify MsgID=8167195524907055365
+170712	
+170712	
+170712	webwxsync
+170713	wfile：170713_wx_webwxsync.txt
+170713	looper webwxsync http.strCode:200
+170713	sync_newMessage：6342469688395869901 [@0b3fc8a05eeaf8601d16af75063bc321]->[@0b3fc8a05eeaf8601d16af75063bc321]:
+170713	
+170713	
+170713	webwxsync
+170713	wfile：170713_wx_webwxsync.txt
+170713	looper webwxsync http.strCode:200
+170713	
+170713	
+170713	webwxsync
+170714	wfile：170714_wx_webwxsync.txt
+170714	looper webwxsync http.strCode:200
+170714	
+170714	
+170714	looper synccheck
+170715	wfile：170715_wx_webwxgetcontact.txt
+170715	webwxgetcontact http.strCode:200
+170715	一共获取到的通讯录：98
+170715	
+170715	
+170715	  mm_webwxbatchgetcontact_chatroom
+170716	wfile：170716_webwxbatchgetcontact.txt
+170716	webwxbatchgetcontact  http.strCode :200
+170721	
+170721	
+170721	webwxsendmsg
+170722	window.synccheck={retcode:"0",selector:"2"}
+170722	
+170722	
+170722	webwxsync
+170722	wfile：170722_wx_webwxsync.txt
+170722	looper webwxsync http.strCode:200
+170723	
+170723	
+170723	looper synccheck
+170733	window.synccheck={retcode:"0",selector:"2"}
+170733	
+170733	
+170733	webwxsync
+170733	wfile：170733_wx_webwxsync.txt
+170733	looper webwxsync http.strCode:200
+170733	sync_newMessage：5292892172325984098 [@7e7d5d92b6073179aa8315a2f8c70a53]->[@0b3fc8a05eeaf8601d16af75063bc321]:计划
+170733	
+170733	
+170733	webwxstatusnotify
+170734	wfile：170734_wx_webwxstatusnotify.txt
+170734	looper webwxstatusnotify http.strCode:200
+170734	webwxstatusnotify [0]：
+170734	webwxstatusnotify MsgID=8629101151665213103
+170910	
+170910	
+170910	webwxstatusnotify
+170910	wfile：170910_wx_webwxstatusnotify.txt
+170910	looper webwxstatusnotify http.strCode:200
+170910	webwxstatusnotify [0]：
+170910	webwxstatusnotify MsgID=4100081547859298001
+170911	
+170911	
+170911	webwxsync
+170911	wfile：170911_wx_webwxsync.txt
+170911	looper webwxsync http.strCode:200
+170911	
+170911	
+170911	webwxsync
+170911	wfile：170911_wx_webwxsync.txt
+170911	looper webwxsync http.strCode:200
+170911	sync_newMessage：474794888855783582 [@ebb477882e5c461c7f509a4336762e6b]->[@ebb477882e5c461c7f509a4336762e6b]:
+170911	
+170911	
+170911	webwxsync
+170912	wfile：170912_wx_webwxsync.txt
+170912	looper webwxsync http.strCode:200
+170912	
+170912	
+170912	looper synccheck
+170913	wfile：170913_wx_webwxgetcontact.txt
+170913	webwxgetcontact http.strCode:200
+170913	一共获取到的通讯录：98
+170913	
+170913	
+170913	  mm_webwxbatchgetcontact_chatroom
+170914	wfile：170914_webwxbatchgetcontact.txt
+170914	webwxbatchgetcontact  http.strCode :200
+170917	window.synccheck={retcode:"0",selector:"2"}
+170917	
+170917	
+170917	webwxsync
+170917	wfile：170917_wx_webwxsync.txt
+170917	looper webwxsync http.strCode:200
+170917	sync_newMessage：577574210728026816 [@ebb477882e5c461c7f509a4336762e6b]->[@@8e810ce9090d761ffa75d52de0540ed27fe4ad6c0cf14b249c34c6183fa851fd]:
+170918	
+170918	
+170918	looper synccheck
+170924	window.synccheck={retcode:"0",selector:"2"}
+170924	
+170924	
+170924	webwxsync
+170925	wfile：170925_wx_webwxsync.txt
+170925	looper webwxsync http.strCode:200
+170925	sync_newMessage：2209022795274569935 [@2bf87b1b1ea6ee961f26dadf33dd05b9]->[@ebb477882e5c461c7f509a4336762e6b]:lai l
+170925	
+170925	
+170925	webwxstatusnotify
+170925	wfile：170925_wx_webwxstatusnotify.txt
+170925	looper webwxstatusnotify http.strCode:200
+170925	webwxstatusnotify [0]：
+170925	webwxstatusnotify MsgID=3351207279467534526
+170926	
+170926	
+170926	looper synccheck
+170926	window.synccheck={retcode:"0",selector:"2"}
+170926	
+170926	
+170926	webwxsync
+170926	wfile：170926_wx_webwxsync.txt
+170926	looper webwxsync http.strCode:200
+170927	
+170927	
+170927	looper synccheck
+170942	window.synccheck={retcode:"0",selector:"2"}
+170942	
+170942	
+170942	webwxsync
+170943	wfile：170943_wx_webwxsync.txt
+170943	looper webwxsync http.strCode:200
+170943	sync_newMessage：7111439457409039089 [@ebb477882e5c461c7f509a4336762e6b]->[@2bf87b1b1ea6ee961f26dadf33dd05b9]:
+170943	
+170943	
+170943	looper synccheck
+170946	window.synccheck={retcode:"0",selector:"2"}
+170946	
+170946	
+170946	webwxsync
+170946	wfile：170946_wx_webwxsync.txt
+170946	looper webwxsync http.strCode:200
+170946	sync_newMessage：4684374814430454817 [@2bf87b1b1ea6ee961f26dadf33dd05b9]->[@ebb477882e5c461c7f509a4336762e6b]:123123
+170946	
+170946	
+170946	webwxstatusnotify
+170947	wfile：170947_wx_webwxstatusnotify.txt
+170947	looper webwxstatusnotify http.strCode:200
+170947	webwxstatusnotify [0]：
+170947	webwxstatusnotify MsgID=6521783174118506648
+171324	
+171324	
+171324	webwxstatusnotify
+171325	wfile：171325_wx_webwxstatusnotify.txt
+171325	looper webwxstatusnotify http.strCode:200
+171325	webwxstatusnotify [0]：
+171325	webwxstatusnotify MsgID=3205976156634733545
+171325	
+171325	
+171325	webwxsync
+171325	wfile：171325_wx_webwxsync.txt
+171325	looper webwxsync http.strCode:200
+171325	
+171325	
+171325	webwxsync
+171325	wfile：171325_wx_webwxsync.txt
+171325	looper webwxsync http.strCode:200
+171325	sync_newMessage：2414137270288555786 [@3d62b718dd8aca67c8a6f25a312c5a4e]->[@3d62b718dd8aca67c8a6f25a312c5a4e]:
+171325	
+171325	
+171325	webwxsync
+171326	wfile：171326_wx_webwxsync.txt
+171326	looper webwxsync http.strCode:200
+171326	
+171326	
+171326	looper synccheck
+171326	wfile：171326_wx_webwxgetcontact.txt
+171326	webwxgetcontact http.strCode:200
+171326	一共获取到的通讯录：98
+171326	
+171326	
+171326	  mm_webwxbatchgetcontact_chatroom
+171328	wfile：171328_webwxbatchgetcontact.txt
+171328	webwxbatchgetcontact  http.strCode :200
+171344	
+171344	
+171344	webwxsendmsg
+171344	window.synccheck={retcode:"0",selector:"2"}
+171344	
+171345	
+171345	webwxsync
+171345	wfile：171345_wx_webwxsync.txt
+171345	looper webwxsync http.strCode:200
+171345	
+171345	
+171345	looper synccheck
+171506	
+171506	
+171506	webwxstatusnotify
+171506	wfile：171506_wx_webwxstatusnotify.txt
+171506	looper webwxstatusnotify http.strCode:200
+171506	webwxstatusnotify [0]：
+171506	webwxstatusnotify MsgID=3596131614549993993
+171506	
+171506	
+171506	webwxsync
+171506	wfile：171506_wx_webwxsync.txt
+171506	looper webwxsync http.strCode:200
+171506	
+171506	
+171506	webwxsync
+171507	wfile：171507_wx_webwxsync.txt
+171507	looper webwxsync http.strCode:200
+171507	sync_newMessage：5646686214136909824 [@5d022258eb2d9a218e2574324d6de8b1]->[@5d022258eb2d9a218e2574324d6de8b1]:
+171507	
+171507	
+171507	webwxsync
+171507	wfile：171507_wx_webwxsync.txt
+171507	looper webwxsync http.strCode:200
+171507	
+171507	
+171507	looper synccheck
+171508	wfile：171508_wx_webwxgetcontact.txt
+171508	webwxgetcontact http.strCode:200
+171508	一共获取到的通讯录：98
+171508	
+171508	
+171508	  mm_webwxbatchgetcontact_chatroom
+171509	wfile：171509_webwxbatchgetcontact.txt
+171509	webwxbatchgetcontact  http.strCode :200
+171519	
+171519	
+171519	webwxsendmsg
+171520	window.synccheck={retcode:"0",selector:"2"}
+171520	
+171520	
+171520	webwxsync
+171520	wfile：171520_wx_webwxsendmsg.txt
+171520	 webwxsendmsg http.strCode:200
+171520	wx_webwxsendmsg res_sendmsg.MsgID：4958571983102292154
+171520	wfile：171520_wx_webwxsync.txt
+171520	looper webwxsync http.strCode:200
+171521	
+171521	
+171521	looper synccheck
+171538	
+171538	
+171538	webwxsendmsg
+171538	window.synccheck={retcode:"0",selector:"2"}
+171538	
+171538	
+171538	webwxsync
+171539	wfile：171539_wx_webwxsync.txt
+171539	looper webwxsync http.strCode:200
+171539	
+171539	
+171539	looper synccheck
+171545	
+171545	
+171545	webwxsendmsg
+171545	window.synccheck={retcode:"0",selector:"2"}
+171545	
+171545	
+171545	webwxsync
+171546	wfile：171546_wx_webwxsync.txt
+171546	looper webwxsync http.strCode:200
+171546	
+171546	
+171546	looper synccheck
+171551	
+171551	
+171551	webwxsendmsg
+171552	window.synccheck={retcode:"0",selector:"2"}
+171552	
+171552	wfile：171552_wx_webwxsendmsg.txt
+171552	 webwxsendmsg http.strCode:200
+171552	wx_webwxsendmsg res_sendmsg.MsgID：3014486161189995064
+171552	wfile：171552_wx_webwxsync.txt
+171552	looper webwxsync http.strCode:200
+171553	
+171553	
+171553	looper synccheck
+171559	window.synccheck={retcode:"0",selector:"2"}
+171559	
+171559	
+171559	webwxsync
+171559	wfile：171559_wx_webwxsync.txt
+171559	looper webwxsync http.strCode:200
+171559	sync_newMessage：4051005706960211282 [@5d022258eb2d9a218e2574324d6de8b1]->[@9214672625b3b9d614687e6d5a5c685bad2a62614a8a3b565d343aba44234685]:
+171559	
+171559	
+171559	looper synccheck
+171603	window.synccheck={retcode:"0",selector:"2"}
+171603	
+171603	
+171603	webwxsync
+171604	wfile：171604_wx_webwxsync.txt
+171604	looper webwxsync http.strCode:200
+171604	sync_newMessage：4242566366697158119 [@9214672625b3b9d614687e6d5a5c685bad2a62614a8a3b565d343aba44234685]->[@5d022258eb2d9a218e2574324d6de8b1]:等不及了
+171604	
+171604	
+171604	webwxstatusnotify
+171604	wfile：171604_wx_webwxstatusnotify.txt
+171604	looper webwxstatusnotify http.strCode:200
+171604	webwxstatusnotify [0]：
+171604	webwxstatusnotify MsgID=2826798917491840643
+171605	
+171605	
+171605	looper synccheck
+171605	window.synccheck={retcode:"0",selector:"2"}
+171605	
+171605	
+171605	webwxsync
+171605	wfile：171605_wx_webwxsync.txt
+171605	looper webwxsync http.strCode:200
+171606	
+171606	
+171606	looper synccheck
+171612	
+171612	
+171612	webwxsendmsg
+171612	window.synccheck={retcode:"0",selector:"2"}
+171612	
+171612	
+171612	webwxsync
+171612	wfile：171612_wx_webwxsync.txt
+171612	looper webwxsync http.strCode:200
+171613	
+171613	
+171613	looper synccheck
+171614	window.synccheck={retcode:"0",selector:"2"}
+171614	
+171614	
+171614	webwxsync
+171615	wfile：171615_wx_webwxsync.txt
+171615	looper webwxsync http.strCode:200
+171615	sync_newMessage：5342117922936878372 [@9214672625b3b9d614687e6d5a5c685bad2a62614a8a3b565d343aba44234685]->[@5d022258eb2d9a218e2574324d6de8b1]:要耐得住寂寞
+171615	
+171615	
+171615	webwxstatusnotify
+171615	wfile：171615_wx_webwxstatusnotify.txt
+171615	looper webwxstatusnotify http.strCode:200
+171615	webwxstatusnotify [0]：
+171615	webwxstatusnotify MsgID=6698990430201587109
+171616	
+171616	
+171616	looper synccheck
+171616	window.synccheck={retcode:"0",selector:"2"}
+171616	
+171616	
+171616	webwxsync
+171616	wfile：171616_wx_webwxsync.txt
+171616	looper webwxsync http.strCode:200
+171617	
+171617	
+171617	looper synccheck
+171636	
+171636	
+171636	webwxsendmsg
+171636	window.synccheck={retcode:"0",selector:"2"}
+171636	
+171636	
+171636	webwxsync
+171637	wfile：171637_wx_webwxsync.txt
+171637	looper webwxsync http.strCode:200
+171637	
+171637	
+171637	looper synccheck
+171638	window.synccheck={retcode:"0",selector:"2"}
+171638	
+171638	
+171638	webwxsync
+171639	wfile：171639_wx_webwxsync.txt
+171639	looper webwxsync http.strCode:200
+171639	sync_newMessage：5969809893906285353 [@dee25a62be19c2afc436768e530ae3ac]->[@5d022258eb2d9a218e2574324d6de8b1]:来了
+171639	
+171639	
+171639	webwxstatusnotify
+171639	wfile：171639_wx_webwxstatusnotify.txt
+171639	looper webwxstatusnotify http.strCode:200
+171639	webwxstatusnotify [0]：
+171639	webwxstatusnotify MsgID=6839889392243840427
+171639	sync_newMessage：5665835154190469346 [@5d022258eb2d9a218e2574324d6de8b1]->[@5d022258eb2d9a218e2574324d6de8b1]:
+171640	
+171640	
+171640	looper synccheck
+171640	window.synccheck={retcode:"0",selector:"2"}
+171640	
+171640	
+171640	webwxsync
+171640	wfile：171640_wx_webwxsync.txt
+171640	looper webwxsync http.strCode:200
+171641	
+171641	
+171641	looper synccheck
+171643	window.synccheck={retcode:"0",selector:"2"}
+171643	
+171643	
+171643	webwxsync
+171643	wfile：171643_wx_webwxsync.txt
+171643	looper webwxsync http.strCode:200
+171643	sync_newMessage：8415382863437473447 [@dee25a62be19c2afc436768e530ae3ac]->[@5d022258eb2d9a218e2574324d6de8b1]:6666
+171643	
+171643	
+171643	webwxstatusnotify
+171644	wfile：171644_wx_webwxstatusnotify.txt
+171644	looper webwxstatusnotify http.strCode:200
+171644	webwxstatusnotify [0]：
+171644	webwxstatusnotify MsgID=6751880183283117981
+171644	
+171644	
+171644	looper synccheck
+171644	window.synccheck={retcode:"0",selector:"2"}
+171644	
+171644	
+171644	webwxsync
+171645	wfile：171645_wx_webwxsync.txt
+171645	looper webwxsync http.strCode:200
+171645	
+171645	
+171645	looper synccheck
+171658	window.synccheck={retcode:"0",selector:"2"}
+171658	
+171658	
+171658	webwxsync
+171658	wfile：171658_wx_webwxsync.txt
+171658	looper webwxsync http.strCode:200
+171658	sync_newMessage：1335291777047691545 [@dee25a62be19c2afc436768e530ae3ac]->[@5d022258eb2d9a218e2574324d6de8b1]:再来一个
+171658	
+171658	
+171658	webwxstatusnotify
+171658	
+171658	
+171658	webwxsendmsg
+171658	wfile：171658_wx_webwxstatusnotify.txt
+171658	looper webwxstatusnotify http.strCode:200
+171658	webwxstatusnotify [0]：
+171658	webwxstatusnotify MsgID=2417890238926926015
+171659	wfile：171659_wx_webwxsendmsg.txt
+171659	 webwxsendmsg http.strCode:200
+171659	wx_webwxsendmsg res_sendmsg.MsgID：5614421987905462145
+171659	
+171659	
+171659	looper synccheck
+171659	window.synccheck={retcode:"0",selector:"2"}
+171659	
+171659	
+171659	webwxsync
+171700	wfile：171700_wx_webwxsync.txt
+171700	looper webwxsync http.strCode:200
+171700	
+171700	
+171700	looper synccheck
+171707	window.synccheck={retcode:"0",selector:"2"}
+171707	
+171707	
+171707	webwxsync
+171707	wfile：171707_wx_webwxsync.txt
+171707	looper webwxsync http.strCode:200
+171707	sync_newMessage：9181611708649064142 [@dee25a62be19c2afc436768e530ae3ac]->[@5d022258eb2d9a218e2574324d6de8b1]:哈哈哈哈
+171707	
+171707	
+171707	webwxstatusnotify
+171708	wfile：171708_wx_webwxstatusnotify.txt
+171708	looper webwxstatusnotify http.strCode:200
+171708	webwxstatusnotify [0]：
+171708	webwxstatusnotify MsgID=7258802382146722862
+171708	
+171708	
+171708	looper synccheck
+171708	window.synccheck={retcode:"0",selector:"2"}
+171708	
+171708	
+171708	webwxsync
+171709	wfile：171709_wx_webwxsync.txt
+171709	looper webwxsync http.strCode:200
+171709	
+171709	
+171709	looper synccheck
+171734	window.synccheck={retcode:"0",selector:"0"}
+171735	
+171735	
+171735	looper synccheck
+171835	
+171835	
+171835	webwxstatusnotify
+171835	wfile：171835_wx_webwxstatusnotify.txt
+171835	looper webwxstatusnotify http.strCode:200
+171835	webwxstatusnotify [0]：
+171835	webwxstatusnotify MsgID=4887286411147270784
+171835	
+171835	
+171835	webwxsync
+171836	wfile：171836_wx_webwxsync.txt
+171836	looper webwxsync http.strCode:200
+171836	sync_newMessage：8446863087841966941 [@940763c77a4432baf965035e15069858]->[@940763c77a4432baf965035e15069858]:
+171836	
+171836	
+171836	webwxsync
+171836	wfile：171836_wx_webwxsync.txt
+171836	looper webwxsync http.strCode:200
+171836	
+171836	
+171836	webwxsync
+171836	wfile：171836_wx_webwxsync.txt
+171836	looper webwxsync http.strCode:200
+171836	
+171836	
+171836	looper synccheck
+171837	wfile：171837_wx_webwxgetcontact.txt
+171837	webwxgetcontact http.strCode:200
+171837	一共获取到的通讯录：98
+171837	
+171837	
+171837	  mm_webwxbatchgetcontact_chatroom
+171839	wfile：171839_webwxbatchgetcontact.txt
+171839	webwxbatchgetcontact  http.strCode :200
+171846	
+171846	
+171846	webwxsendmsg
+171846	window.synccheck={retcode:"0",selector:"2"}
+171846	
+171846	 webwxsendmsg http.strCode:200
+171846	wx_webwxsendmsg res_sendmsg.MsgID：2702562382215505042
+171847	wfile：171847_wx_webwxsync.txt
+171847	looper webwxsync http.strCode:200
+171847	
+171847	
+171847	looper synccheck
+171901	window.synccheck={retcode:"0",selector:"2"}
+171901	
+171901	
+171901	webwxsync
+171902	wfile：171902_wx_webwxsync.txt
+171902	looper webwxsync http.strCode:200
+171902	sync_newMessage：2271556847512506808 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:对对对
+171902	
+171902	
+171902	webwxstatusnotify
+171902	wfile：171902_wx_webwxstatusnotify.txt
+171902	looper webwxstatusnotify http.strCode:200
+171902	webwxstatusnotify [0]：
+171902	webwxstatusnotify MsgID=8158971987022800487
+171903	
+171903	
+171903	looper synccheck
+171903	window.synccheck={retcode:"0",selector:"2"}
+171903	
+171903	
+171903	webwxsync
+171903	wfile：171903_wx_webwxsync.txt
+171903	looper webwxsync http.strCode:200
+171904	
+171904	
+171904	looper synccheck
+171908	window.synccheck={retcode:"0",selector:"2"}
+171908	
+171908	
+171908	webwxsync
+171908	wfile：171908_wx_webwxsync.txt
+171908	looper webwxsync http.strCode:200
+171908	sync_newMessage：5404162407320756832 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:积极急急急
+171908	
+171908	
+171908	webwxstatusnotify
+171909	wfile：171909_wx_webwxstatusnotify.txt
+171909	looper webwxstatusnotify http.strCode:200
+171909	webwxstatusnotify [0]：
+171909	webwxstatusnotify MsgID=5493186154743990873
+171909	
+171909	
+171909	looper synccheck
+171909	window.synccheck={retcode:"0",selector:"2"}
+171909	
+171909	
+171909	webwxsync
+171910	wfile：171910_wx_webwxsync.txt
+171910	looper webwxsync http.strCode:200
+171910	
+171910	
+171910	looper synccheck
+171911	window.synccheck={retcode:"0",selector:"2"}
+171911	
+171911	
+171911	webwxsync
+171911	wfile：171911_wx_webwxsync.txt
+171911	looper webwxsync http.strCode:200
+171911	sync_newMessage：72969893182566186 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171911	
+171911	
+171911	webwxstatusnotify
+171912	wfile：171912_wx_webwxstatusnotify.txt
+171912	looper webwxstatusnotify http.strCode:200
+171912	webwxstatusnotify [0]：
+171912	webwxstatusnotify MsgID=8440931207145451815
+171912	sync_newMessage：3251365290683845721 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171912	
+171912	
+171912	webwxstatusnotify
+171912	wfile：171912_wx_webwxstatusnotify.txt
+171912	looper webwxstatusnotify http.strCode:200
+171912	webwxstatusnotify [0]：
+171912	webwxstatusnotify MsgID=6421391953192705908
+171913	
+171913	
+171913	looper synccheck
+171913	window.synccheck={retcode:"0",selector:"2"}
+171913	
+171913	
+171913	webwxsync
+171913	wfile：171913_wx_webwxsync.txt
+171913	looper webwxsync http.strCode:200
+171913	sync_newMessage：3816887090055565100 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:11
+171913	
+171913	
+171913	webwxstatusnotify
+171914	wfile：171914_wx_webwxstatusnotify.txt
+171914	looper webwxstatusnotify http.strCode:200
+171914	webwxstatusnotify [0]：
+171914	webwxstatusnotify MsgID=8358575479564943287
+171914	sync_newMessage：2882991067695714531 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171914	
+171914	
+171914	webwxstatusnotify
+171914	wfile：171914_wx_webwxstatusnotify.txt
+171914	looper webwxstatusnotify http.strCode:200
+171914	webwxstatusnotify [0]：
+171914	webwxstatusnotify MsgID=5471190375901550702
+171914	sync_newMessage：3050379905569072068 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:11
+171914	
+171914	
+171914	webwxstatusnotify
+171914	wfile：171914_wx_webwxstatusnotify.txt
+171914	looper webwxstatusnotify http.strCode:200
+171914	webwxstatusnotify [0]：
+171914	webwxstatusnotify MsgID=7381801438780430048
+171914	sync_newMessage：4898505980604862821 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171914	
+171914	
+171914	webwxstatusnotify
+171915	wfile：171915_wx_webwxstatusnotify.txt
+171915	looper webwxstatusnotify http.strCode:200
+171915	webwxstatusnotify [0]：
+171915	webwxstatusnotify MsgID=5671193630013033670
+171915	sync_newMessage：6905258373262054405 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171915	
+171915	
+171915	webwxstatusnotify
+171915	wfile：171915_wx_webwxstatusnotify.txt
+171915	looper webwxstatusnotify http.strCode:200
+171915	webwxstatusnotify [0]：
+171915	webwxstatusnotify MsgID=2575398616953148841
+171915	sync_newMessage：2539471608390499223 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171915	
+171915	
+171915	webwxstatusnotify
+171916	
+171916	
+171916	webwxsendmsg
+171916	wfile：171916_wx_webwxstatusnotify.txt
+171916	looper webwxstatusnotify http.strCode:200
+171916	webwxstatusnotify [0]：
+171916	webwxstatusnotify MsgID=827463521219918234
+171916	sync_newMessage：8131741747976144751 [@decf02e21ed43432875aa897c0db713c9286b79f9cef719b3b8a247ff5f16394]->[@940763c77a4432baf965035e15069858]:1
+171916	
+171916	
+171916	webwxstatusnotify
+171916	wfile：171916_wx_webwxsendmsg.txt
+171916	 webwxsendmsg http.strCode:200
+171916	wx_webwxsendmsg res_sendmsg.MsgID：3724124656679369612
+171916	wfile：171916_wx_webwxstatusnotify.txt
+171916	looper webwxstatusnotify http.strCode:200
+171916	webwxstatusnotify [0]：
+171916	webwxstatusnotify MsgID=8084078400206163378
+171917	
+171917	
+171917	looper synccheck
+171917	window.synccheck={retcode:"0",selector:"2"}
+171917	
+171917	
+171917	webwxsync
+171917	wfile：171917_wx_webwxsync.txt
+171917	looper webwxsync http.strCode:200
+171918	
+171918	
+171918	looper synccheck
+171943	window.synccheck={retcode:"0",selector:"0"}
+171943	
+171943	
+171943	looper synccheck
+172009	window.synccheck={retcode:"0",selector:"0"}
+172009	
+172009	
+172009	looper synccheck
+172034	window.synccheck={retcode:"0",selector:"0"}
+172035	
+172035	
+172035	looper synccheck
+172100	window.synccheck={retcode:"0",selector:"0"}
+172101	
+172101	
+172101	looper synccheck
+172126	window.synccheck={retcode:"0",selector:"0"}
+172131	
+172131	
+172131	looper synccheck
+172157	window.synccheck={retcode:"0",selector:"0"}
+172202	
+172202	
+172202	looper synccheck
+172227	window.synccheck={retcode:"0",selector:"0"}
+172233	
+172233	
+172233	looper synccheck
+172302	
+172302	
+172302	webwxstatusnotify
+172302	wfile：172302_wx_webwxstatusnotify.txt
+172302	looper webwxstatusnotify http.strCode:200
+172302	webwxstatusnotify [0]：
+172302	webwxstatusnotify MsgID=8150251378048348814
+172302	
+172302	
+172302	webwxsync
+172303	wfile：172303_wx_webwxsync.txt
+172303	looper webwxsync http.strCode:200
+172303	
+172303	
+172303	webwxsync
+172303	wfile：172303_wx_webwxsync.txt
+172303	looper webwxsync http.strCode:200
+172303	sync_newMessage：846852690878124156 [@4808e425246d734938414044ec1233e3]->[@4808e425246d734938414044ec1233e3]:
+172303	
+172303	
+172303	webwxsync
+172303	wfile：172303_wx_webwxsync.txt
+172303	looper webwxsync http.strCode:200
+172303	
+172303	
+172303	looper synccheck
+172304	wfile：172304_wx_webwxgetcontact.txt
+172304	webwxgetcontact http.strCode:200
+172304	一共获取到的通讯录：98
+172304	
+172304	
+172304	  mm_webwxbatchgetcontact_chatroom
+172305	wfile：172305_webwxbatchgetcontact.txt
+172305	webwxbatchgetcontact  http.strCode :200
+172329	window.synccheck={retcode:"0",selector:"0"}
+172329	
+172329	
+172329	looper synccheck
+172354	window.synccheck={retcode:"0",selector:"0"}
+172355	
+172355	
+172355	looper synccheck
+172420	window.synccheck={retcode:"0",selector:"0"}
+172421	
+172421	
+172421	looper synccheck
+172446	window.synccheck={retcode:"0",selector:"0"}
+172446	
+172446	
+172446	looper synccheck
+172512	window.synccheck={retcode:"0",selector:"0"}
+172517	
+172517	
+172517	looper synccheck
+172542	window.synccheck={retcode:"0",selector:"0"}
+172548	
+172548	
+172548	looper synccheck
+172613	window.synccheck={retcode:"0",selector:"0"}
+172619	
+172619	
+172619	looper synccheck
+172644	window.synccheck={retcode:"0",selector:"0"}
+172649	
+172649	
+172649	looper synccheck
+172654	window.synccheck={retcode:"0",selector:"2"}
+172654	
+172654	
+172654	webwxsync
+172654	wfile：172654_wx_webwxsync.txt
+172654	looper webwxsync http.strCode:200
+172654	sync_newMessage：8841814852570705158 [@@2001c59d4b8b171f614f3cf902d6c43700a2f4377fcd3a05e91263868654e45e]->[@4808e425246d734938414044ec1233e3]:@75c5192d7549081b650f918c5745ca1f:<br/>开始啦！
+172654	
+172654	
+172654	webwxstatusnotify
+172654	wfile：172654_wx_webwxstatusnotify.txt
+172654	looper webwxstatusnotify http.strCode:200
+172654	webwxstatusnotify [0]：
+172654	webwxstatusnotify MsgID=3011231639931266944
+172655	
+172655	
+172655	looper synccheck
+172655	window.synccheck={retcode:"0",selector:"2"}
+172655	
+172655	
+172655	webwxsync
+172655	wfile：172655_wx_webwxsync.txt
+172655	looper webwxsync http.strCode:200
+172656	
+172656	
+172656	looper synccheck
+172658	window.synccheck={retcode:"0",selector:"2"}
+172658	
+172658	
+172658	webwxsync
+172658	wfile：172658_wx_webwxsync.txt
+172658	looper webwxsync http.strCode:200
+172658	sync_newMessage：4777366016272662188 [@@2001c59d4b8b171f614f3cf902d6c43700a2f4377fcd3a05e91263868654e45e]->[@4808e425246d734938414044ec1233e3]:@75c5192d7549081b650f918c5745ca1f:<br/>陆续进场哈
+172658	
+172658	
+172658	webwxstatusnotify
+172659	wfile：172659_wx_webwxstatusnotify.txt
+172659	looper webwxstatusnotify http.strCode:200
+172659	webwxstatusnotify [0]：
+172659	webwxstatusnotify MsgID=7212617352854135900
+172659	
+172659	
+172659	looper synccheck
+172659	window.synccheck={retcode:"0",selector:"2"}
+172659	
+172659	
+172659	webwxsync
+172700	wfile：172700_wx_webwxsync.txt
+172700	looper webwxsync http.strCode:200
+172700	
+172700	
+172700	looper synccheck
+172703	window.synccheck={retcode:"0",selector:"2"}
+172703	
+172703	
+172703	webwxsync
+172703	wfile：172703_wx_webwxsync.txt
+172703	looper webwxsync http.strCode:200
+172703	sync_newMessage：4345019124302607842 [@@2001c59d4b8b171f614f3cf902d6c43700a2f4377fcd3a05e91263868654e45e]->[@4808e425246d734938414044ec1233e3]:@75c5192d7549081b650f918c5745ca1f:<br/>晚来没得吃了[发呆][呲牙]
+172703	
+172703	
+172703	webwxstatusnotify
+172704	wfile：172704_wx_webwxstatusnotify.txt
+172704	looper webwxstatusnotify http.strCode:200
+172704	webwxstatusnotify [0]：
+172704	webwxstatusnotify MsgID=5436034274688140521
+172704	
+172704	
+172704	looper synccheck
+172704	window.synccheck={retcode:"0",selector:"2"}
+172704	
+172704	
+172704	webwxsync
+172705	wfile：172705_wx_webwxsync.txt
+172705	looper webwxsync http.strCode:200
+172705	
+172705	
+172705	looper synccheck
+172730	window.synccheck={retcode:"0",selector:"0"}
+172731	
+172731	
+172731	looper synccheck
+172756	window.synccheck={retcode:"0",selector:"0"}
+172756	
+172757	
+172757	looper synccheck
+172822	window.synccheck={retcode:"0",selector:"0"}
+172822	
+172822	
+172822	looper synccheck
+172847	window.synccheck={retcode:"0",selector:"0"}
+172848	
+172848	
+172848	looper synccheck
+172913	window.synccheck={retcode:"0",selector:"0"}
+172919	
+172919	
+172919	looper synccheck
+172944	window.synccheck={retcode:"0",selector:"0"}
+172949	
+172949	
+172949	looper synccheck
+173014	window.synccheck={retcode:"0",selector:"0"}
+173020	
+173020	
+173020	looper synccheck
+173045	window.synccheck={retcode:"0",selector:"0"}
+173051	
+173051	
+173051	looper synccheck
+173116	window.synccheck={retcode:"0",selector:"0"}
+173121	
+173121	
+173121	looper synccheck
+173146	window.synccheck={retcode:"0",selector:"0"}
+173152	
+173152	
+173152	looper synccheck
+173217	window.synccheck={retcode:"0",selector:"0"}
+173223	
+173223	
+173223	looper synccheck
+173235	window.synccheck={retcode:"0",selector:"2"}
+173235	
+173235	
+173235	webwxsync
+173235	wfile：173235_wx_webwxsync.txt
+173235	looper webwxsync http.strCode:200
+173235	sync_newMessage：182025929315626067 [@4808e425246d734938414044ec1233e3]->[@@2001c59d4b8b171f614f3cf902d6c43700a2f4377fcd3a05e91263868654e45e]:
+173236	
+173236	
+173236	looper synccheck
+173247	window.synccheck={retcode:"0",selector:"2"}
+173247	
+173247	
+173247	webwxsync
+173247	wfile：173247_wx_webwxsync.txt
+173247	looper webwxsync http.strCode:200
+173247	sync_newMessage：5131714476790257020 [@4808e425246d734938414044ec1233e3]->[@6e92cdedac5f49b0f76be11b71cd38ebb575f8c39c3f653e67fbf2b2d2fa01d1]:
+173248	
+173248	
+173248	looper synccheck
+173253	window.synccheck={retcode:"0",selector:"2"}
+173253	
+173253	
+173253	webwxsync
+173253	wfile：173253_wx_webwxsync.txt
+173253	looper webwxsync http.strCode:200
+173253	sync_newMessage：2285247682150356671 [@4808e425246d734938414044ec1233e3]->[@e5f20359ff7348ec624c4e5bab1fb8b8]:
+173254	
+173254	
+173254	looper synccheck
+173319	window.synccheck={retcode:"0",selector:"0"}
+173320	
+173320	
+173320	looper synccheck
+173345	window.synccheck={retcode:"0",selector:"0"}
+173345	
+173345	
+173345	looper synccheck
+173410	window.synccheck={retcode:"0",selector:"0"}
+173411	
+173411	
+173411	looper synccheck
+173436	window.synccheck={retcode:"0",selector:"0"}
+173437	
+173437	
+173437	looper synccheck
+173502	window.synccheck={retcode:"0",selector:"0"}
+173507	
+173507	
+173507	looper synccheck
+173533	window.synccheck={retcode:"0",selector:"0"}
+173538	
+173538	
+173538	looper synccheck
+173603	window.synccheck={retcode:"0",selector:"0"}
+173609	
+173609	
+173609	looper synccheck
+173634	window.synccheck={retcode:"0",selector:"0"}
+173640	
+173640	
+173640	looper synccheck
+173705	window.synccheck={retcode:"0",selector:"0"}
+173710	
+173710	
+173710	looper synccheck
+173735	window.synccheck={retcode:"0",selector:"0"}
+173741	
+173741	
+173741	looper synccheck
+173741	window.synccheck={retcode:"1101",selector:"0"}
+173746	已注销,停止运作 尝试检查:0
+173750	
+173750	
+173750	looper synccheck
+173750	window.synccheck={retcode:"1101",selector:"0"}
+173755	已注销,停止运作 尝试检查:1
+173758	
+173758	
+173758	looper synccheck
+173758	window.synccheck={retcode:"1101",selector:"0"}
+173803	已注销,停止运作 尝试检查:2
+173806	StartWebMM:login_StartQRcodeLogin false

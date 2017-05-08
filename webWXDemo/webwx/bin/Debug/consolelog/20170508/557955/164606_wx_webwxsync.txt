@@ -1,0 +1,2652 @@
+﻿{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 0,
+"AddMsgList": [],
+"ModContactCount": 1,
+"ModContactList": [{
+"UserName": "@@663a0643a24d01f8b00b13aa34e64f9ec727dd2feaf04f88778025503cf7aa4c",
+"NickName": "18集团",
+"Sex": 0,
+"HeadImgUpdateFlag": 1,
+"ContactType": 0,
+"Alias": "",
+"ChatRoomOwner": "@5096a171d676ac2c222f9f9652e8f83c",
+"HeadImgUrl": "/cgi-bin/mmwebwx-bin/webwxgetheadimg?seq=0&username=@@663a0643a24d01f8b00b13aa34e64f9ec727dd2feaf04f88778025503cf7aa4c&skey=@crypt_3e7018d9_69aabda842c60d0163b846e1e107817c",
+"ContactFlag": 2,
+"MemberCount": 193,
+"MemberList": [{
+"Uin": 0,
+"UserName": "@4d574903940f7c2fa32552f3cb732724",
+"NickName": "傅微vivi",
+"AttrStatus": 98415,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "傅微",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@1e2464313167480dacdbb13aa50c105ae76e4ac34130150bed3cb2e7e3208d4e",
+"NickName": "J-Jiang",
+"AttrStatus": 106469,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "姜剑-经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@9b93404b4fe39ec7220bd21fc6c40f77",
+"NickName": "Martin",
+"AttrStatus": 101183,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "郑晓峰 总经办",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@62fd95c7f1eea40035f857665a9cc06b88c86105721ac76a5d2e6ee8723001fb",
+"NickName": "曾飞容",
+"AttrStatus": 4197,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b4ba07216151fb4c5b79928274212fe1",
+"NickName": "Eric钟传燎",
+"AttrStatus": 50463163,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "Eric-安狗狗",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fb7c891666f5f1809e414e4d2bb8c2ca",
+"NickName": "随风摇曳",
+"AttrStatus": 12391,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "蒋敏👉应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e683df6e9a0b21d24a63298016a7142764dd8b9de09640fa815105a9dea85ff9",
+"NickName": "郑保星",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "郑保星-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f881f5c058e8f6191ad016938d52c77bdf8e19fa2653cdcd2e57f989a88557ed",
+"NickName": "刘文峰",
+"AttrStatus": 102497,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘文峰-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c2d43dd2c9cda5d49811e3ce64d68fce",
+"NickName": "DukePlus",
+"AttrStatus": 4321383,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "江雁峰-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@03aac0d4921471f609d1a3b653f3730109549a8112d96f1c9bd4c633c7da4652",
+"NickName": "罗泽伟",
+"AttrStatus": 102439,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "罗泽伟-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e4e659d69209b67d3806232452b84c3107b2d22f3afd66edee839b192eab4957",
+"NickName": "yoyo",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "财务部-秋敏",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b3c7354287188905ed9040530df0b822",
+"NickName": "Stephanie Y",
+"AttrStatus": 102503,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "尹嘉昕--财务部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@693f5e4614715141d0291a076d64062d21463845316fa80b5e3c5897805406ec",
+"NickName": "msr.lai金鱼",
+"AttrStatus": 33665149,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "赖金余",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7e54e26ba8d9d8fca3d8667f25abdd58",
+"NickName": "Nick",
+"AttrStatus": 108647,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "优视互动-杨宁",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e67871955ba7638c9dc584d02ac509731e1f3ca3b05f9ec80a1cb21503b5a40f",
+"NickName": "魏晓东",
+"AttrStatus": 98597,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "魏晓东",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5b39e1b09644262d9c14f5ca7929044cfe2dcc65aa8df0e9673c024fa0dcc3f9",
+"NickName": "5个半柠檬c",
+"AttrStatus": 17014885,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "经管中心-吴悦琪",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@6ae3263eb41d82bd06c475b6a383ecfe6af9b716f93a2df1f5d1a0675302bcc8",
+"NickName": "文娟",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "测试部 文娟",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@91f322873711ec46963ca2e74e1ad9de",
+"NickName": "竹子",
+"AttrStatus": 106623,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "CC（韦冬竹）-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@faba86e6104a3f56a750fe06bed119202ff690c32e56945b822547552c7983c8",
+"NickName": "大蔚Davy",
+"AttrStatus": 233511,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "Udream-唐蔚航-Davy",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3bf289ea1a01b4e0aba70519ec9c8a4d",
+"NickName": "Guici",
+"AttrStatus": 108135,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "云装-黄桂慈",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d64cba7c0c1c8ff55ec643cf05519d82",
+"NickName": "玮玮",
+"AttrStatus": 98343,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-伟清",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@316ea0daf56ffc8372e4b961ab043161",
+"NickName": "feng",
+"AttrStatus": 100391,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米_冯荣建",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c095388916ccaa074bf89186515a5b0a",
+"NickName": "方",
+"AttrStatus": 234535,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "产品部😄谢方",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0dfbf902c8ea58448df5e016cdfc117d6b3c9074f4f68db62ecf79b589662146",
+"NickName": "X <span class=\"emoji emoji1f618\"></span>",
+"AttrStatus": 235621,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "肖锐滨",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@496cf5d5acf0e4f2ae0f5d43df36cf916f846f12a6577be41c850d3f07ca7f7a",
+"NickName": "深海",
+"AttrStatus": 103357,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "Eddie",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c91895c8fa945ffa1a03a85a809aa90c6b64c4a600c4ee42b7cec2073b7a60f4",
+"NickName": "Emily",
+"AttrStatus": 100389,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "人力资源部—emily",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@66d40f46fad8874d3ac3763990e2110675ad876047009f110c3c580675830c80",
+"NickName": "H.Y",
+"AttrStatus": 1445,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘红艳-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@edc62b31f4be3023b00c15cdda5a5106a5c836ef912ba0bb312fdda85351ca98",
+"NickName": "herry",
+"AttrStatus": 168511,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谢亨林_线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f00a82d3c6ae71f7b15ce61e34578f42",
+"NickName": "芦苇",
+"AttrStatus": 233831,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "卢大为-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c19320585bc8c625063699fb596b297e93753286fde34667dfd0f70907ad9f48",
+"NickName": "熊国平",
+"AttrStatus": 100517,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@06518d092362f3e7a6e9163a238cad1c",
+"NickName": "上帝是菇凉",
+"AttrStatus": 129127,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "胡立艳",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a939a65ebce7664364a02162c8b5354e",
+"NickName": "丸子痴了线",
+"AttrStatus": 102439,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "何小雁－云装",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d4c7eb8dd6dba419a0dd1db0b248bc6f",
+"NickName": "飞扬",
+"AttrStatus": 110695,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "文杨-新锐互联",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@777a3b18377b8a85829c171f8d280440",
+"NickName": "Smile燕窝",
+"AttrStatus": 2147720127,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米—颜小燕",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fc786bda737840701c115cfc2aaaf81b55ae3b05b49e59fba932b4c892f12ab1",
+"NickName": "A&amp;曾全 &amp;",
+"AttrStatus": 99429,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "曾全--柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@cdb45b6f886d1905ac353f7595df2143",
+"NickName": "一楼烟雨",
+"AttrStatus": 236071,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ba7d53a2b47d435ac57de5b535a15b0f",
+"NickName": "黄",
+"AttrStatus": 112737,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@679201f01861d3347ed8bd8d4b355d0a",
+"NickName": "果子",
+"AttrStatus": 104487,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "游双华@致远创想",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f002271d0d9b748248bae070eaa8fd6f",
+"NickName": "坎普利特",
+"AttrStatus": 196903,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "线刷宝-娄晨",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0a50cf7679bf50d911b68cb8589f4f6b",
+"NickName": "海滨",
+"AttrStatus": 21073959,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米_海滨",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5096a171d676ac2c222f9f9652e8f83c",
+"NickName": "′xhㄅ﹑",
+"AttrStatus": 112103,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘秀红-经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@1fc86ee71fc7afffb6346c39ba695e935ff913e6522ef8adc6a26c6085cfc9c9",
+"NickName": "温小春",
+"AttrStatus": 104484,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@870aadb45938c0b5e63b60afb43bb07b85451f8f6838a5e481bd219cd55f7bfd",
+"NickName": "Miya",
+"AttrStatus": 100837,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "朝霞~柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@824e6bb6ed463d8760f374c66533d09cb4caea2b923c63d5a6b8faa3697add63",
+"NickName": "summer",
+"AttrStatus": 104487,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "黄柏乾-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3003f1660b27f84b6bf7c200f73639b1",
+"NickName": "予美花下",
+"AttrStatus": 102433,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "葛叶胜+柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@46acb8e3c1d8ec866924417730741f73bd273fe918739dd2ee2132e0f73dee5f",
+"NickName": "南",
+"AttrStatus": 233509,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米—邓松南",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@48e0d6caabea9f374a0df3fc7386ec06b3939f597e7b59cd893cc951d3adecec",
+"NickName": "X,",
+"AttrStatus": 102909,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "李晓",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e389a81e9008b10953715eaaa22fd77bbfca91fbaa16d2ad128adfd02345e898",
+"NickName": "黄道成",
+"AttrStatus": 236069,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "黄道成-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@6a338aa4dff6370255bcd392512ef260",
+"NickName": "小沫<span class=\"emoji emoji1f388\"></span>",
+"AttrStatus": 72831,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘霞@优剪",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@464dea44d3b45d661556460c7f5b24fa",
+"NickName": "Alina",
+"AttrStatus": 104487,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘艳立",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7f0f28135cda1155c32ee6aa35e86f4b2b9299db629111eef80ce0e60dc99b8a",
+"NickName": "星辰",
+"AttrStatus": 98877,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "卢新程-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0b443ee6e25a059af0f98e58edf5f947818ddaacefe5b4f3eb03ddf5d21e2d15",
+"NickName": "恩",
+"AttrStatus": 16910373,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘洋-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@309fabc56417aae0b4460f119acf90d5acb0e61b3fdd569d3a39250ecc9a6c26",
+"NickName": "兰孝敬",
+"AttrStatus": 2147618917,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-兰孝敬",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8c3d30cd88199016c41a695babeb144861d1f897fd9a9f54cf4e64ecc8c8aa33",
+"NickName": "木棉花开",
+"AttrStatus": 99261,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "经管中心王梅",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8f9dc1b2b732c5508c7f714ff3748c74",
+"NickName": "紫",
+"AttrStatus": 99839,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "尧梦田-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@43fae6643d50b3c9989580e9f2d37164ab12ed4eb44a024607f594bd2b848758",
+"NickName": "acan修",
+"AttrStatus": 33788005,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "丘健",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@677ec38715d7d8db2657704cb102b78654e2d7f36236c73b94c8d348aa006d91",
+"NickName": "彩莹",
+"AttrStatus": 104741,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fb897268a56eeac4cb4670a8d38ff219cf5855e034e9802a03acabcd46bedc36",
+"NickName": "心野",
+"AttrStatus": 33626981,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "应用管家–陈鸿伟",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@29e7dd59e13eb6edfe9d82910ad76754",
+"NickName": "妮子",
+"AttrStatus": 112679,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "庄燕妮",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@99615e7c243832854c296d668da2c036b907d5ee41c3bca8f60309b40d14b66a",
+"NickName": "Aimee",
+"AttrStatus": 110693,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@13e006d0d55102e2f592160b793330df",
+"NickName": "J  Jones",
+"AttrStatus": 102591,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "钟华平-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@122ebf6dbd69fb4a936548a808d4a243",
+"NickName": "满满",
+"AttrStatus": 102439,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "傅彬：经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@72243876227e98e793b11400056b3e33",
+"NickName": "简单",
+"AttrStatus": 103359,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-赖少强",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0000ed4fe955b9d384344cf1cd040b82",
+"NickName": "Mickey",
+"AttrStatus": 230335,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谢丹-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@1dea1c84c41485b05b1531748c134790",
+"NickName": "23457",
+"AttrStatus": 102501,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "邱鑫-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e73e6705dc22279777bbe89071adbe0157f7e1e5c625da7dca3aa01964491c09",
+"NickName": "李守杰",
+"AttrStatus": 229413,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "汇微商-李守杰",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b34e149761f7cd4ccf828867388d5192ce8efa87e642b5c9339555e23b0dd89f",
+"NickName": "梅川内库",
+"AttrStatus": 74533,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "梅川内库_汇微商●姚小龙",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7db0a55fb8fe5878872793d34d225f3f",
+"NickName": "赖斐",
+"AttrStatus": 2147596391,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a46f51c68716f1a7b9fa5fea3de6bb5b80338426f16df67f941e1fa4f84c00fc",
+"NickName": "四月",
+"AttrStatus": 110821,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "张金玲－汇微商",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@468229a5fe9ef2203c3bad9df56f9238bcb02ab1d8436aa0370687665652e422",
+"NickName": "Yushan-祝四岁",
+"AttrStatus": 33656933,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "祝芳磊",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@67d111b67e50c56233e7bb28c95b16edb36c2c60927daeb5858c8ffa6ab93358",
+"NickName": "夏日",
+"AttrStatus": 102497,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "周湘宜-汇微商",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@1236d7528440026e9e054718584dd1ea",
+"NickName": "八月天空",
+"AttrStatus": 2147686015,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "周浩",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@586c76fab72a61465c70a29bee57706a",
+"NickName": "小虎Jerry",
+"AttrStatus": 98407,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "周军成-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e835e83b5732f3ade28ef365bb528033",
+"NickName": "魏鹏",
+"AttrStatus": 12391,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "魏鹏-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5a962732175014ffaa4d381e301b4409",
+"NickName": "不离不弃",
+"AttrStatus": 37859687,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "陈启彬～柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@24234469c3851c0fffd52b650f8c9e2c",
+"NickName": "Cici",
+"AttrStatus": 98341,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "飞科芯源 蔡斯斯",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e0d1e878acb68cad93b876f9a7d467da",
+"NickName": "慕宇云天",
+"AttrStatus": 110693,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "杨昕宇-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@972aaddb399598702f43cd4249017ac96168fb34142fe66b13944a17fdaebfb1",
+"NickName": "青花",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "吴磊-线刷宝事业部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2c215f4fd649f2ee9c2b5e50c0316d55",
+"NickName": "好名字<span class=\"emoji emoji1f631\"></span>",
+"AttrStatus": 110693,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谭国军-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0a16d2e1e02d7d7aad30af94a11b4b2e",
+"NickName": "百事美年达",
+"AttrStatus": 2164363303,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "惠兆鑫～柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8627f19f01603e501a1b419d1de7061ba00c5bf967f70e5f05caf9183ae47e5a",
+"NickName": "信仰",
+"AttrStatus": 5247,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘鹏飞-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d37fb7f5b531de3f44cdfa5ac6f05f8527250a235fa8db4222c5850c55622318",
+"NickName": "719",
+"AttrStatus": 73061,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "张雪蕊-经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@993f37a3e6978d3d27555ffaec93594b",
+"NickName": "风吟 '",
+"AttrStatus": 238527,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "赖琦-线刷宝事业部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d40dce5b11c244d82c98fd5ef7bfea03",
+"NickName": "baby_辉",
+"AttrStatus": 33632743,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "杨伟辉-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7e377ddcd2292b5fb767d2d19c845bb451774693cc6727b541405d900d779ce2",
+"NickName": "Nina",
+"AttrStatus": 101565,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘娜-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0e0594eb1c32cf5ecfddc3fd9b98c2a4",
+"NickName": "一缕国超",
+"AttrStatus": 2147720127,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "国超@优剪",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f55ce16b74ceed3755e42d607896a52cb43e49e07f20e521f0b5fd1f69f9df0e",
+"NickName": "小8",
+"AttrStatus": 233573,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "跃辉-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@80343edd12548dfd635d5f1ee70160c1",
+"NickName": "为李而亮",
+"AttrStatus": 33669757,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a2a2f701bc688f8173683a18b35e2017b845adfd608b3d6385369db8dbe6554f",
+"NickName": "xiaowei",
+"AttrStatus": 233509,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "萧为~柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f4722d4e872a45bc63cab60d3cba6f0aa8cd4c33c2c933242ba08446a35cb47b",
+"NickName": "王学军<span class=\"emoji emoji1f343\"></span>",
+"AttrStatus": 2147586149,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "王学军  汇微商",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d2c0118448c5cdec6bd9c0513a6ed9147749d349b1404c811f448ccf8aff9800",
+"NickName": "饭饭",
+"AttrStatus": 246361,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "汇微商～徐菲",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@45b3de45c576f32ce3a1edd2bed2c7a6",
+"NickName": "wAz1.",
+"AttrStatus": 231999,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "林子娟-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e38c05e93e1289130801189ef7c1ba72",
+"NickName": "何以超",
+"AttrStatus": 106495,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "何伊秋",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2232cc18add7ac704999242bcc0003a2",
+"NickName": "周律师",
+"AttrStatus": 110759,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "周学智-经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@376c074d779c1d99676a281ce99f74daed2a80da04a2fc1587df69cf34019bc0",
+"NickName": "浅笑依然",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "韩娟-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@9424d96a781031276870fecea3b23a48c80d313838b020a1b1881e030f7b9223",
+"NickName": "❄️猪柳蛋❄️",
+"AttrStatus": 106535,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "林爽",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7f9c1adfa9cc1f85318ef9dee6839f02",
+"NickName": "张先森",
+"AttrStatus": 17013055,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米～张秋平",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e773728bc81280734a1dad9a7ae8591e",
+"NickName": "🙈<span class=\"emoji emoji1f33a\"></span>🍭🙈",
+"AttrStatus": 111715,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "吴丹丽-经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a6c90769e0d9368a263d4e07e7b672d41e2eeed3b18c14066c840746e07d06b5",
+"NickName": "原宿",
+"AttrStatus": 104485,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "产品曾日晖",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e1f8bff1b3aaa70eae6a9bad5793e670792937c940a9177b956341a115dae190",
+"NickName": "黑曼巴",
+"AttrStatus": 102589,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-刘兵",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@600d54cd180b30b5ad494cc81ddbca0517aa4190c06a184c71e9564e804f84fb",
+"NickName": "文娟",
+"AttrStatus": 233657,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@1b86fb036f2fef57f87f1eff891d82cb259b582a516078d75f1abc28b20de91f",
+"NickName": "W_Lin",
+"AttrStatus": 2147588133,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "巫献林-致远",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e65cdf7091f14e8e4ee566d2bd29f8f6",
+"NickName": "罗伊",
+"AttrStatus": 108903,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "罗伊_柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@4039b43dcd43e6ca2c6b0aa18897fa44a1117c1b8f0d57cd30dc6d4775cfd254",
+"NickName": "一介农夫<span class=\"emoji emoji1f33e\"></span>",
+"AttrStatus": 33789857,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "翁鹤",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@4da69424483382c262f8a9e4af0b79254d880835bd0d8f0983fd5da17c4da168",
+"NickName": "<span class=\"emoji emoji1f436\"></span> <span class=\"emoji emoji1f436\"></span>欧欧",
+"AttrStatus": 16878949,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "黄争惠_经管",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8e7e4e0f5666f49866c1776c8869cc35",
+"NickName": "左牧",
+"AttrStatus": 135271,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "牛轩-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@828ae854a7b8e47f46a141afcfedea1e",
+"NickName": "PX",
+"AttrStatus": 102503,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谭小明~柚安米应用部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ef3e14dacf0e79924d095e30172a1e70a14a33c0533c558fbb5a5b46dd37109a",
+"NickName": "Maya玛雅",
+"AttrStatus": 2021,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "张敏诗-行政",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@68b935bff4007b4c6e2a46d99e9e153e2d0069252ed23730c25151dc9d8677b7",
+"NickName": "daisy",
+"AttrStatus": 98341,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "秦晓明 人力资源部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7f8bc36b01b84a5c7d8355d122aa0b174571d83a98e6a5ad5227e4c87623943e",
+"NickName": "我自望天",
+"AttrStatus": 230649,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "陈玲-汇微商",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c201f605907611eb3a3343b467db0229",
+"NickName": "清源",
+"AttrStatus": 2147520615,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "曹清源",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@18bfe4742e6d8e91dbb3ea92e844b11d",
+"NickName": "李庆",
+"AttrStatus": 230461,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "李庆—人力资源",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@35d75774578dfeaaeed936745d70239e11d2c96ad90da1efcd02d59290e29d4f",
+"NickName": "<span class=\"emoji emoji1f319\"></span>",
+"AttrStatus": 33657317,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "戴秋月 应用管家商务部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@4de2bdac2e28ced41b967c043eb2477ad8c29ba8f4dedcc4cc62d0a7e9fda1a5",
+"NickName": "钟文华",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "优剪 钟文华",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e68350903dbe7cf9d2a23f8c56a0bf53472c5eec56aadf46a58d784473c07814",
+"NickName": "Dacio",
+"AttrStatus": 33792295,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "代臣-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2d910bf4b96d5974c6659cfb0f6abf02",
+"NickName": "勇",
+"AttrStatus": 241767,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "王勇-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@57a159126024726893bf780c632b7e7096beff3b98ed6746c3dc89f2924c56bd",
+"NickName": "Jayson",
+"AttrStatus": 118887,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-程哲振",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5a768b88afb3fbca0ba15c46904d2c05",
+"NickName": "麦田里的守望",
+"AttrStatus": 17009703,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "毛盾-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f231e1c7680f7d4a39e2929ba2c65d81",
+"NickName": "lgl",
+"AttrStatus": 110695,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-刘光莉",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2e6ada8d6fcfa9cefe6da056569212dba5584d216267345533801ba756e03a90",
+"NickName": "hejun",
+"AttrStatus": 4893,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-贺军",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@133344d696709b7a641b59925529fb6b6fb4602621b094ab00e4ff4db1a8a697",
+"NickName": "晓颖",
+"AttrStatus": 17010621,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "郑晓颖_经管中心",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@70a52315fa8d7508635585c01a3c6a22ae4334213a7f5b4821740179ab1779c9",
+"NickName": "左源",
+"AttrStatus": 16777661,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "左源-技术部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a34a4710dffe24b6790c717f0ef1704414bf9c6554a3d7772f6280885f19a1f5",
+"NickName": "Rainbow𓆝𓆟𓆜𓆞𓆡",
+"AttrStatus": 99813,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "程雨敏－应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ac0a41f6698aecd90f4d55cc249812f2",
+"NickName": "TSAI",
+"AttrStatus": 111015,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "致远创想 蔡子豪",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fd242f85ec52aad756ab932caeb0bb680c7598266ac91eab8179fed04429e6ab",
+"NickName": "绿意恩惠",
+"AttrStatus": 33657191,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "苏昶宇-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@87ecdd5c8079936a845e3c0d72d439ff",
+"NickName": "思仔Mix",
+"AttrStatus": 33784613,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "林长茂@优剪",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b81ea55aeac868f2df99fe29d43e711bcb8ebd01d32c59865dc6bf83cfc0f33e",
+"NickName": "韩旭nice",
+"AttrStatus": 16880803,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "韩旭-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@17ee1da5bc62dcf2d7be610cd1f41d16",
+"NickName": "Values",
+"AttrStatus": 229563,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘枞-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7baa72fa204ea8b0b8aba7a5d226395841c3550060ad0bb088a7faa4a5d5bbaf",
+"NickName": "蒋伟",
+"AttrStatus": 102695,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "蒋伟+线刷宝事业部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@d1b98b9a35e72b97c7fad5fcb221eb7c530c45776f8fd1f4f906bde8ff7783ab",
+"NickName": "炒菜少放盐",
+"AttrStatus": 2147586085,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "郭小盼-管家事业部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8c11c8644d10acbcc9546e26807de74c",
+"NickName": "岑浩宏",
+"AttrStatus": 2181238885,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "汇微商-岑浩宏",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c73953055a36b9d5267a0458356d1ad6",
+"NickName": "Tracy",
+"AttrStatus": 119271,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "应用管家-徐婷",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ed8ba832c00d2173ccf56a1ae7934623",
+"NickName": "<span class=\"emoji emoji1f48d\"></span>rain",
+"AttrStatus": 102439,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "周振国-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@de1502c30d0b95d683112206dc43bff7",
+"NickName": "LX",
+"AttrStatus": 107751,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "廖馨-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@133959fd7f7e7e3be022adfbe296f21518942c9962e648f3fe5e8bd2f7b0101a",
+"NickName": "囬嶹薗丶",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谢多鹏-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fbedae9083a33af0c6ddb5e1149bc99d412cba1195c1e096ea0ddc630f7f0e5d",
+"NickName": "ciwen",
+"AttrStatus": 135205,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "高涛-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@945dc0aaddc8c9064b32d7d5258e6d2276bedfad733a646575ec04e2439b7839",
+"NickName": "阿宽（大头菜）",
+"AttrStatus": 16878629,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "阿宽18",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e803484228f7dd5287a9b8a067f702f4020427b2b995fca1ae2af6b69c2683e1",
+"NickName": "吴海恒",
+"AttrStatus": 245799,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "吴海恒-应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0e3c849087b59398f27b201a2445127cb0ed61a2a036543f03d62b4fe2e61b34",
+"NickName": "傻笑",
+"AttrStatus": 144229,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "刘利军-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3f41312b3fd96a0693c84942c12bb89d",
+"NickName": "世浩",
+"AttrStatus": 2147586175,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "徐世浩-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b935cc1dda0172be3a3e3398c526d72bffd05c34fe0b0140e9c77c1979ee773c",
+"NickName": "tang",
+"AttrStatus": 102503,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "唐旭～致远创想",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a86303e62cd91ad569f5d80f15276aa459a1f3aa92daa292f0622b43112a8d63",
+"NickName": "小谭",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谭卓荣—致远创想",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2276ba7c4c7ca266d990b57b10f92d2b3790b87d2aa7d47b39ea9945c0194d87",
+"NickName": "nemo阳",
+"AttrStatus": 33786365,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "阳胜军～柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@186daee0692dd71fb198fe736402f0300f4fd0e91daab07823bbbdc161bc1ae4",
+"NickName": "crystal莫莫",
+"AttrStatus": 17013159,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "莫莫～柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e1dafcd22f5291b17f625911e2897dff88be3f8fb94d18dd16828490d9b8fa5a",
+"NickName": "肥高",
+"AttrStatus": 135867,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-吴尚高",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@6691d30132352d92268200862becb365a0ae3a112b9d0355a41f89884473a718",
+"NickName": "叶之轻",
+"AttrStatus": 69669,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "徐文锋－应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ba1cafc8b135aaf5e7b88bcfc708335a02d11cce1925b8f7c704a41e4c51f676",
+"NickName": "梦随星动",
+"AttrStatus": 4197,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "黄星源_应用管家",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@f177d5ac514c55ffb9cb84374f9640bf71022fda77b89404d97fcddae21c8635",
+"NickName": "草木深",
+"AttrStatus": 168509,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-黄伟",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ea1370eb5c1023b65178c0f0dc77073ab702122b296048f8309cc529795f8d15",
+"NickName": "拉卡",
+"AttrStatus": 229413,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谢璐",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@eea95621916881214553cefc40637d938adab32a359f7ce8085bd2c2354c6875",
+"NickName": "杨子江",
+"AttrStatus": 67342341,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "杨子江-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@6186ecd9ffc8b858b962191c776bd57f",
+"NickName": "82年的男孩",
+"AttrStatus": 104487,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "肖仁锋-柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@711109fd9b1af8c6eebdd6d50dce83c1c97017f819b12163bb76a183d3383965",
+"NickName": "90後",
+"AttrStatus": 102503,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "优视——杨广",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@98efd8876e8c2d511bbb4fccb2f3fd1d45dde911d53bcd71a0d09eb3b3ce97a4",
+"NickName": "郑云",
+"AttrStatus": 2147717285,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "郑云-优视",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@0b9247bb491f171e67e56af7a2809551",
+"NickName": "Longchamp",
+"AttrStatus": 113063,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "线刷宝-黄灿彬",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3e35d2d01468581d70a09d73994cf023",
+"NickName": "朝阳",
+"AttrStatus": 102655,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "韩朝阳-线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@beed8865ee8a1e76c59853d37c5a4c3a",
+"NickName": "巫开先",
+"AttrStatus": 144383,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "线刷宝–巫开先",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@732f7271c68315403d9b7782c7445712ac9ab8fab4e93b428d0e4f6038653141",
+"NickName": "耿乐涛",
+"AttrStatus": 102437,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "耿乐涛-测试",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b1dd562996752d5510967b5502fb7fe15b07f9875d6c2e477c1bb3e0f3cc06e0",
+"NickName": "歌灵",
+"AttrStatus": 102501,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "黄彤宝～优视",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@dda07f5b06e0393ef0459d5c9e557281f38443fcf31f7fd524ec03b44d2e455d",
+"NickName": "理智一生",
+"AttrStatus": 233509,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "温军勇",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@026e5dc9c9fb0b03e9edc9b18c132833c205f91c373d30a773abcb6986d07bd5",
+"NickName": "翱翔",
+"AttrStatus": 135463,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "温平",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5721964e938597b3e6345f5f23d4b47032c24a28e19ebbc18bc5499e299bd6a5",
+"NickName": "歌蛇",
+"AttrStatus": 98343,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "朱希凡",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@8bad3e9001bd9aa096a763e43dd88c6e",
+"NickName": "灏",
+"AttrStatus": 4298855,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-郭灏",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@747ed58c2a664c9d6b8aa8b0527f4afeabc7bdc0af786b871d90a6c216bb3ec6",
+"NickName": "陈晨",
+"AttrStatus": 102501,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "陈欢",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@aaa288056e29f95f83103be17892cc1092e0a638d4d5daf042da9807c8b9bf9f",
+"NickName": "Tiger <span class=\"emoji emoji1f618\"></span>",
+"AttrStatus": 98535,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "唐伟洋~线刷包~销售部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@10a52ad65b38558f139274684560333566c13f93e916d3765ba7d1afa8dbf250",
+"NickName": "一心为程",
+"AttrStatus": 102501,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "测试部 黄金定",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@241e939c5e63c0a2e6591d004e916d8a5d56a1fe4978a13de2b5a8a89a3b7fe4",
+"NickName": "Lco",
+"AttrStatus": 241765,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "冯碧芳-线刷宝-销售部",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@557de18e558d40c27c2227e2b551aff8",
+"NickName": "琦宝妈咪",
+"AttrStatus": 98855,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "谢静",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@5448e7965485038291d21b310a3501f5",
+"NickName": "阳光<span class=\"emoji emoji1f420\"></span>",
+"AttrStatus": 110693,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米-李进文",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2b68bb7aef556c28077f015d9635a31ae3a980e966b784da87b7e4b9655a3f41",
+"NickName": "msr.lai",
+"AttrStatus": 4133,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2311cc8eada1192f77a58575a934e0a8",
+"NickName": "<span class=\"emoji emoji1f361\"></span>",
+"AttrStatus": 33665021,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "海旋",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b884e2131dea9b8139a81d687b748448",
+"NickName": "way",
+"AttrStatus": 33790463,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "颜志伟",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@46887ed893a23fbf262ba543a58e3901",
+"NickName": "urdaddy",
+"AttrStatus": 37884543,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@31cd9dbf0a4efb0cdff7f9b081d9f4b9",
+"NickName": "big bear",
+"AttrStatus": 33788479,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@cea141be7626ddebc9d920be7c0afea02b87037377159bb6dd78eb281a770fc2",
+"NickName": "W Alex<span class=\"emoji emoji1f47b\"></span>",
+"AttrStatus": 100287,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@629dbce0e6f1dadc90fa3f0f0006ddd0c103594164ff7b41bcf7d7ff4738edb1",
+"NickName": "郑志龙",
+"AttrStatus": 33787943,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@a189e4fcdf4c765942d82b3d437dd958",
+"NickName": "Snow",
+"AttrStatus": 50537895,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "王师农Snow",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@daf13bb5c972da3cc72956c499d2627c",
+"NickName": "阿橘",
+"AttrStatus": 102439,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "甘碧君",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@2093926a392784f0a44631bb29b583072fb01cac0f4335f3f99103edca135831",
+"NickName": "<span class=\"emoji emoji1f300\"></span>Byron.",
+"AttrStatus": 4296807,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "🌀柚安米 徐朝斡",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@dcd7f7bd0057b159efad5997770fcf961405ea66faf86ff6e8ee7602c67c4f65",
+"NickName": "新生、梦想、自由",
+"AttrStatus": 233573,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "肖鹏",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e102fba38cc28bff8f2bc5003cd9665b761765e5c2a2b33b6e017de7de4554b4",
+"NickName": "小簸箕",
+"AttrStatus": 104485,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "李梅 柚安米",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@4df80121fd550b1ce5af3a6d3a1ea37b4fae72d41b380b31d3e5fc4a8ea0ce92",
+"NickName": "小婷",
+"AttrStatus": 102589,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "应用管家事业部～杨晓婷",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7914c08bb98a869eb25b17c7464e8e77",
+"NickName": "叶清",
+"AttrStatus": 118887,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "应用管家事业部叶清",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@fba99d9b18fffc7e3000ed83d1e205c9a9af3660494bb1c9eaef53d4fc2b3ffe",
+"NickName": "李小花",
+"AttrStatus": 100389,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@c396240a784c0f1227afa2764fe59caf",
+"NickName": "zkteco",
+"AttrStatus": 102523,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "姚峰斌~线刷宝",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@60f2ed9b711eba41b162be4b6e205b99",
+"NickName": "南华小仙",
+"AttrStatus": 99263,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@7eb3b06c83a32ad7c9571f91f74a68d181e59add1656d6b5e6899ccf8493b567",
+"NickName": ".",
+"AttrStatus": 16846881,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "汇微商-周志建",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3f447e0b1ea098b77703485c8d4ef3344ac5fbad6e89e9dafbb70f23373313b0",
+"NickName": "秋天不落叶",
+"AttrStatus": 102501,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "柚安米~祖炳",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b28050bb116b763219c5b6acab69bc96",
+"NickName": "A-ling",
+"AttrStatus": 2147590247,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "张玲～线刷宝HRBP",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@ee5f233e10d5335b205d619324ce5b728cd9c5255a739da59c1a554de010112e",
+"NickName": "Joanna",
+"AttrStatus": 98431,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@b7d339f58fe53a53590b8003a0e51c63e8cefa40c4b72cb97093e65f2873ffe7",
+"NickName": "谢大大",
+"AttrStatus": 135205,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@bfe00fe2f331609637b610041e9868e551639a11f20c6ced76d1aa184980c482",
+"NickName": "Black貓①呺",
+"AttrStatus": 246713,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@3cae3c46718637da7bf24cdb06ed1cceac45e5827815b5c368507d81c19ba67c",
+"NickName": "Test_Fan",
+"AttrStatus": 16880741,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "林建凡",
+"KeyWord": ""
+}
+,{
+"Uin": 0,
+"UserName": "@e35dfeb6b2c70a876f5b0c5c287dec1887bafe2b44846b513dcbe46bdb11ff81",
+"NickName": "老K",
+"AttrStatus": 2147586085,
+"PYInitial": "",
+"PYQuanPin": "",
+"RemarkPYInitial": "",
+"RemarkPYQuanPin": "",
+"MemberStatus": 0,
+"DisplayName": "宋俞明",
+"KeyWord": ""
+}
+],
+"HideInputBarFlag": 0,
+"Signature": "",
+"VerifyFlag": 0,
+"RemarkName": "",
+"Statues": 0,
+"AttrStatus": 0,
+"Province": "",
+"City": "",
+"SnsFlag": 0,
+"KeyWord": ""
+}
+],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598484
+}
+,{
+"Key": 3,
+"Val": 657598342
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 203,
+"Val": 1494228546
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 657598452
+}
+,{
+"Key": 2,
+"Val": 657598485
+}
+,{
+"Key": 3,
+"Val": 657598342
+}
+,{
+"Key": 11,
+"Val": 657598420
+}
+,{
+"Key": 13,
+"Val": 657570001
+}
+,{
+"Key": 203,
+"Val": 1494228546
+}
+,{
+"Key": 1000,
+"Val": 1494233059
+}
+,{
+"Key": 1001,
+"Val": 1494221432
+}
+]
+}
+
+}
+
