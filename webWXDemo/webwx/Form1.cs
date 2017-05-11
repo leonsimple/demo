@@ -17,6 +17,10 @@ namespace webwx
             InitializeComponent();
             System.Threading.Thread thread = new System.Threading.Thread(start);
             thread.Start();
+           
+
+
+
         }
 
         public void on_loadQrEventHandler(Bitmap bmp)
@@ -71,6 +75,8 @@ namespace webwx
                 dataGridView1.BeginInvoke(new MethodInvoker(()=>
                 {
                     AppendRow(x);
+
+
                 }));
             }
 
