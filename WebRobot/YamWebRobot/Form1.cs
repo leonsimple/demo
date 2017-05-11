@@ -3,25 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WebMMengine;
-using System.Net;
-using System.Collections;
-using System.Net.Http;
-using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System.Reflection;
 
 namespace YamWebRobot
 {
     public partial class Form1 : Form
     {
+        private WebMMengine.WebMMengine web;
+        private string receiveName;    //接收者名字
+
         public Form1()
         {
             InitializeComponent();
@@ -36,50 +32,30 @@ namespace YamWebRobot
             LoginUser();    //登陆
         }
 
-        private WebMMengine.WebMMengine web;
-        private string receiveName;    //接收者名字
-
         private void start()
         {
             web = new WebMMengine.WebMMengine();
-            web.on_loadQr += on_loadQrEventHandler;  //
-            web.on_scanQR += Web_on_scanQR;
-            web.on_scanQR_conform += Web_on_scanQR_conform;
-            web.on_GetContactList += Web_on_GetContactList;
-            web.on_NewMessage += Web_on_NewMessage;
-
-
-            web.on_GetContact += Web_on_GetContact; //获取联系人
-            web.on_webMM_status += Web_on_webMM_status;
-            web.on_webMM_status_changed += Web_on_webMM_status_changed;
-
+            web.on_loadQr += on_loadQrEventHandler;  // 获取到微信二维码图片
+            web.on_scanQR_conform += Web_on_scanQR_conform;  //扫描微信二维码图片登陆确认 
+            web.on_GetContactList += Web_on_GetContactList; //获取联系人列表
+            web.on_NewMessage += Web_on_NewMessage;         //监听接收到新消息
             web.WebMM_Start();
-        }
-
-        //获取联系人 （没有调用到）
-        private void Web_on_GetContact(Contact Contacts)
-        {
-            Console.WriteLine("获取联系人。。。");
-        }
-
-        //状态改变
-        private void Web_on_webMM_status(WX_status state)
-        {
-            Console.WriteLine("statu222s...: " + state);
-        }
-        //状态改变
-        private void Web_on_webMM_status_changed(WX_status state)
-        {
-            Console.WriteLine("status...: " + state);
         }
 
         public void on_loadQrEventHandler(Bitmap bmp)
         {
             pictureBox1.Image = bmp;
-       
         }
 
-        public System.Collections.ArrayList Contacts;
+        private void Web_on_scanQR_conform()
+        {
+            pictureBox1.BeginInvoke(new MethodInvoker(() =>
+            {
+                pictureBox1.Hide();
+                dataGridView2.Show();
+            }));
+        }
+
         //收到新消息
         private void Web_on_NewMessage(WebMMengine.webmm_mesg msg)
         {
@@ -87,9 +63,9 @@ namespace YamWebRobot
             dataGridView2.Visible = true;
             pictureBox1.Visible = false;
 
-            if (Contacts == null) return;
+            if (web.MemberList == null) return;
 
-            foreach (WebMMengine.Contact contact in Contacts)
+            foreach (WebMMengine.Contact contact in web.MemberList)
             {
                 if (msg.FromUserName == contact.UserName)
                 {
@@ -131,7 +107,8 @@ namespace YamWebRobot
             lblInfo.Text = web.UIN + ", " + web.uuid + ", " + web.ChatSet + ", " + web.User_Agent + ", " + web.logFilename + ", " + web.StatusNotifyUserName+ ","
                 +web.StatusNotifyUserNameContent + ", " + web.pgv_pvi + ", " + web.pgv_si;
 
-            this.Contacts = Contacts;
+            if (Contacts.Count < 1) return;
+
             foreach (WebMMengine.Contact x in Contacts)
             {
                 dataGridView1.BeginInvoke(new MethodInvoker(() =>
@@ -140,216 +117,100 @@ namespace YamWebRobot
                 }));
             }
 
-            UploadContacts();   //上传联系人
+            UploadWXFriendList();   //上报微信好友列表
         }
 
-        private void UploadContacts()
-        {
-            //创建任务
-            Task task = new Task(() =>
-            {
-                Console.WriteLine("current.Thread: {0}", Thread.CurrentThread.Name);
-                SendRequest();
-            });
-            task.Start();
-            /*
-   5:              Task task = new Task(() => {
-   6:                  Console.WriteLine("使用System.Threading.Tasks.Task执行异步操作.");
-   7:                  for (int i = 0; i < 10; i++)
-   8:                  {
-   9:                      Console.WriteLine(i);
-  10:                  }
-  11:              });
-  12:              //启动任务,并安排到当前任务队列线程中执行任务(System.Threading.Tasks.TaskScheduler)
-  13:              task.Start();
-            */
-        }
-
+        //登陆
         private void LoginUser()
         {
-            HttpWebRequest request = null;
-            string url = "http://172.168.30.220:28006/user/login/in";
-            //string url = "http://192.168.75.128:80/You/GetPost/";
-            
-            //如果是发送HTTPS请求  
-            if (url.StartsWith("https", StringComparison.OrdinalIgnoreCase))
+            string result = "";
+            string paramsStr = "{\"userName\":\"2000001\", \"password\":\"123456\"}";
+
+            if (HttpHelper.HttpPostRequest("user/login/in", paramsStr, ref result))
             {
-                //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
-                request = WebRequest.Create(url) as HttpWebRequest;
-                //request.ProtocolVersion = HttpVersion.Version10;
+                User.currentUser = (User)JsonConvert.DeserializeObject(result, typeof(User));
+
+               // UploadWXFriendList();
             }
             else
             {
-                request = WebRequest.Create(url) as HttpWebRequest;
+                Console.WriteLine("请求失败：" + result);
             }
-            request.Method = "POST";
-            request.ContentType = "application/json;charset=utf-8";
-            request.Headers.Add("DeviceID", "99000774935779");
-            request.Headers.Add("Authorization", "z9oMTs0510J2IXYM1Z");
-            request.Headers.Add("Accept-Encoding", "gzip");
+        }
 
-            //设置代理UserAgent和超时
-            //request.UserAgent = userAgent;
-            //request.Timeout = timeout; 
+        //上报微信好友列表
+        private void UploadWXFriendList()
+        { 
+            StringBuilder sb = new StringBuilder("[");
 
-            //发送POST数据  
-            string jsonString = "{\"userName\":\"2000001\", \"password\":\"123456\"}";
+            Contact c1 = new Contact();
+            c1.City = "aa";
+            c1.Sex = "1";
+            c1.HeadImgUrl = "";
+            c1.UserName = "aaaaaa";
+            c1.UserName = "aaaa大声道";
+            c1.NickName = c1.UserName;
 
-            byte[] data = Encoding.UTF8.GetBytes(jsonString);
-            using (Stream stream = request.GetRequestStream())
+            Contact c2 = new Contact();
+            c2.City = "bbbb";
+            c2.Sex = "1";
+            c2.HeadImgUrl = "";
+           // c2.UserName = "bbbb";
+            //c2.UserName = "aaaabbbbb";
+           // c2.NickName = c2.UserName;
+
+            System.Collections.ArrayList arr = new System.Collections.ArrayList();
+
+            for (int i = 0; i < web.MemberList.Count -400; i++)
             {
-                stream.Write(data, 0, data.Length);
+                arr.Add(web.MemberList[i]);
             }
-
-
-            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
-
-            Stream stream2 = response.GetResponseStream();   //获取响应的字符串流
-            StreamReader sr = new StreamReader(stream2); //创建一个stream读取流
-            string html = sr.ReadToEnd();   //从头读到尾，放到字符串html李米
-            sr.Close();
-            stream2.Close();
-
+            //arr.Add(c1);
+            //arr.Add(c2);
             /*
-            //需要引用附件dll
-            TextReader reader = File.OpenText("json.txt");
-            JsonReader readerJson = new JsonTextReader(reader);
-            Dictionary<object, object> dict = new Dictionary<object, object>();
-            object temp = new object();
-            while (readerJson.Read())
-            {
-                if (readerJson.Value != null)
-                {
-                    switch (readerJson.TokenType)
-                    {
-                        case JsonToken.PropertyName:
-                            dict.Add(readerJson.Value, new object());
-                            temp = readerJson.Value;
-                            break;
-                        default:
-                            dict[temp] = readerJson.Value;
-                            break;
-                    }
-                    Console.WriteLine(readerJson.TokenType + "\t" + readerJson.Value);
-                }
-            }
+            arr.Add(web.MemberList[0]);
+            arr.Add(web.MemberList[1]);
+            arr.Add(web.MemberList[2]);
+            arr.Add(web.MemberList[3]);
+            arr.Add(web.MemberList[4]);
+            arr.Add(web.MemberList[5]);
+            arr.Add(c2);
              * */
-
-            JToken token = JToken.Parse(html);
-            Dictionary<string, object> dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(html);
-
-            string code = dict["code"] as string;
-
-            if (code.Equals("000000"))
-            {
-                object obj = dict["data"];
-
-                Dictionary<string, object> dataDict = dict["data"] as Dictionary<string, object>;
-
-                /*
-                string orgName = dataDict["orgName"] as string;
-                string token2 = dataDict["token"] as string;
-
-                Console.Write("{0}, {1}", orgName, token2);
-                 * */
-            }
-
-            Console.WriteLine(".....");
-
-            /*
-            Dictionary<String, Object> map = new Dictionary<string, object>();
-
-            Type t = dict.GetType();
-
-            PropertyInfo[] pi = t.GetProperties(BindingFlags.Public | BindingFlags.Instance);
-
-            foreach (PropertyInfo p in pi)
-            {
-                MethodInfo mi = p.GetGetMethod();
-
-                if (mi != null && mi.IsPublic)
-                {
-                    map.Add(p.Name, mi.Invoke(dict, new Object[] { }));
-                }
-            }
-            */
-
-
-            Console.WriteLine("...");
-             
-        }
-
-
-        private void SendRequest()
-        {
-            HttpWebRequest request = null;
-            string url = "http://172.168.30.220:28006/ics/event/newfriend/";
-            //如果是发送HTTPS请求  
-            if (url.StartsWith("https", StringComparison.OrdinalIgnoreCase))
-            {
-                //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
-                request = WebRequest.Create(url) as HttpWebRequest;
-                //request.ProtocolVersion = HttpVersion.Version10;
-            }
-            else
-            {
-                request = WebRequest.Create(url) as HttpWebRequest;
-            }
-            request.Method = "POST";
-            request.ContentType = "application/json;charset=UTF-8";
-
-            //设置代理UserAgent和超时
-            //request.UserAgent = userAgent;
-            //request.Timeout = timeout; 
-
-            //发送POST数据  
-            StringBuilder buffer = new StringBuilder();
-            ArrayList array = new ArrayList();
-
-            for (int i = 0; i < web.MemberList.Count; i++)
-            {
-                Contact contact = web.MemberList[i] as Contact;
-
-                Dictionary<string, string> dict = new Dictionary<string, string>();
-                dict.Add("area", contact.City);
-                dict.Add("bWxId", web.UIN);
-                dict.Add("friendsCount", web.MemberList.Count.ToString());
-                dict.Add("gender", contact.Sex);
-                dict.Add("headUrl", contact.HeadImgUrl);
-                dict.Add("thumHeadUrl", contact.HeadImgUrl);
-                dict.Add("type", "1");
-                dict.Add("wechatId", contact.UserName);
-                dict.Add("wxName", contact.NickName);
-                dict.Add("wxNo", contact.UserName);
-
-                array.Add(dict);
-            }
             
-            byte[] data = Encoding.ASCII.GetBytes(array.ToString());
-            using (Stream stream = request.GetRequestStream())
+            for (int i = 0; i < arr.Count; i++)
             {
-                stream.Write(data, 0, data.Length);
+                Contact contact = arr[i] as Contact;
+
+                if (i > 0) sb.Append(",");
+
+                sb.Append("{");
+                sb.Append("\"area\":\""+ contact.City +"\",");
+                sb.Append("\"bWxId\":\"" + web.UIN + "\",");
+                sb.Append("\"friendsCount\":\"" + arr.Count.ToString() + "\",");
+                sb.Append("\"gender\":\"" + contact.Sex + "\",");
+                sb.Append("\"headUrl\":\"" + contact.HeadImgUrl + "\",");
+                sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
+                sb.Append("\"type\":\"1\",");
+                sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
+                sb.Append("\"wxName\":\"" + contact.NickName + "\",");
+                sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
+                sb.Append("}");
             }
+            sb.Append("]");
 
-            string[] values = request.Headers.GetValues("Content-Type");
-            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+            string result = "";
+            string sss = sb.ToString();
 
-            Console.WriteLine("server: {0}, content:{1}", response.Server, response.ContentEncoding);
-        }
-
-        private void Web_on_scanQR()
-        {
-            Console.WriteLine("scan qr");
-        }
-
-        private void Web_on_scanQR_conform()
-        {
-            pictureBox1.BeginInvoke(new MethodInvoker(() =>
+            if (HttpHelper.HttpPostRequest("ics/event/newfriend", sb.ToString(), ref result))
             {
-                pictureBox1.Hide();
-                dataGridView2.Show();
-            }));
+                Console.WriteLine("result: " + result);
+            }
+            else{
+                Console.WriteLine("请求失败：" + result);
+            }
         }
+
+       
 
         private string chatId;
 

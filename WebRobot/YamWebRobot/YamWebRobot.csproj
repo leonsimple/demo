@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DemoTwo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
