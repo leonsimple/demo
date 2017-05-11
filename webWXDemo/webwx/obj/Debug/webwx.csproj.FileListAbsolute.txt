@@ -27,3 +27,6 @@ E:\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.csprojResolveAssemblyReference.ca
 E:\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.Form1.resources
 E:\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.Properties.Resources.resources
 E:\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\webWXDemo\webwx\bin\Debug\webwx.exe.config
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.exe
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\webWXDemo\webwx\obj\Debug\webwx.pdb
