@@ -26,3 +26,14 @@ C:\Work\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Newtonsoft.Json.xml
 C:\Work\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.pdb
 C:\Work\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.xml
 C:\Work\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.exe.config
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.exe
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.pdb
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.Form1.resources
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.Properties.Resources.resources
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.exe
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.pdb
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.pdb
+C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.xml
