@@ -246,15 +246,17 @@ namespace YamWebRobot
 
                 Dictionary<string, object> dataDict = dict["data"] as Dictionary<string, object>;
 
+                /*
                 string orgName = dataDict["orgName"] as string;
                 string token2 = dataDict["token"] as string;
 
                 Console.Write("{0}, {1}", orgName, token2);
+                 * */
             }
 
             Console.WriteLine(".....");
 
-
+            /*
             Dictionary<String, Object> map = new Dictionary<string, object>();
 
             Type t = dict.GetType();
@@ -270,7 +272,10 @@ namespace YamWebRobot
                     map.Add(p.Name, mi.Invoke(dict, new Object[] { }));
                 }
             }
+            */
 
+
+            Console.WriteLine("...");
              
         }
 
