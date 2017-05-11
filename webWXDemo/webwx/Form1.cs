@@ -17,11 +17,11 @@ namespace webwx
             InitializeComponent();
             System.Threading.Thread thread = new System.Threading.Thread(start);
             thread.Start();
-           
 
 
-            
 
+
+            string s = "git 提交测试";
 
         }
 
