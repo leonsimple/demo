@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WebMMengine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace YamWebRobot
 {
@@ -23,13 +24,13 @@ namespace YamWebRobot
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
 
-            System.Threading.Thread thread = new System.Threading.Thread(start);
-            thread.Start();
-            
+            LoginUser();    //登陆
+
+            Console.WriteLine("1111111111111");
+            Console.WriteLine("22222222222");
+
             dataGridView2.Visible = false;
             pictureBox1.Visible = true;
-
-            LoginUser();    //登陆
         }
 
         private void start()
@@ -130,6 +131,10 @@ namespace YamWebRobot
             {
                 User.currentUser = (User)JsonConvert.DeserializeObject(result, typeof(User));
 
+                //登陆成功，初始化微信
+                System.Threading.Thread thread = new System.Threading.Thread(start);
+                thread.Start();
+
                // UploadWXFriendList();
             }
             else
@@ -141,45 +146,63 @@ namespace YamWebRobot
         //上报微信好友列表
         private void UploadWXFriendList()
         { 
-            StringBuilder sb = new StringBuilder("[");
+            Task task = new Task(() => {
 
-            System.Collections.ArrayList arr = web.MemberList;
+                StringBuilder sb = new StringBuilder("[");
 
-            for (int i = 0; i < arr.Count; i++)
-            {
-                Contact contact = arr[i] as Contact;
+                System.Collections.ArrayList arr = web.MemberList;
 
-                if (i > 0) sb.Append(",");
+                System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
 
-                sb.Append("{");
-                sb.Append("\"area\":\""+ contact.City +"\",");
-                sb.Append("\"bWxId\":\"" + web.UIN + "\",");
-                sb.Append("\"friendsCount\":\"" + arr.Count.ToString() + "\",");
-                sb.Append("\"gender\":\"" + contact.Sex + "\",");
-                sb.Append("\"headUrl\":\"" + contact.HeadImgUrl + "\",");
-                sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
-                sb.Append("\"type\":\"1\",");
-                sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
+                for (int i = 0; i < arr.Count; i++)
+                {
+                    Contact contact = arr[i] as Contact;
 
-                if (contact.NickName.Contains("\"")){
-                    contact.NickName = contact.NickName.Replace("\"", "'");
+                    if (i > 0) sb.Append(",");
+
+                    Bitmap img = web.mm_webwxgeticon(contact.HeadImgUrl); //获取图片
+                    
+                    //图片保存到本地
+                    string imgName = contact.UserName + ".jpg";
+                    string filePath = HttpHelper.SaveImage(img, imgName);
+
+                    //图片上传到阿里云oss
+                    HttpHelper.OSSUploadImage(filePath, imgName);
+
+                    sb.Append("{");
+                    sb.Append("\"area\":\"" + contact.City + "\",");
+                    sb.Append("\"bWxId\":\"" + web.UIN + "\",");
+                    sb.Append("\"friendsCount\":\"" + arr.Count.ToString() + "\",");
+                    sb.Append("\"gender\":\"" + contact.Sex + "\",");
+                    sb.Append("\"headUrl\":\"" + contact.HeadImgUrl + "\",");
+                   // sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
+                    sb.Append("\"type\":\"1\",");
+                    sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
+
+                    if (contact.NickName.Contains("\""))
+                    {
+                        contact.NickName = contact.NickName.Replace("\"", "'");
+                    }
+                    sb.Append("\"wxName\":\"" + contact.NickName + "\",");
+                    sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
+                    sb.Append("}");
                 }
-                sb.Append("\"wxName\":\"" + contact.NickName + "\",");
-                sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
-                sb.Append("}");
-            }
-            sb.Append("]");
+                sb.Append("]");
 
-            string result = "";
-            string sss = sb.ToString();
+                string result = "";
+                string sss = sb.ToString();
 
-            if (HttpHelper.HttpPostRequest("ics/event/newfriend", sb.ToString(), ref result))
-            {
-                Console.WriteLine("result: " + result);
-            }
-            else{
-                Console.WriteLine("请求失败：" + result);
-            }
+                if (HttpHelper.HttpPostRequest("ics/event/newfriend", sb.ToString(), ref result))
+                {
+                    Console.WriteLine("result: " + result);
+                }
+                else
+                {
+                    Console.WriteLine("请求失败：" + result);
+                }
+            });
+
+            task.Start();
         }
 
        

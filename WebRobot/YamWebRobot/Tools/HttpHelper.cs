@@ -9,6 +9,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Collections;
+using Aliyun.OSS;
+using Aliyun.OSS.Common;
+using System.Drawing;
 
 namespace YamWebRobot
 {
@@ -17,8 +21,16 @@ namespace YamWebRobot
     /// </summary>
     public class HttpHelper
     {
-        const string rootUrl = "http://172.168.30.220:28006/"; //根url
-        
+        static string serverRootUrl = "http://172.168.30.220:28006/"; //服务器根地址
+        static string imHostAddress = "172.168.30.214";
+        static int imPort = 9999;
+
+        //阿里云OSS相关配置信息
+        static string bucket = "kotdev";
+        static string endpoint = "https://oss-cn-shenzhen.aliyuncs.com";
+        static string accessKeyId = "LTAITgVHmUU5cDg5";
+        static string accessKeySecret = "xNxiRNwfpCqZhd8XZBs6Ibfihu5YRV";
+      
         /// <summary>
         /// post请求
         /// </summary>
@@ -29,7 +41,7 @@ namespace YamWebRobot
         public static bool HttpPostRequest(string url, string paramString, ref string result)
         {
             HttpWebRequest request = null;
-            url = rootUrl + url;
+            url = serverRootUrl + url;
            
             //如果是发送HTTPS请求  
             if (url.StartsWith("https", StringComparison.OrdinalIgnoreCase))
@@ -95,6 +107,92 @@ namespace YamWebRobot
             }
 
             return false;
+        }
+
+
+        //阿里云访问对象
+        static OssClient client = new OssClient(endpoint, accessKeyId, accessKeySecret);
+
+        public static void CreateBucket()
+        {
+            try
+            {
+                client.CreateBucket(bucket);
+                Console.WriteLine("Created bucket name:{0} succeeded ", bucket);
+            }
+            catch (OssException ex)
+            {
+                Console.WriteLine("Failed with error info: {0}; Error info: {1}. \nRequestID:{2}\tHostID:{3}",
+                                  ex.ErrorCode, ex.Message, ex.RequestId, ex.HostId);
+            }
+        }
+
+        /// <summary>
+        /// 上传图片
+        /// </summary>
+        /// <param name="dirName">本地文件夹名字</param>
+        /// <param name="imgName">图片名字</param>
+        public static void OSSUploadImage(string dirName, string imgName)
+        {
+            DateTime today = DateTime.Now;
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("{0}{1}\\{2}/images\\{3}", today.Year, today.Month, today.Day, imgName);
+            string fileToUpload = dirName + "\\" + imgName;
+
+            try
+            {
+                PutObjectResult result = client.PutObject(bucket, sb.ToString(), fileToUpload);
+
+                Console.WriteLine("result.: " + result.ETag);
+
+                Console.WriteLine("Put object succeeded");
+
+                if (File.Exists(fileToUpload))
+                {
+                    File.Delete(fileToUpload);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Put object failed, {0}", ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// 保存图片到本地
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns>返回完整路径</returns>
+        public static string SaveImage(Bitmap bmp, string imgName)
+        {
+            if (bmp == null) return "";
+
+            string dirPath = Directory.GetCurrentDirectory() + "\\tempImages";
+
+            if (!Directory.Exists(dirPath))
+            {
+                Directory.CreateDirectory(dirPath);
+            }
+
+            string filePath = dirPath + "\\" + imgName;
+
+            using (bmp)
+            {
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    bmp.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
+                    byte[] bytes = stream.ToArray();
+
+                    FileStream fs = new FileStream(filePath, FileMode.Create);
+                    BinaryWriter bw = new BinaryWriter(fs);
+                    bw.Write(bytes);
+                    bw.Close();
+                    fs.Close();
+                }
+            }
+
+            return dirPath;
         }
     }
    
