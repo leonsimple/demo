@@ -25,7 +25,7 @@ namespace YamWebRobot
 
             System.Threading.Thread thread = new System.Threading.Thread(start);
             thread.Start();
-
+            
             dataGridView2.Visible = false;
             pictureBox1.Visible = true;
 
@@ -161,7 +161,7 @@ namespace YamWebRobot
 
             System.Collections.ArrayList arr = new System.Collections.ArrayList();
 
-            for (int i = 0; i < web.MemberList.Count -400; i++)
+            for (int i = 0; i < 100; i++)
             {
                 arr.Add(web.MemberList[i]);
             }
