@@ -143,40 +143,8 @@ namespace YamWebRobot
         { 
             StringBuilder sb = new StringBuilder("[");
 
-            Contact c1 = new Contact();
-            c1.City = "aa";
-            c1.Sex = "1";
-            c1.HeadImgUrl = "";
-            c1.UserName = "aaaaaa";
-            c1.UserName = "aaaa大声道";
-            c1.NickName = c1.UserName;
+            System.Collections.ArrayList arr = web.MemberList;
 
-            Contact c2 = new Contact();
-            c2.City = "bbbb";
-            c2.Sex = "1";
-            c2.HeadImgUrl = "";
-           // c2.UserName = "bbbb";
-            //c2.UserName = "aaaabbbbb";
-           // c2.NickName = c2.UserName;
-
-            System.Collections.ArrayList arr = new System.Collections.ArrayList();
-
-            for (int i = 0; i < 100; i++)
-            {
-                arr.Add(web.MemberList[i]);
-            }
-            //arr.Add(c1);
-            //arr.Add(c2);
-            /*
-            arr.Add(web.MemberList[0]);
-            arr.Add(web.MemberList[1]);
-            arr.Add(web.MemberList[2]);
-            arr.Add(web.MemberList[3]);
-            arr.Add(web.MemberList[4]);
-            arr.Add(web.MemberList[5]);
-            arr.Add(c2);
-             * */
-            
             for (int i = 0; i < arr.Count; i++)
             {
                 Contact contact = arr[i] as Contact;
@@ -192,6 +160,10 @@ namespace YamWebRobot
                 sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
                 sb.Append("\"type\":\"1\",");
                 sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
+
+                if (contact.NickName.Contains("\"")){
+                    contact.NickName = contact.NickName.Replace("\"", "'");
+                }
                 sb.Append("\"wxName\":\"" + contact.NickName + "\",");
                 sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
                 sb.Append("}");
