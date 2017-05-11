@@ -37,3 +37,6 @@ C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\
 C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.pdb
 C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.xml
+C:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.exe.config
+C:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.exe
+C:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.pdb
