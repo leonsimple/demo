@@ -40,3 +40,10 @@ C:\Users\Administrator\Desktop\asdas\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\
 C:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.exe.config
 C:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.exe
 C:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.pdb
+E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.exe.config
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.exe
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.pdb
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.csprojResolveAssemblyReference.cache
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.Form1.resources
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.Properties.Resources.resources
+E:\wx-pc-robot\WebRobot\YamWebRobot\obj\Debug\YamWebRobot.csproj.GenerateResource.Cache

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webwx", "webwx\webwx.csproj", "{0A5D4F3B-0A55-49D7-9C7B-0AFE0848A901}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamWebRobot", "..\WebRobot\YamWebRobot\YamWebRobot.csproj", "{06AF22B0-DAE1-4BE4-BA10-B554D612958C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0A5D4F3B-0A55-49D7-9C7B-0AFE0848A901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5D4F3B-0A55-49D7-9C7B-0AFE0848A901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5D4F3B-0A55-49D7-9C7B-0AFE0848A901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AF22B0-DAE1-4BE4-BA10-B554D612958C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AF22B0-DAE1-4BE4-BA10-B554D612958C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AF22B0-DAE1-4BE4-BA10-B554D612958C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AF22B0-DAE1-4BE4-BA10-B554D612958C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
