@@ -26,9 +26,6 @@ namespace YamWebRobot
             Control.CheckForIllegalCrossThreadCalls = false;
 
             LoginUser();    //登陆
-
-            dataGridView2.Visible = false;
-            pictureBox1.Visible = true;
         }
 
 
@@ -59,7 +56,6 @@ namespace YamWebRobot
         {
             web = new WebMMengine.WebMMengine();
             web.on_loadQr += on_loadQrEventHandler;  // 获取到微信二维码图片
-            web.on_scanQR_conform += Web_on_scanQR_conform;  //扫描微信二维码图片登陆确认 
             web.on_GetContactList += Web_on_GetContactList; //获取联系人列表
             web.on_NewMessage += Web_on_NewMessage;         //监听接收到新消息
             web.WebMM_Start();
@@ -71,36 +67,38 @@ namespace YamWebRobot
             pictureBox1.Image = bmp;
         }
 
-        private void Web_on_scanQR_conform()
-        {
-            pictureBox1.BeginInvoke(new MethodInvoker(() =>
-            {
-                pictureBox1.Hide();
-                dataGridView2.Show();
-
-            }));
-        }
-
         //收到新消息
         private void Web_on_NewMessage(WebMMengine.webmm_mesg msg)
         {
-            //{2134182796520768348 [@5e5bb81c165e58d008a34aeeaee7364654e5be0bfbeedfaaf1d5841e735bd0e6]->[@18e0d59192193122216582b496fd782e]:芬芬开启了朋友验证，你还不是他（她）朋友。请先发送朋友验证请求，对方验证通过后，才能聊天。&lt;a href="weixin://findfriend/verifycontact"&gt;发送朋友验证&lt;/a&gt;}
-            dataGridView2.Visible = true;
-            pictureBox1.Visible = false;
-
             if (web.MemberList == null) return;
+
+            if (msg.ImgStatus.Equals("1"))
+            {
+                Console.WriteLine("...收到文字信息。。。");
+            }
+            else if (msg.ImgStatus.Equals("2"))
+            {
+                Console.WriteLine("。。。收到图片信息。。。");
+            }
+
+            string content = msg.Content;
+            int type = Im.Im.MSG_TYPE_TEXT;
+
+            if (msg.FileBuf != null)
+            {
+                //表示有图片
+                string imgName = HttpHelper.SaveImageByBytes(msg.FileBuf);
+
+                //上传oss
+                content = HttpHelper.OSSUploadImage(imgName);
+                type = Im.Im.MSG_TYPE_PIC;
+            }
 
             foreach (WebMMengine.Contact contact in web.MemberList)
             {
                 if (msg.FromUserName == contact.UserName)
                 {
-                   
-                    im.send(contact.UserName, 1, msg.Content);
-
-                    dataGridView2.BeginInvoke(new MethodInvoker(() =>
-                    {
-                        addMsg(contact.NickName, null, msg.Content);
-                    }));
+                    im.send(contact.UserName, type, content);
                 }
             }
         }
@@ -132,8 +130,9 @@ namespace YamWebRobot
 
         private void Web_on_GetContactList(System.Collections.ArrayList Contacts)
         {
-            lblInfo.Text = web.UIN + ", " + web.uuid + ", " + web.ChatSet + ", " + web.User_Agent + ", " + web.logFilename + ", " + web.StatusNotifyUserName+ ","
+            string info = web.UIN + ", " + web.uuid + ", " + web.ChatSet + ", " + web.User_Agent + ", " + web.logFilename + ", " + web.StatusNotifyUserName+ ","
                 +web.StatusNotifyUserNameContent + ", " + web.pgv_pvi + ", " + web.pgv_si;
+            Console.WriteLine("info: " + info);
 
             im.connect(web.UIN);
             im.on_receive += im_on_receive;
@@ -164,8 +163,6 @@ namespace YamWebRobot
                 //登陆成功，初始化微信
                 System.Threading.Thread thread = new System.Threading.Thread(start);
                 thread.Start();
-
-               // UploadWXFriendList();
             }
             else
             {
@@ -208,7 +205,7 @@ namespace YamWebRobot
                     Bitmap img = web.mm_webwxgeticon(contact.HeadImgUrl); //获取图片
 
                     //图片保存到本地
-                    string imgName = HttpHelper.SaveImage(img);
+                    string imgName = HttpHelper.SaveImageByBitmap(img);
 
                     //图片上传到阿里云oss
                     string ossImgPath = HttpHelper.OSSUploadImage(imgName);
@@ -260,85 +257,5 @@ namespace YamWebRobot
             chatId = (String)row.Cells[2].Value;
         }
 
-        //发送文字
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (chatId == null || chatId.Length < 1)
-            {
-                MessageBox.Show("还没选择聊天对象呢");
-                return;
-            }
-
-            string err = "";
-            web.mm_webwxsendmsg(WebMMengine.sendMsgType.文字, chatId, contentTxt.Text, ref err);
-            addMsg(null, receiveName, contentTxt.Text);
-            contentTxt.Text = "";
-        }
-
-        public void addMsg(String fromUserName, String toUserName, String content)
-        {
-            DataGridViewRow row = new DataGridViewRow();
-            row.CreateCells(dataGridView2);
-            row.Cells[0].Value = fromUserName;
-            row.Cells[1].Value = toUserName;
-            row.Cells[2].Value = null;
-            row.Cells[3].Value = content;
-            dataGridView2.Rows.Add(row);
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyValue == 13)
-            {
-                button1_Click(null, null);
-            }
-        }
-
-
-        private string sendImgPath; //发送的图片路径
-        //选择图片
-        private void selectPicBtn_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Title = "选择文件";
-            openFileDialog.Filter = "png|*.png|jpg|*.jpg|jpeg|*.jpeg";
-            openFileDialog.FileName = string.Empty;
-            openFileDialog.FilterIndex = 1;
-            openFileDialog.RestoreDirectory = true;
-            openFileDialog.DefaultExt = "jpg";
-            DialogResult result = openFileDialog.ShowDialog();
-            if (result == System.Windows.Forms.DialogResult.Cancel)
-            {
-                openFileDialog.Dispose();
-                return;
-            }
-            string fileName = openFileDialog.FileName;
-            this.selectPicBtn.Text = fileName;
-            sendImgPath = fileName;
-
-            openFileDialog.Dispose();
-        }
-
-        //发送图片
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (sendImgPath == null || sendImgPath.Length < 1)
-            {
-                MessageBox.Show("请选择图片");
-                return;
-            }
-
-            if (chatId == null || chatId.Length < 1)
-            {
-                MessageBox.Show("还没选择聊天对象呢");
-                return;
-            }
-
-            string err = "";
-            if (web.mm_webwxsendmsg(WebMMengine.sendMsgType.图片, chatId, sendImgPath, ref err))
-            {
-                this.selectPicBtn.Text = "选择图片";
-            }
-        }
     }
 }
