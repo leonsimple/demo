@@ -25,6 +25,9 @@ namespace YamWebRobot.Im
         TcpClient client;
         private static Im instance;
 
+        public event Im.IM_on_receive on_receive = new IM_on_receive(onReceive);
+
+        public delegate void IM_on_receive(webwx.ChatMsg msg);
 
         public static Im getInstance()
         {
@@ -92,7 +95,7 @@ namespace YamWebRobot.Im
                         webwx.ServiceRobotResp resp = webwx.ServiceRobotResp.Parser.ParseDelimitedFrom(stream);
                         Console.WriteLine("收到一条消息" +  resp.ChatMsg.Content);
                         if (resp.Cmd == CMD_RECEIVE)
-                            onReceive(resp.ChatMsg);
+                            on_receive(resp.ChatMsg);
                     }
                 }
                 catch (Exception error)
@@ -107,8 +110,9 @@ namespace YamWebRobot.Im
             return client != null && client.Connected && stream != null;
         }
 
-        private void onReceive(webwx.ChatMsg chatMsg)
+        private static void onReceive(webwx.ChatMsg chatMsg)
         {
+            
             //TODO 调用微信发送方法
             switch (chatMsg.MsgType)
             {
@@ -138,6 +142,7 @@ namespace YamWebRobot.Im
                 Talker = userName,
                 MsgType = msgType,
                 Content = content,
+                CreateTime = DateTime.Now.ToBinary(),
             };
             req.ChatMsgList.Add(msg);
 
@@ -174,7 +179,7 @@ namespace YamWebRobot.Im
             return new webwx.Identity
             {
                 ClientImei = "123456789123456",
-                WxID = UIN,
+                WxID = "webwx123",
                 ShopId = 1001
             };
         }

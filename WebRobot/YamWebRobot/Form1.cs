@@ -17,7 +17,7 @@ namespace YamWebRobot
     {
         private WebMMengine.WebMMengine web;
         private string receiveName;    //接收者名字
-
+        private Im.Im im =  Im.Im.getInstance();
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +30,25 @@ namespace YamWebRobot
             pictureBox1.Visible = true;
 
             LoginUser();    //登陆
+
+        }
+
+
+        private void im_on_receive(webwx.ChatMsg msg)
+        {
+            if (web.MemberList == null) return;
+            //string user= msg.Talker;
+            
+            string user = "谭小明";
+                
+
+            foreach (WebMMengine.Contact contact in web.MemberList){
+                if(user.Equals(contact.RemarkName)){
+                    user = contact.UserName;
+                }
+            }
+            string err = "";
+            web.mm_webwxsendmsg(WebMMengine.sendMsgType.文字, user, msg.Content, ref err);
         }
 
         private void start()
@@ -40,6 +59,7 @@ namespace YamWebRobot
             web.on_GetContactList += Web_on_GetContactList; //获取联系人列表
             web.on_NewMessage += Web_on_NewMessage;         //监听接收到新消息
             web.WebMM_Start();
+            
         }
 
         public void on_loadQrEventHandler(Bitmap bmp)
@@ -53,6 +73,7 @@ namespace YamWebRobot
             {
                 pictureBox1.Hide();
                 dataGridView2.Show();
+
             }));
         }
 
@@ -69,6 +90,9 @@ namespace YamWebRobot
             {
                 if (msg.FromUserName == contact.UserName)
                 {
+
+                    im.send("leon8165", 1, msg.Content);
+
                     dataGridView2.BeginInvoke(new MethodInvoker(() =>
                     {
                         addMsg(contact.NickName, null, msg.Content);
@@ -106,6 +130,9 @@ namespace YamWebRobot
         {
             lblInfo.Text = web.UIN + ", " + web.uuid + ", " + web.ChatSet + ", " + web.User_Agent + ", " + web.logFilename + ", " + web.StatusNotifyUserName+ ","
                 +web.StatusNotifyUserNameContent + ", " + web.pgv_pvi + ", " + web.pgv_si;
+
+            im.connect(web.UIN);
+            im.on_receive += im_on_receive;
 
             if (Contacts.Count < 1) return;
 
