@@ -149,7 +149,7 @@ namespace YamWebRobot
         private void LoginUser()
         {
             string result = "";
-            string paramsStr = "{\"userName\":\"2000001\", \"password\":\"123456\"}";
+            string paramsStr = "{\"userName\":\"1111500001\", \"password\":\"123456\"}";
 
             if (HttpHelper.HttpPostRequest("user/login/in", paramsStr, ref result))
             {
@@ -175,9 +175,9 @@ namespace YamWebRobot
                 //绑定微信关系
                 string result = "";
                 StringBuilder sb = new StringBuilder("{");
-                sb.Append("\"friendsCount\":\"" + web.MemberList.Count + "\",");
+                sb.Append("\"friendsCount\":\"" + 20 + "\",");
                 sb.Append("\"wechatId\":\"" + web.UIN + "\",");
-                sb.Append("\"imei\":\"99000774935779\"");
+                sb.Append("\"imei\":\"99000774935780z\"");
                 sb.Append("}");
                 //绑定工作机的关系
                 HttpHelper.HttpPostRequest("orgwx/bind", sb.ToString(), ref result);
@@ -189,28 +189,31 @@ namespace YamWebRobot
 
                 System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
                
-                for (int i = 0; i < arr.Count; i++)
+                for (int i = 0; i < 20; i++)
                 {
                     Contact contact = arr[i] as Contact;
 
+                    if (contact.UserName.Length > 40) continue;
+
                     if (i > 0) sb.Append(",");
+
+                    
 
                     Bitmap img = web.mm_webwxgeticon(contact.HeadImgUrl); //获取图片
 
                     //图片保存到本地
-                    string imgName = Guid.NewGuid().ToString() + ".jpg";
-                    string filePath = HttpHelper.SaveImage(img, imgName);
+                    string imgName = HttpHelper.SaveImage(img);
 
                     //图片上传到阿里云oss
-                    HttpHelper.OSSUploadImage(filePath, imgName);
+                    string ossImgPath = HttpHelper.OSSUploadImage(imgName);
 
                     sb.Append("{");
                     sb.Append("\"area\":\"" + contact.City + "\",");
                     sb.Append("\"bWxId\":\"" + web.UIN + "\",");
-                    sb.Append("\"friendsCount\":\"" + arr.Count + "\",");
+                    sb.Append("\"friendsCount\":\"" + 20 + "\",");
                     sb.Append("\"gender\":\"" + contact.Sex + "\",");
-                    sb.Append("\"headUrl\":\"" + filePath + "\",");
-                    sb.Append("\"thumHeadUrl\":\"" + filePath + "\",");
+                    sb.Append("\"headUrl\":\"" + ossImgPath + "\",");
+                    sb.Append("\"thumHeadUrl\":\"" + ossImgPath + "\",");
                     sb.Append("\"type\":\"1\",");
                     sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
 
@@ -218,8 +221,7 @@ namespace YamWebRobot
                     {
                         contact.NickName = contact.NickName.Replace("\"", "'");
                     }
-                    sb.Append("\"wxName\":\"" + contact.NickName + "\",");
-                    //sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
+                    sb.Append("\"wxName\":\"" + contact.NickName + "\"");
                     sb.Append("}");
                 }
                 sb.Append("]");
