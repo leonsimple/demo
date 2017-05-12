@@ -101,7 +101,6 @@ namespace YamWebRobot.Im
                         if (stream.DataAvailable)
                         {
                             webwx.ServiceRobotResp resp = webwx.ServiceRobotResp.Parser.ParseDelimitedFrom(stream);
-                            Debug.WriteLine("收到一条消息:   " +  resp.ChatMsg.Content);
                             if (resp.Cmd == CMD_RECEIVE)
                                 on_receive(resp.ChatMsg);
                         }
