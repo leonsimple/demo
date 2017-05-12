@@ -126,10 +126,10 @@ namespace YamWebRobot.Im
             switch (chatMsg.MsgType)
             {
                 case MSG_TYPE_TEXT: 
-                    Debug.WriteLine("文本username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
+                    Debug.WriteLine("收到一条文本消息 username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
                     break;
                 case MSG_TYPE_PIC: 
-                    Debug.WriteLine("图片username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
+                    Debug.WriteLine("收到一条图片消息 username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
                     break;
                 case MSG_TYPE_VIDEO: 
                     break;
