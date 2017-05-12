@@ -7,6 +7,7 @@ using System.Threading;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
+using System.Diagnostics;
 
 namespace YamWebRobot.Im
 {
@@ -57,7 +58,8 @@ namespace YamWebRobot.Im
                 {
                     client = new TcpClient();
                     client.Connect(new IPEndPoint(IPAddress.Parse(ip), port));
-                    Console.WriteLine("socket 连接成功 ...");
+                    Debug.WriteLine("socket 连接成功 ...");
+                  
                     stream = client.GetStream();
 
                     verifyIdentity();//验证
@@ -75,7 +77,7 @@ namespace YamWebRobot.Im
             }
             catch (Exception error)
             {
-                Console.WriteLine("socket ERROR :" + error.ToString());
+               Debug.WriteLine("socket ERROR :" + error.ToString());
             }
         }
 
@@ -85,24 +87,27 @@ namespace YamWebRobot.Im
             {
                 ThreadPool.QueueUserWorkItem(imConnect);
             }
-
-            while (true)
+            else
             {
-                try
+                while (true)
                 {
-                    if (stream.DataAvailable)
+                    try
                     {
-                        webwx.ServiceRobotResp resp = webwx.ServiceRobotResp.Parser.ParseDelimitedFrom(stream);
-                        Console.WriteLine("收到一条消息" +  resp.ChatMsg.Content);
-                        if (resp.Cmd == CMD_RECEIVE)
-                            on_receive(resp.ChatMsg);
+                        if (stream.DataAvailable)
+                        {
+                            webwx.ServiceRobotResp resp = webwx.ServiceRobotResp.Parser.ParseDelimitedFrom(stream);
+                            Debug.WriteLine("收到一条消息:   " +  resp.ChatMsg.Content);
+                            if (resp.Cmd == CMD_RECEIVE)
+                                on_receive(resp.ChatMsg);
+                        }
+                    }
+                    catch (Exception error)
+                    {
+                        Debug.WriteLine("imReceive ERROR :" + error.ToString());
                     }
                 }
-                catch (Exception error)
-                {
-                    Console.WriteLine("imReceive ERROR :" + error.ToString());
-                }
             }
+
         }
 
         private Boolean checkConneted()
@@ -117,7 +122,7 @@ namespace YamWebRobot.Im
             switch (chatMsg.MsgType)
             {
                 case 1: //文本
-                    Console.WriteLine("username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
+                    Debug.WriteLine("username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
                     break;
                 case 2: //图片URL
                     break;
@@ -163,7 +168,10 @@ namespace YamWebRobot.Im
             {
                 ThreadPool.QueueUserWorkItem(imConnect);
             }
-            Google.Protobuf.MessageExtensions.WriteDelimitedTo(req, stream);
+            else
+            {
+                Google.Protobuf.MessageExtensions.WriteDelimitedTo(req, stream);
+            }
         }
 
         public void heartBeat(object o, System.Timers.ElapsedEventArgs e)
@@ -179,7 +187,7 @@ namespace YamWebRobot.Im
             return new webwx.Identity
             {
                 ClientImei = "123456789123456",
-                WxID = "webwx123",
+                WxID = UIN,
                 ShopId = 1001
             };
         }

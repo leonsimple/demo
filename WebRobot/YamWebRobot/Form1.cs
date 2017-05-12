@@ -90,8 +90,8 @@ namespace YamWebRobot
             {
                 if (msg.FromUserName == contact.UserName)
                 {
-
-                    im.send("leon8165", 1, msg.Content);
+                    if (contact.RemarkName.Equals("谭小明") || contact.NickName.Equals("Leon康为"))
+                        im.send("leon8165", 1, msg.Content);
 
                     dataGridView2.BeginInvoke(new MethodInvoker(() =>
                     {
