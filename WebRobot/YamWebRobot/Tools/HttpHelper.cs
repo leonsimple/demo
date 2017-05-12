@@ -192,7 +192,7 @@ namespace YamWebRobot
         /// 获取本地图片路径
         /// </summary>
         /// <returns></returns>
-        private static string LocalImageFolder()
+        public static string LocalImageFolder()
         {
             string dirPath = Directory.GetCurrentDirectory() + "\\tempImages";
 
@@ -209,7 +209,7 @@ namespace YamWebRobot
         /// </summary>
         /// <param name="bmp"></param>
         /// <returns>返回图片名字</returns>
-        public static string SaveImage(Bitmap bmp)
+        public static string SaveImageByBitmap(Bitmap bmp)
         {
             if (bmp == null) return "";
 
@@ -233,6 +233,23 @@ namespace YamWebRobot
 
             return imgName;
         }
+
+        /// <summary>
+        /// 保存图片字节数组到本地
+        /// </summary>
+        /// <param name="bytes"></param>
+        /// <returns></returns>
+        public static string SaveImageByBytes(byte[] bytes)
+        {
+            string imgName = Guid.NewGuid().ToString() + ".jpg";
+            string localImgPath = LocalImageFolder() + "\\" + imgName;
+
+            FileStream fs = new FileStream(localImgPath, FileMode.Create);
+            BinaryWriter bw = new BinaryWriter(fs);
+            bw.Write(bytes);
+            bw.Close();
+            fs.Close();
+            return imgName;
+        }
     }
-   
 }
