@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WebMMengine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace YamWebRobot
 {
@@ -23,14 +24,13 @@ namespace YamWebRobot
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
 
-            System.Threading.Thread thread = new System.Threading.Thread(start);
-            thread.Start();
+            LoginUser();    //登陆
+
+            Console.WriteLine("1111111111111");
+            Console.WriteLine("22222222222");
 
             dataGridView2.Visible = false;
             pictureBox1.Visible = true;
-
-            LoginUser();    //登陆
-
         }
 
 
@@ -157,6 +157,10 @@ namespace YamWebRobot
             {
                 User.currentUser = (User)JsonConvert.DeserializeObject(result, typeof(User));
 
+                //登陆成功，初始化微信
+                System.Threading.Thread thread = new System.Threading.Thread(start);
+                thread.Start();
+
                // UploadWXFriendList();
             }
             else
@@ -168,57 +172,43 @@ namespace YamWebRobot
         //上报微信好友列表
         private void UploadWXFriendList()
         { 
+            Task task = new Task(() => {
+
             StringBuilder sb = new StringBuilder("[");
 
-            Contact c1 = new Contact();
-            c1.City = "aa";
-            c1.Sex = "1";
-            c1.HeadImgUrl = "";
-            c1.UserName = "aaaaaa";
-            c1.UserName = "aaaa大声道";
-            c1.NickName = c1.UserName;
+                System.Collections.ArrayList arr = web.MemberList;
 
-            Contact c2 = new Contact();
-            c2.City = "bbbb";
-            c2.Sex = "1";
-            c2.HeadImgUrl = "";
-           // c2.UserName = "bbbb";
-            //c2.UserName = "aaaabbbbb";
-           // c2.NickName = c2.UserName;
+                System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
 
-            System.Collections.ArrayList arr = new System.Collections.ArrayList();
-
-            for (int i = 0; i < web.MemberList.Count -400; i++)
-            {
-                arr.Add(web.MemberList[i]);
-            }
-            //arr.Add(c1);
-            //arr.Add(c2);
-            /*
-            arr.Add(web.MemberList[0]);
-            arr.Add(web.MemberList[1]);
-            arr.Add(web.MemberList[2]);
-            arr.Add(web.MemberList[3]);
-            arr.Add(web.MemberList[4]);
-            arr.Add(web.MemberList[5]);
-            arr.Add(c2);
-             * */
-            
             for (int i = 0; i < arr.Count; i++)
             {
                 Contact contact = arr[i] as Contact;
 
                 if (i > 0) sb.Append(",");
 
+                    Bitmap img = web.mm_webwxgeticon(contact.HeadImgUrl); //获取图片
+                    
+                    //图片保存到本地
+                    string imgName = contact.UserName + ".jpg";
+                    string filePath = HttpHelper.SaveImage(img, imgName);
+
+                    //图片上传到阿里云oss
+                    HttpHelper.OSSUploadImage(filePath, imgName);
+
                 sb.Append("{");
-                sb.Append("\"area\":\""+ contact.City +"\",");
+                    sb.Append("\"area\":\"" + contact.City + "\",");
                 sb.Append("\"bWxId\":\"" + web.UIN + "\",");
                 sb.Append("\"friendsCount\":\"" + arr.Count.ToString() + "\",");
                 sb.Append("\"gender\":\"" + contact.Sex + "\",");
                 sb.Append("\"headUrl\":\"" + contact.HeadImgUrl + "\",");
-                sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
+                   // sb.Append("\"thumHeadUrl\":\"" + contact.HeadImgUrl + "\",");
                 sb.Append("\"type\":\"1\",");
                 sb.Append("\"wechatId\":\"" + contact.UserName + "\",");
+
+                    if (contact.NickName.Contains("\""))
+                    {
+                        contact.NickName = contact.NickName.Replace("\"", "'");
+                    }
                 sb.Append("\"wxName\":\"" + contact.NickName + "\",");
                 sb.Append("\"wxNo\":\"" + contact.UserName + "\"");
                 sb.Append("}");
@@ -232,9 +222,13 @@ namespace YamWebRobot
             {
                 Console.WriteLine("result: " + result);
             }
-            else{
+                else
+                {
                 Console.WriteLine("请求失败：" + result);
             }
+            });
+
+            task.Start();
         }
 
        

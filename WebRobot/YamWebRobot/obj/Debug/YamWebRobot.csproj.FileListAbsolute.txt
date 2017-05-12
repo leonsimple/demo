@@ -52,5 +52,5 @@ E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\YamWebRobot.pdb
 E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Google.Protobuf.dll
 E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Newtonsoft.Json.dll
 E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Google.Protobuf.xml
-E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.pdb
 E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\WebMMengine.xml
+E:\wx-pc-robot\WebRobot\YamWebRobot\bin\Debug\Aliyun.OSS.dll
