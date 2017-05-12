@@ -26,7 +26,7 @@ namespace YamWebRobot
         static int imPort = 9999;
 
         //阿里云OSS相关配置信息
-        static string bucket = "kotdev";
+        static string bucketName = "kotdev";
         static string endpoint = "https://oss-cn-shenzhen.aliyuncs.com";
         static string accessKeyId = "LTAITgVHmUU5cDg5";
         static string accessKeySecret = "xNxiRNwfpCqZhd8XZBs6Ibfihu5YRV";
@@ -56,7 +56,7 @@ namespace YamWebRobot
             }
             request.Method = "POST";
             request.ContentType = "application/json;charset=utf-8";
-            request.Headers.Add("DeviceID", "99000774935779");
+            request.Headers.Add("DeviceID", "99000774935780z");
             request.Headers.Add("Authorization", User.currentUser.token);
             request.Headers.Add("Accept-Encoding", "gzip");
 
@@ -117,8 +117,8 @@ namespace YamWebRobot
         {
             try
             {
-                client.CreateBucket(bucket);
-                Console.WriteLine("Created bucket name:{0} succeeded ", bucket);
+                client.CreateBucket(bucketName);
+                Console.WriteLine("Created bucket name:{0} succeeded ", bucketName);
             }
             catch (OssException ex)
             {
@@ -132,21 +132,18 @@ namespace YamWebRobot
         /// </summary>
         /// <param name="dirName">本地文件夹名字</param>
         /// <param name="imgName">图片名字</param>
-        public static void OSSUploadImage(string dirName, string imgName)
+        /// /// <returns>返回oss相对路径</returns>
+        public static string OSSUploadImage(string imgName)
         {
             DateTime today = DateTime.Now;
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0}{1}\\{2}/images\\{3}", today.Year, today.Month, today.Day, imgName);
-            string fileToUpload = dirName + "\\" + imgName;
+            sb.AppendFormat("{0:0000}{1:00}/{2:00}/images/{3}", today.Year, today.Month, today.Day, imgName);
+            string fileToUpload = LocalImageFolder() + "\\" + imgName;
 
             try
             {
-                PutObjectResult result = client.PutObject(bucket, sb.ToString(), fileToUpload);
-
-                Console.WriteLine("result.: " + result.ETag);
-
-                Console.WriteLine("Put object succeeded");
+                client.PutObject(bucketName, sb.ToString(), fileToUpload);
 
                 if (File.Exists(fileToUpload))
                 {
@@ -157,17 +154,46 @@ namespace YamWebRobot
             {
                 Console.WriteLine("Put object failed, {0}", ex.Message);
             }
+            return sb.ToString();
         }
 
         /// <summary>
-        /// 保存图片到本地
+        /// 下载oss的图片
         /// </summary>
-        /// <param name="bmp"></param>
-        /// <returns>返回完整路径</returns>
-        public static string SaveImage(Bitmap bmp, string imgName)
+        /// <param name="imgName"></param>
+        /// <returns>返回本地图片路径</returns>
+        public static string OSSDownloadImage(string imgName)
         {
-            if (bmp == null) return "";
+            string localImgPath = LocalImageFolder() + "\\" + Guid.NewGuid().ToString() + ".jpg";
+            try
+            {
+                OssObject obj = client.GetObject(bucketName, imgName);
 
+                using (var requestStream = obj.Content)
+                {
+                    byte[] buf = new byte[1024];
+                    var fs = File.Open(localImgPath, FileMode.OpenOrCreate);
+                    var len = 0;
+                    while ((len = requestStream.Read(buf, 0, 1024)) != 0)
+                    {
+                        fs.Write(buf, 0, len);
+                    }
+                    fs.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                return "";
+            }
+            return localImgPath;
+        }
+
+        /// <summary>
+        /// 获取本地图片路径
+        /// </summary>
+        /// <returns></returns>
+        private static string LocalImageFolder()
+        {
             string dirPath = Directory.GetCurrentDirectory() + "\\tempImages";
 
             if (!Directory.Exists(dirPath))
@@ -175,7 +201,20 @@ namespace YamWebRobot
                 Directory.CreateDirectory(dirPath);
             }
 
-            string filePath = dirPath + "\\" + imgName;
+            return dirPath;
+        }
+
+        /// <summary>
+        /// 保存图片到本地
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns>返回图片名字</returns>
+        public static string SaveImage(Bitmap bmp)
+        {
+            if (bmp == null) return "";
+
+            string imgName = Guid.NewGuid().ToString() + ".jpg";
+            string localImgPath = LocalImageFolder() + "\\" + imgName;
 
             using (bmp)
             {
@@ -184,7 +223,7 @@ namespace YamWebRobot
                     bmp.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
                     byte[] bytes = stream.ToArray();
 
-                    FileStream fs = new FileStream(filePath, FileMode.Create);
+                    FileStream fs = new FileStream(localImgPath, FileMode.Create);
                     BinaryWriter bw = new BinaryWriter(fs);
                     bw.Write(bytes);
                     bw.Close();
@@ -192,7 +231,7 @@ namespace YamWebRobot
                 }
             }
 
-            return dirPath;
+            return imgName;
         }
     }
    
