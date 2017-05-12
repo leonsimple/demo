@@ -26,7 +26,7 @@ namespace YamWebRobot
         static int imPort = 9999;
 
         //阿里云OSS相关配置信息
-        static string bucket = "kotdev";
+        static string bucketName = "kotdev";
         static string endpoint = "https://oss-cn-shenzhen.aliyuncs.com";
         static string accessKeyId = "LTAITgVHmUU5cDg5";
         static string accessKeySecret = "xNxiRNwfpCqZhd8XZBs6Ibfihu5YRV";
@@ -117,8 +117,8 @@ namespace YamWebRobot
         {
             try
             {
-                client.CreateBucket(bucket);
-                Console.WriteLine("Created bucket name:{0} succeeded ", bucket);
+                client.CreateBucket(bucketName);
+                Console.WriteLine("Created bucket name:{0} succeeded ", bucketName);
             }
             catch (OssException ex)
             {
@@ -132,21 +132,18 @@ namespace YamWebRobot
         /// </summary>
         /// <param name="dirName">本地文件夹名字</param>
         /// <param name="imgName">图片名字</param>
-        public static void OSSUploadImage(string dirName, string imgName)
+        /// /// <returns>返回oss相对路径</returns>
+        public static string OSSUploadImage(string dirName, string imgName)
         {
             DateTime today = DateTime.Now;
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0}{1}\\{2}/images\\{3}", today.Year, today.Month, today.Day, imgName);
+            sb.AppendFormat("{0:0000}{1:00}/{2:00}/images/{3}", today.Year, today.Month, today.Day, imgName);
             string fileToUpload = dirName + "\\" + imgName;
 
             try
             {
-                PutObjectResult result = client.PutObject(bucket, sb.ToString(), fileToUpload);
-
-                Console.WriteLine("result.: " + result.ETag);
-
-                Console.WriteLine("Put object succeeded");
+                client.PutObject(bucketName, sb.ToString(), fileToUpload);
 
                 if (File.Exists(fileToUpload))
                 {
@@ -157,6 +154,7 @@ namespace YamWebRobot
             {
                 Console.WriteLine("Put object failed, {0}", ex.Message);
             }
+            return sb.ToString();
         }
 
         /// <summary>

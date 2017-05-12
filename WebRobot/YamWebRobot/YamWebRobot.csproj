@@ -37,7 +37,7 @@
       <HintPath>..\packages\Aliyun.OSS.SDK.2.5.0\lib\Aliyun.OSS.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>..\..\webWXDemo\packages\Google.Protobuf.3.3.0\lib\net45\Google.Protobuf.dll</HintPath>
+      <HintPath>..\packages\Google.Protobuf.3.3.0\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\MVCTwo\MVCTwo\bin\Newtonsoft.Json.dll</HintPath>
