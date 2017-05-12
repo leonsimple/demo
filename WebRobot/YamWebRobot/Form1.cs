@@ -35,18 +35,24 @@ namespace YamWebRobot
         private void im_on_receive(webwx.ChatMsg msg)
         {
             if (web.MemberList == null) return;
-            //string user= msg.Talker;
-            
-            string user = "谭小明";
-                
-
-            foreach (WebMMengine.Contact contact in web.MemberList){
-                if(user.Equals(contact.RemarkName)){
-                    user = contact.UserName;
-                }
-            }
             string err = "";
-            web.mm_webwxsendmsg(WebMMengine.sendMsgType.文字, user, msg.Content, ref err);
+
+            switch (msg.MsgType)
+            {
+                case Im.Im.MSG_TYPE_TEXT:
+                    web.mm_webwxsendmsg(WebMMengine.sendMsgType.文字, msg.Talker, msg.Content, ref err);
+                    break; 
+                case Im.Im.MSG_TYPE_PIC:
+                    string imgPath = HttpHelper.OSSDownloadImage(msg.Content);
+                    web.mm_webwxsendmsg(WebMMengine.sendMsgType.图片, msg.Talker, imgPath, ref err);
+                    break;
+                case Im.Im.MSG_TYPE_VIDEO:
+                    break;
+                case Im.Im.MSG_TYPE_AUDIO:
+                    break;
+
+            }
+            
         }
 
         private void start()
@@ -88,8 +94,8 @@ namespace YamWebRobot
             {
                 if (msg.FromUserName == contact.UserName)
                 {
-
-                    im.send("leon8165", 1, msg.Content);
+                   
+                    im.send(contact.UserName, 1, msg.Content);
 
                     dataGridView2.BeginInvoke(new MethodInvoker(() =>
                     {
