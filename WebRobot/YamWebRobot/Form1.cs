@@ -172,31 +172,17 @@ namespace YamWebRobot
         {
             Task task = new Task(() =>
             {
-
                 //绑定微信关系
-
-
+                string result = "";
                 StringBuilder sb = new StringBuilder("{");
-                /*
-                 friendsCount	好友总数	number	
-imei		string	
-qq		string	
-qqPassword	密码	string	
-wechatId	微信id	string	
-wxMobile	微信手机	string	
-wxNo	微信号	string	
-wxPassword	密码	string	
-wxUrl	微信二维码地址	string
-                 * */
-                sb.Append("\"friendsCount\":\"" + 2 + "\",");
+                sb.Append("\"friendsCount\":\"" + web.MemberList.Count + "\",");
                 sb.Append("\"wechatId\":\"" + web.UIN + "\",");
                 sb.Append("\"imei\":\"99000774935779\"");
                 sb.Append("}");
-                //99000774935779
-                string result = "";
-
+                //绑定工作机的关系
                 HttpHelper.HttpPostRequest("orgwx/bind", sb.ToString(), ref result);
 
+                //上传好友列表
                 ArrayList arr = web.MemberList;
                 sb.Remove(0, sb.Length);
                 sb.Append("[");
