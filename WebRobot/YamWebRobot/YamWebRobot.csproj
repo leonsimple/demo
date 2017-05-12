@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aliyun.OSS">
       <HintPath>..\packages\Aliyun.OSS.SDK.2.5.0\lib\Aliyun.OSS.dll</HintPath>

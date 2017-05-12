@@ -18,6 +18,11 @@ namespace YamWebRobot.Im
         const int CMD_SEND = 201;
         const int CMD_RECEIVE = 102;
 
+        public const int MSG_TYPE_TEXT = 1;
+        public const int MSG_TYPE_PIC = 2;
+        public const int MSG_TYPE_VIDEO = 3;
+        public const int MSG_TYPE_AUDIO = 4;
+
         public  string ip = "172.168.30.214";
         public  int port = 9999;
         public  string UIN;
@@ -121,19 +126,21 @@ namespace YamWebRobot.Im
             //TODO 调用微信发送方法
             switch (chatMsg.MsgType)
             {
-                case 1: //文本
-                    Debug.WriteLine("username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
+                case MSG_TYPE_TEXT: 
+                    Debug.WriteLine("文本username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
                     break;
-                case 2: //图片URL
+                case MSG_TYPE_PIC: 
+                    Debug.WriteLine("图片username: {0} --content: {1}", chatMsg.Talker, chatMsg.Content);
                     break;
-                case 3: //视频URL
+                case MSG_TYPE_VIDEO: 
                     break;
-                case 4: //音频URL
+                case MSG_TYPE_AUDIO: 
                     break;
 
             }
         }
 
+        
 
         public void send(string userName, int msgType , string content)
         {
